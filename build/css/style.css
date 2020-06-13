@@ -96,3 +96,87 @@ p {
     line-height: 22px;
     letter-spacing: -0.015em;
 }
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+/* width */
+textarea::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+textarea::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+textarea::-webkit-scrollbar-thumb {
+    background: #0B1E73;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+/* Handle on hover */
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #0B1E73;
+}
+
+button:focus {
+    outline: none;
+}
+
+.more-link {
+    font-size: 16px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+}
+
+.more-link i {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #0B1E73;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: #0B1E73;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-style: 16px;
+    margin-left: 10px;
+    -webkit-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+.more-link:hover i {
+    border: 1px solid #FC8131;
+    background: #FC8131;
+    color: #ffffff;
+}
