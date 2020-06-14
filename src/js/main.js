@@ -1,6 +1,9 @@
 $(function(){
 	//Ефекты появления блоков
-	new WOW().init();
+	if($(window).width() > 1023){
+		new WOW().init();
+	}
+	
 
 	// слайдеры
 	$('.s4__slider').slick({
@@ -33,5 +36,18 @@ $(function(){
 		}, 100)
 	})
 		
+	// политика конвиденциальности адаптив	
 	
+	function politicaAppend(){
+		if($(window).width() < 1024){
+			$('.politica').prependTo($('.footer__bot'));
+		}
+		if($(window).width() > 1023){
+			$('.politica').prependTo($('.footer__conf'));
+		}
+	}
+	politicaAppend();
+	$(window).resize(function(){
+		politicaAppend();
+	})
 })
