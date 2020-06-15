@@ -604,6 +604,10 @@ button:focus {
         padding: 0;
         position: relative;
         display: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-bottom: 0;
+        background-color: transparent;
         top: auto;
         left: auto;
         right: auto;
