@@ -86,23 +86,19 @@ $(function(){
 
 
 	//клик по пункту меню
-	$('.header nav ul li').click(function(){
+	$('.header nav ul li span').hover(function(){
 		if($(window).width() > 1023){
 			$('.header nav ul li').removeClass('active')
-			$(this).addClass('active')
+			$(this).parent('li').addClass('active')
 		}
 		
 	})
-
-	$(document).mouseup(function (e){ // событие клика по веб-документу
+	$('.header__level2').mouseleave(function(){
 		if($(window).width() > 1023){
-			var div = $(".header__level2"); // тут указываем ID элемента
-			if (!div.is(e.target) // если клик был не по нашему блоку
-			    && div.has(e.target).length === 0) { // и не по его дочерним элементам
-				$('.header nav ul li').removeClass('active')
-			}
+			$('.header nav ul li').removeClass('active')
 		}
-	});
+	})
+	
 
 
 	$('.footer__menu__t').click(function(){
