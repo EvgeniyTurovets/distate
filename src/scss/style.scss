@@ -502,6 +502,10 @@ button:focus{
 	right:  168px;
 	z-index: 0;
 }
+
+/*section5*/
+
+
 .btn-big-o{
 	width: 230.23px;
 	height: 56px;
@@ -725,6 +729,39 @@ button:focus{
 		text-decoration-line: underline;
 		color: #515154;
 	}
+
+
+
+	.section5{
+		margin-top: 100px;
+	}
+	.s5__form{
+		flex-direction: column-reverse;
+	}
+	.s5__left{
+		width: 100%;
+	}
+	.s5__right{
+		width: 100%;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.s5__fon{
+		display: none;
+	}
+	.s5__form{
+		padding-bottom: 90px;
+		position: relative;
+	}
+	.s5__form button{
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.section5{
+		margin-bottom: 50px;
+	}
 	
 }
 @media(max-width: 1200px){
@@ -792,6 +829,10 @@ button:focus{
 	.footer__bot{
 		border-top: 0;
 	}
+
+	.s5__img{
+		right: 20px;
+	}
 }
 @media(max-width: 559px){
 	.header__right__sroll{
@@ -811,5 +852,34 @@ button:focus{
 	}
 	.footer__bot{
 		font-size: 10px;
+	}
+
+	.s5__to__input{
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	.s5__to__input input{
+		margin-bottom: 15px;
+	}
+	.s5__img{
+		width: 100px;
+	}
+	.s5__title{
+		text-align: center;
+	}
+	.s5__right span{
+		text-align: center;
+	}
+	.s5__right p{
+		text-align: center;
+	}
+	.s5__form{
+		padding: 10px;
+		padding-bottom: 90px;
+		padding-top: 40px;
+	}
+	.s5__title{
+		font-size: 22px;
+		line-height: 30px;
 	}
 }
