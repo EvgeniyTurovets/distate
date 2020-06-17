@@ -140,9 +140,16 @@ $(function(){
 
 	//tabs
 	$(".wrapper .tab").click(function() {
-		$(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-		$(".tab_item").hide().eq($(this).index()).fadeIn()
+		if($(window).width() > 767){
+			$(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+			$(".tab_item").hide().eq($(this).index()).fadeIn()
+		}
 	}).eq(0).addClass("active");
+
+	$('.tab_mobtitle').click(function(){
+		$(this).toggleClass('active')
+		$(this).next('.tab_item_wrap').slideToggle()
+	})
 
 
 	//feadback
@@ -150,5 +157,13 @@ $(function(){
 		$('.feedback label').removeClass('active')
 		$(this).addClass('active')
 		$('.feedback__content').fadeIn()
+	})
+
+	//акордеон доп возможности
+	$('.dopv__item').click(function(){
+		if($(window).width() < 1024){
+			$(this).toggleClass('active')
+			$(this).find('.drop__content').slideToggle()
+		}
 	})
 })

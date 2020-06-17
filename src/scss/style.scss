@@ -727,7 +727,11 @@ button:focus{
 	}
 	
 }
-
+@media(max-width: 1200px){
+	.wrap{
+		box-sizing: border-box;
+	}
+}
 @media(max-width: 767px){
 	.wrap{
 		width: 100%;
@@ -804,5 +808,8 @@ button:focus{
 	.logo__wraper span{
 		font-size: 14px;
 		top: 0;
+	}
+	.footer__bot{
+		font-size: 10px;
 	}
 }
