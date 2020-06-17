@@ -650,7 +650,6 @@
 }
 
 .suport__p a {
-    font-weight: 600;
     text-decoration: underline;
     white-space: nowrap;
 }
@@ -1328,7 +1327,7 @@
     }
 
     .perevagi__i__title {
-        margin-top: 10px;
+        margin-top: 5px;
         font-size: 16px;
         line-height: 22px;
         padding-left: 70px;
