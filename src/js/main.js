@@ -166,4 +166,23 @@ $(function(){
 			$(this).find('.drop__content').slideToggle()
 		}
 	})
+
+
+	$('.chekbox label').click(function(){
+		$(this).parents('form').toggleClass('active');
+	})
+
+
+	$('#formshow').click(function(){
+		$('.forma1').addClass('active')
+	})
+	$('.closesform').click(function(){
+		$('.forma1').removeClass('active')
+	})
+
+
+	$('.section5__btn').click(function(){
+		$(this).parents('.s5__form').addClass('active')
+		$('.section5__sussces').fadeIn(500)
+	})
 })
