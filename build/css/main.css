@@ -303,7 +303,7 @@
     position: absolute;
     z-index: -2;
     top: -170px;
-    right: 0;
+    left: 50%;
 }
 
 .s1__text__wraper {
@@ -554,7 +554,7 @@
     position: absolute;
     z-index: -1;
     top: 100px;
-    width: 100%;
+    min-width: 100%;
 }
 
 /*section3*/

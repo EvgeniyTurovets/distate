@@ -393,7 +393,7 @@
     position: absolute;
     top: 0px;
     z-index: -1;
-    width: 100%;
+    min-width: 100%;
 }
 
 .perevagi {
@@ -1032,6 +1032,7 @@
 .cardshemafon {
     position: absolute;
     top: -50%;
+    width: auto !important;
     z-index: -1;
     min-width: 100%;
 }
