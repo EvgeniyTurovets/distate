@@ -295,7 +295,7 @@
     top: 52px;
     width: auto;
     z-index: -1;
-    max-width: 100%;
+    max-width: 880px;
 }
 
 .s1__fon {
@@ -614,6 +614,7 @@
 
 .s3__item__img img {
     margin-top: -25px;
+    max-height: 70px;
 }
 
 .s3__i__title {

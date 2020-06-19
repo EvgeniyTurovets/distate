@@ -99,6 +99,7 @@
 
 .s2__item img {
     margin-bottom: 26px;
+    max-height: 125px;
 }
 
 .s2__item div {
@@ -441,6 +442,7 @@
 
 .perevagi__item__img img {
     margin-top: -25px;
+    max-height: 70px;
 }
 
 .perevagi__i__title {
@@ -686,7 +688,7 @@
 }
 
 .suport__item.revers .suport__text {
-    padding-left: 10px;
+    padding-left: 6%;
     padding-right: 0;
 }
 
@@ -900,6 +902,7 @@
 .cadr__item img {
     margin-bottom: 10px;
     margin-left: 12px;
+    max-height: 68px;
 }
 
 .cadrtabs {
@@ -1023,6 +1026,10 @@
     -ms-flex-pack: center;
     justify-content: center;
     width: 50%;
+}
+
+.funtional__img img {
+    max-height: 430px;
 }
 
 .cardshema {
@@ -1705,6 +1712,10 @@
 
     .shema .title {
         margin-bottom: 50px;
+    }
+
+    .suport__item.revers .suport__text {
+        padding-left: 0;
     }
 
     .dopv__title:after {

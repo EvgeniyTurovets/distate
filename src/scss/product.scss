@@ -72,6 +72,7 @@
 }
 .s2__item img{
 	margin-bottom: 26px;
+	max-height: 125px;
 }
 .s2__item div{
 	font-weight: 600;
@@ -312,6 +313,7 @@
 }
 .perevagi__item__img img {
     margin-top: -25px;
+    max-height: 70px;
 }
 
 .perevagi__i__title{
@@ -490,7 +492,7 @@
 	white-space: nowrap;
 }
 .suport__item.revers .suport__text{
-	padding-left: 10px;
+	padding-left: 6%;
 	padding-right: 0;
 }
 .suport__text a{
@@ -628,6 +630,7 @@
 .cadr__item img{
 	margin-bottom: 10px;
 	margin-left: 12px;
+	max-height: 68px;
 }
 
 .cadrtabs {
@@ -716,6 +719,9 @@
 	display: flex;
 	justify-content: center;
 	width: 50%;
+}
+.funtional__img img{
+	max-height: 430px;
 }
 
 
@@ -1205,7 +1211,9 @@
 		margin-bottom: 50px;
 	}
 
-
+	.suport__item.revers .suport__text{
+		padding-left: 0;
+	}
 	.dopv__title:after{
 		margin-left: 20px;
 	}
