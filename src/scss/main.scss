@@ -198,7 +198,10 @@
 	position: absolute;
 	z-index: -1;
 	top: 100px;
-	min-width: 100%
+	left: 50%;
+	transform: translateX(-50%);
+	height: 1200px;
+	min-width: 2100px
 }
 
 /*section3*/
@@ -269,6 +272,10 @@
 	min-width: 100%;
 	z-index: -1;
 	top: -36%;
+	left: 50%;
+	transform: translateX(-50%);
+	min-width: 2100px;
+	height: 1000px;
 }
 .section4 .title{
 	max-width: 50%;
