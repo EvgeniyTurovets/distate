@@ -387,7 +387,7 @@
 }
 
 .s2__p__top {
-    border-bottom: 0.3px solid #0B1E73;
+    border-bottom: 0.3px solid #adb6dd;
 }
 
 .s2__p__bot a {
@@ -416,7 +416,7 @@
     left: 15px;
     width: -webkit-calc(100% - 30px);
     width: calc(100% - 30px);
-    border-top: 1px solid #0B1E73;
+    border-top: 1px solid #adb6dd;
 }
 
 .s2__p__bot a span {
@@ -1171,6 +1171,15 @@
 }
 
 @media (max-width: 767px) {
+    .s1__text__wraper p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .section1 .title {
+        margin-bottom: 0;
+    }
+
     .s2__p__mid p {
         font-size: 17px;
         line-height: 20px;

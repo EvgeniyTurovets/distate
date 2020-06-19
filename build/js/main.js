@@ -169,7 +169,7 @@ $(function(){
 
 
 	$('.chekbox label').click(function(){
-		$(this).parents('form').toggleClass('active');
+		$(this).parents('form').toggleClass('active-check');
 	})
 
 
@@ -184,5 +184,15 @@ $(function(){
 	$('.section5__btn').click(function(){
 		$(this).parents('.s5__form').addClass('active')
 		$('.section5__sussces').fadeIn(500)
+	})
+
+	$('.notactive .chekbox label').click(function(){
+		$(this).parents('.notactive').toggleClass('active')
+	})
+
+	$('.auto__wrap div').click(function(){
+		let autotext = $(this).attr('data-text')
+		$(this).parents('.auto-text').find('textarea').val(autotext)
+		
 	})
 })

@@ -1,5 +1,5 @@
 .s1{
-	padding: 80px 0;
+	padding: 94px 0;
 	position: relative;
 }
 .s1 .wrap{
@@ -11,12 +11,13 @@
 	width: 60%;
 }
 .s1__text .title{
-	margin-bottom: 30px;
+	margin-bottom: 34px;
+	max-width: 600px;
 }
 .s1__text ul li{
 	font-size: 22px;
 	list-style: none;
-	margin-bottom: 5px;
+	margin-bottom: 9px;
 }
 .s1__text ul li:before{
 	content: "—";
@@ -24,14 +25,14 @@
 }
 .s1 img{
 	position: absolute;
-	right: 0;
-	top: 50%;
+	right: -24px;
+	top: 35%;
 	transform: translateY(-40%);
 	width: 50%;
 	z-index: -1;
 }
 .s1 button{
-	margin-top: 50px;
+	margin-top: 45px;
 	margin-bottom: 10px;
 }
 .s1 span{
@@ -42,8 +43,15 @@
 
 .s2{
 	position: relative;
-	padding: 150px 0;
+	padding: 63px 0;
 }
+.s2__p{
+	font-size: 22px;
+	line-height: 142.7%;
+	max-width: 80%;
+	letter-spacing: 0.015em;
+}
+
 .s2__fon{
 	position: absolute;
 	left: 0;
@@ -53,7 +61,7 @@
 	min-width: 100%;
 }
 .s2 .title{
-	margin-bottom: 70px;
+	margin-bottom: 76px;
 }
 .s2__wrap{
 	margin-top: 60px;
@@ -62,13 +70,23 @@
 .s2__item{
 	width: calc(100% / 2);
 }
+.s2__item img{
+	margin-bottom: 26px;
+}
 .s2__item div{
 	font-weight: 600;
+	font-size: 22px;
+	line-height: 142.7%;
+	letter-spacing: 0.015em;
 }
 
-
+.s2__item p{
+	font-size: 22px;
+	line-height: 142.7%;
+	letter-spacing: 0.015em;
+}
 .voz{
-	padding: 100px 0;
+	padding: 124px 0;
 	padding-bottom: 20px;
 }
 .voz .title{
@@ -91,7 +109,7 @@
 .voz__item{
 	width: calc(100% / 3);
 	padding: 10px 20px;
-	margin-bottom: 80px;
+	margin-bottom: 114px;
 	position: relative;
 }
 .voz__item:before{
@@ -124,8 +142,8 @@
 
 
 .forho{
-	padding: 150px 0;
-	padding-top: 100px;
+	padding: 100px 0;
+	padding-top: 32px;
 }
 .forho .title{
 	width: 100%;
@@ -136,14 +154,14 @@
 	display: flex;
 	height: max-content;
 	flex-wrap: wrap;
-	margin-top: 100px;
+	margin-top: 112px;
 }
 .forho__wrap a{
 	display: flex;
 	justify-content: center;
 	width: calc(100% / 2 - 20px);
 	margin: 0 10px;
-	margin-bottom: 30px;
+	margin-bottom: 36px;
 	background-color: #ffffff;
 	padding: 12px 10px;
 	box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.1);
@@ -177,7 +195,8 @@
 		flex-wrap: wrap;
 }
 .forho__fon{
-	width: 50%;
+	width: 45%;
+	margin-left: 5%;
 }
 
 /* TABS */
@@ -193,7 +212,7 @@
 	color: inherit;	
 }
 .tab{
-	width: 150px;
+	width: 122px;
 	font-weight: 600;
 	display: inline-block;
 	transition: 0.3s all;
@@ -229,19 +248,19 @@
     background: linear-gradient(275.62deg, #FC8131 1.16%, #FE9544 98.84%);
 }
 .tab_content{
-	padding: 65px 0;
+	padding: 60px 0;
 }
 .tab_item_wrap{
 	display: flex;
 }
 .tab_item ul{
 	width: 50%;
-	padding-left: 30px;
+	padding-left: 24px;
 }
 .tab_item ul li{
 	list-style: none;
 	font-size: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 17px;
 	line-height: 27px;
 	position: relative;
 }
@@ -266,12 +285,14 @@
 }
 
 
-
+.perevagi {
+	margin-top: 29px;
+}
 .perevagi .title{
-	margin-bottom: 77px;
+	margin-bottom: 106px;
 }
 .perevagi__item{
-	margin-bottom: 100px;
+	margin-bottom: 125px;
 	display: flex;
 	width: 50%;
 	padding-right: 20px;
@@ -297,7 +318,7 @@
 	font-weight: 600;
 	font-size: 22px;
 	line-height: 30px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .perevagi__i__text ul{
 	padding-left: 30px;
@@ -320,7 +341,7 @@
 }
 
 .shema{
-	padding: 50px 0;
+	padding: 39px 0;
 }
 .shema .title{
 	margin-bottom: 80px;
@@ -331,7 +352,7 @@
 
 
 .dopv{
-	padding: 70px 0;
+	padding: 97px 0;
 	position: relative;
 	overflow-x: all;
 	overflow-y: visible;
@@ -407,7 +428,14 @@
 
 
 .suport{
-	padding: 100px 0;
+	padding: 85px 0;
+	padding-bottom: 33px;
+}
+.suport__p__up{
+	font-size: 22px;
+	line-height: 142.7%;
+	letter-spacing: 0.015em;
+	max-width: 877px;
 }
 .suport .title{
 	margin-bottom: 75px;
@@ -423,7 +451,7 @@
 	margin-bottom: 30px;
 }
 .suport__text{
-	width: 50%;
+	width: 60%;
 	padding-right: 10px;
 }
 .suport__btn{
@@ -442,7 +470,7 @@
 	box-shadow: 0px 0px 5px rgba(0,0,0, 0.5);
 }
 .suport__img{
-	width: 50%;
+	width: 40%;
 }
 .suport__img img{
 	width: 100%;
@@ -453,6 +481,9 @@
 }
 .suport__p{
 	max-width: 90%;
+	font-size: 22px;
+	line-height: 142.7%;
+	letter-spacing: 0.015em;
 }
 .suport__p a{
 	text-decoration: underline;
@@ -567,15 +598,19 @@
 	line-height: 1;
 }
 .cadr2__top p{
-	width: 500px;
+	width: 600px;
 	margin-left: 200px;
 }
-
+.big__p{
+	font-size: 22px;
+	line-height: 142.7%;
+	letter-spacing: 0.015em;
+}
 
 .cadr2{
 	position: relative;
-	padding-top: 100px;
-	padding-bottom: 150px;
+	padding-top: 106px;
+	padding-bottom: 159px;
 }
 .cadr__wrap{
 	display: flex;
@@ -585,13 +620,14 @@
 	padding-right: 50px;
 }
 .cadr__item:nth-child(2){
-	margin-top: 60px;
+	margin-top: 81px;
 }
 .cadr__item:nth-child(3){
-	margin-top: 120px;
+	margin-top: 177px;
 }
 .cadr__item img{
 	margin-bottom: 10px;
+	margin-left: 12px;
 }
 
 .cadrtabs {
@@ -636,7 +672,7 @@
 	padding: 100px 0;
 }
 .funtional .title{
-	margin-bottom: 81px;
+	margin-bottom: 0px;
 }
 .funtional__title{
 	font-size: 22px;
@@ -847,6 +883,33 @@
 	}
 }
 @media(max-width: 1023px){
+	.s2 .title{
+		margin-bottom: 40px;
+		
+	}
+	.s2__p{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.s2__item div{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.s2__item p{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.suport__p__up{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.suport__p{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.suport .title {
+		margin-bottom: 40px;
+	}
 	.s1__text{
 		width: 80%;
 	}
@@ -1027,6 +1090,16 @@
 	display: none;
 }
 @media(max-width: 767px){
+	.feedback{
+		display: none;
+	}
+	.big__p{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.s2__p{
+		max-width: 100%;
+	}
 	.s1 img{
 		width: 100%;
 		position: relative;

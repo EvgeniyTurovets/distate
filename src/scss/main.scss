@@ -85,7 +85,7 @@
 	margin-bottom: 20px;
 }
 .s2__p__top{
-	border-bottom: 0.3px solid #0B1E73 
+	border-bottom: 0.3px solid #adb6dd; 
 }
 .s2__p__bot a{
 	padding: 30px 15px;
@@ -103,7 +103,7 @@
 	top: 0;
 	left: 15px;
 	width: calc(100% - 30px);
-	border-top: 1px solid #0B1E73;
+	border-top: 1px solid #adb6dd;
 }
 .s2__p__bot a span{
 	border-right: 1px solid #0B1E73;
@@ -647,6 +647,13 @@
 }
 
 @media(max-width: 767px){
+	.s1__text__wraper p{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.section1 .title{
+		margin-bottom: 0;
+	}
 	.s2__p__mid p{
 		font-size: 17px;
 		line-height: 20px;

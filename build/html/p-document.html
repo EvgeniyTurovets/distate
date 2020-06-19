@@ -121,7 +121,7 @@
 								<li>Отсутствие тарификации ЭДО</li>
 								<li>Локальное хранение архива</li>
 							</ul>
-							<button class="btn-o-mini">Связаться</button>
+							<button class="btn-o-mini" id="formshow">Связаться</button>
 							<span>Получить персональное предложение </span>
 						</div>
 						<img src="../img/ps1.png">
@@ -132,7 +132,7 @@
 					<div class="wrap">
 						<img src="../img/ps2.png" class="s2__fon">
 						<div class="title">DiState: Документооборот</div>
-						<p>Локальное решение для перевода бумажного документооборота в электронный вид без потери юридической значимости. Компании любого масштаба и организационной структуры могут автоматизировать:</p>
+						<p class="s2__p">Локальное решение для перевода бумажного документооборота в электронный вид без потери юридической значимости. Компании любого масштаба и организационной структуры могут автоматизировать:</p>
 						<div class="s2__wrap">
 							<div class="s2__item">
 								<img src="../img/ps2i.png">
@@ -406,7 +406,7 @@
 				<section class="suport wow fadeInUp">
 					<div class="wrap">
 						<div class="title">Техподдержка </div>
-						<p>Бесплатная техническая поддержка решения в течение первого года использования. Со второго года компания выбирает уровень технической поддержки исходя из своих потребностей.</p>
+						<p class="suport__p__up">Бесплатная техническая поддержка решения в течение первого года использования. Со второго года компания выбирает уровень технической поддержки исходя из своих потребностей.</p>
 						<div class="suport__wrap">
 							<div class="suport__item">
 								<div class="suport__text wow slideInLeft">
@@ -443,7 +443,18 @@
 									<input type="" name="" placeholder="Электронная почта *">
 								</div>
 								<div class="s5__input"><input type="" name="" placeholder="Компания *"></div>
-								<div class="s5__input"><textarea placeholder="Комментарий"></textarea></div>
+								<div class="s5__input auto-text"><textarea placeholder="Комментарий"></textarea>
+									<div class="auto__wrap">
+										<div data-text="Отправьте  пожалуйста презентацию по продукту">Запросить звонок </div>
+										<div data-text="Отправьте  пожалуйста подробности о продукте">Подробнее о продукте </div>
+										<div data-text="Отправьте  пожалуйста презентацию по продукту">Запросить презентацию </div>
+									</div>
+								</div>
+								<div class="chekbox">
+									<input type="checkbox" name="" id="check1">
+									<label for="check1"><i class="fas fa-check"></i></label>
+									<span>Я согласен(а) с  <a href="">Политикой конфиденциальности</a></span>
+								</div>
 							</div>
 							<div class="s5__right">
 								<div>
@@ -451,11 +462,27 @@
 									<span>Остались вопросы? </span>
 									<p>Свяжитесь с нами, чтобы получить демо-доступ и узнать подробнее о продуктах DiState.</p>
 								</div>
-								<button type="submite" class="btn-big-o">Отправить</button>
+
+								<div class="notactive active">
+									<div class="desctop-checkbox chekbox">
+										<input type="checkbox" name="" id="check1">
+										<label for="check1"><i class="fas fa-check"></i></label>
+										<span>Я согласен(а) с  <a href="">Политикой конфиденциальности</a></span>
+									</div>
+									<button type="button" class="btn-big-o section5__btn">Отправить</button>
+								</div>
 							</div>
 
 							<img class="s5__img wow slideInLeft" data-wow-duration="1.5s" src="../img/s5img.svg" alt="">
 							<img src="../img/s5f.png" alt="" class="s5__fon">
+
+							<div class="section5__sussces active">
+							<div class="section5__sussces__wrap">
+								<div class="s5__title">Спасибо за обращение! </div>
+								<p>Наши специалисты свяжутся с вами в ближайшее время.</p>
+							</div>
+							
+						</div>
 						</form>
 
 					</div>
@@ -580,7 +607,31 @@
 			</footer>
 	</div>
 	
-	
+	<div class="forma1">
+		<form>
+			<div class="forma1__title">Связаться</div>
+			<span class="forma1__span">Получить консультацию</span>
+			<input type="" name="" placeholder="Контактное лицо (ФИО) *">
+			<input type="" name="" placeholder="Электронная почта *">
+			<input type="" name="" placeholder="Номер телефона *">
+			<input type="" name="" placeholder="Название компании  *">
+			<textarea placeholder="Комментарий"></textarea>
+			<div class="forma__about">
+				<span>* – поля обязательны для заполнения</span>
+				<div class="chekbox">
+					<input type="checkbox" name="" id="check1">
+					<label for="check1"><i class="fas fa-check"></i></label>
+					<span>Я согласен(а) с  <a href="">Политикой конфиденциальности</a></span>
+				</div>
+			</div>
+
+			<button type="submite" class="btn-big-o">
+				Отправить
+			</button>
+
+			<i class="fas fa-times closesform"></i>
+		</form>
+	</div>
 
 
     <script src="../js/jquery.js"></script>
