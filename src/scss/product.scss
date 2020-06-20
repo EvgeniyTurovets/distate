@@ -771,10 +771,15 @@
 	position: relative;
 }
 .multi__citata{
-	padding: 50px 0;
+	padding: 99px 0;
+	padding-bottom: 37px;
 }
 .citata{
-	padding: 35px 60px;
+	height: 198px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 33px 64px;
 	font-size: 20px;
 	text-align: center;
 	background: #FFFFFF;
@@ -782,11 +787,13 @@
 	box-sizing: border-box;
 	box-shadow: 0px 10px 20px rgba(56, 106, 216, 0.1);
 	border-radius: 10px;
-	width: 90%;
+	width: 94%;
 	margin: 0 auto;
 }
 .cloud__wrap{
+	padding: 0 10px;
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 .cloud__item{
@@ -796,8 +803,11 @@
 	margin: 0 -10px;
 	margin-bottom: 100px;
 }
+.cloud__item img{
+	max-width: 238px;
+}
 .cloud__item.down{
-	transform: translateY(50%);
+	transform: translateY(66%);
 }
 .cloud__title{
 	font-size: 22px;
@@ -808,7 +818,7 @@
 
 .multi__cloud{
 	padding: 100px 0;
-	padding-bottom: 150px;
+	padding-bottom: 247px;
 }
 .multi__cloud .title{
 	text-align: center;
@@ -816,18 +826,24 @@
 }
 
 .multi__fon{
+	left: 50%;
+	transform: translateX(-50%);
 	position: absolute;
-	top: -35%;
+	top: -45%;
 	z-index: -2;
-	min-width: 100%;
+	min-width: 2100px;
 }
 .multifunc .wrapper{
 	display: flex;
 }
+.multifunc{
+	padding-bottom: 109px
+}
+
 .multifunc .tabs{
 	display: flex;
 	flex-direction: column;
-	width: 35%;
+	width: 32%;
 	padding: 20px 40px;
 	background: #FFFFFF;
 	border: 1px solid #0B1E73;
@@ -842,7 +858,7 @@
 	color: inherit;
 	width: max-content;
 	margin: 0;
-	margin-bottom: 25px;
+	margin-bottom: 29px;
 }
 .multifunc .tab.active{
 	color: #316BD2;
@@ -857,6 +873,8 @@
 	width: 65%;
 	padding: 0;
 	padding-left: 100px;
+	height: 537px;
+	max-height: 537px;
 }
 .multifunc .tab_mobtitle{
 	display: block;
@@ -884,8 +902,58 @@
 	max-width: 100%;
 }
 .multi__img{
+	display: flex;
+	align-items: center;
 	flex: 1;
 	overflow: hidden;
+}
+.tab_item_wrap span{
+	font-size: 12px;
+	white-space: nowrap;
+	line-height: 16px;
+	cursor: pointer;
+	letter-spacing: 0.015em;
+	color: #316BD2;
+}
+.tab_item_wrap span i{
+	font-size: 10px;
+	margin-left: 7.5px;
+}
+.tab_item p{
+	font-size: 20px;
+	line-height: 27px;
+}
+.tab_item_more p{
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 0.015em
+}
+.tab_item_more{
+	display: none;
+}
+.miltifon1{
+	position: absolute;
+	z-index: -2;
+	min-width: 2100px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.multi.forho{
+	position: relative;
+}
+
+.multi.s1{
+    padding: 79px 0;
+}
+.multi .s1__text .title{
+	max-width: 628px;
+}
+.multi.s1 img{
+	right: -109px;
+    top: 42%;
+    width: 62%;
 }
 @media(max-width: 1200px){
 	.forho__wrap a{
@@ -905,6 +973,7 @@
 	}
 }
 @media(max-width: 1023px){
+
 	.s2 .title{
 		margin-bottom: 40px;
 		
@@ -1110,6 +1179,44 @@
 	    font-size: 22px;
 	    line-height: 30px;
 	    font-weight: 600;
+	}
+
+	/*мультипровайдер*/
+	.cloud__title{
+		font-size: 18px;
+		line-height: 142.7%;
+	}
+	.cloud__item{
+		width: calc(100% / 2)
+	}
+	.cloud__item.down{
+		transform: translateY(0);
+	}
+	.cloud__item img{
+		max-width: none;
+		height: 180px;
+	}
+	.multi__cloud {
+		padding-bottom: 50px;
+	}
+	.multifunc .tabs{
+		padding: 15px;
+		width: 37%;
+	}
+	.multifunc .tab{
+		font-size: 18px;
+	}
+	.multifunc .tab_content{
+		padding-left: 20px;
+	}
+	.tab_item p{
+		font-size: 18px;
+	}
+	.multifunc .title{
+		margin-bottom: 50px;
+	}
+	.multi.s1 img{
+		right: -10%;
 	}
 }
 .tab_mobtitle{
@@ -1332,6 +1439,40 @@
 		max-width: 500px;
 		width: auto;
 	}
+
+	/*мультпровайдер*/
+	.multi__citata{
+		padding: 0;
+	}
+	.citata{
+		height: auto;
+	}
+	.cloud__item img{
+		height: 150px;
+	}
+	.cloud__item{
+		margin-bottom: 50px;
+	}
+	.multi.s1 img{
+		right: auto;
+		top: auto;
+		width: 100%;
+	}
+	.multi.s1{
+		padding: 50px 0;
+	}
+	.multifunc .tabs{
+		display: none;
+	}
+	.multifunc .tab_content{
+		height: auto;
+		width: 100%;
+		padding: 0;
+	}
+	.mobMultifunc .tab_item p{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
 }
 
 @media(max-width: 559px){
@@ -1512,4 +1653,42 @@
 	.funtional{
 		padding-top: 0;
 	}
+
+
+	/*//мультипровайдер*/
+	.citata{
+		width: 100%;
+		padding: 15px 15px;
+		font-size: 16px;
+		line-height: 22px;
+		text-align: left;
+	}
+	.multi .s1__text .title{
+		font-size: 22px;
+	}
+	.multi.s1{
+		padding: 30px 0;
+	}
+	.multi__fon{
+		display: none;
+	}
+	.multi__cloud .title{
+		text-align: left;
+		margin-bottom: 50px;
+		font-size: 23px;
+		max-width: 295px;
+	}
+	.cloud__wrap{
+		padding: 0;
+	}
+	.cloud__item{
+		width: 100%;
+		margin: 0;
+		margin-bottom: 50px;
+	}
+	.cloud__item p{
+		font-size: 14px;
+		line-height: 142.7%;
+	}
+
 }

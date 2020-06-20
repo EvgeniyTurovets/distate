@@ -27,6 +27,8 @@ $(function(){
 	   ]
 	});
 
+
+
 	//табы
 	$('.s6__head__item').click(function(){
 		$('.s6__head__item').removeClass('active')
@@ -46,8 +48,8 @@ $(function(){
 		}, 100)
 	})
 		
+
 	// политика конвиденциальности адаптив	
-	
 	function politicaAppend(){
 		if($(window).width() < 1024){
 			$('.politica').prependTo($('.footer__bot'));
@@ -60,6 +62,7 @@ $(function(){
 	$(window).resize(function(){
 		politicaAppend();
 	})
+
 
 	//фиксация шапки
 	$(window).scroll(function(){
@@ -102,7 +105,7 @@ $(function(){
 	})
 	
 
-
+	//Акордеон в футере
 	$('.footer__menu__t').click(function(){
 		if($(window).width() < 768){
 			if($(this).hasClass('active') == 0){
@@ -159,6 +162,7 @@ $(function(){
 		$('.feedback__content').fadeIn()
 	})
 
+
 	//акордеон доп возможности
 	$('.dopv__item').click(function(){
 		if($(window).width() < 1024){
@@ -168,11 +172,13 @@ $(function(){
 	})
 
 
+	//чекнуть чекбокс
 	$('.chekbox label').click(function(){
 		$(this).parents('form').toggleClass('active-check');
 	})
 
 
+	//всплывающая форма
 	$('#formshow').click(function(){
 		$('.forma1').addClass('active')
 	})
@@ -181,18 +187,64 @@ $(function(){
 	})
 
 
+	//отправка формы
 	$('.section5__btn').click(function(){
 		$(this).parents('.s5__form').addClass('active')
 		$('.section5__sussces').fadeIn(500)
 	})
 
+
+	//не активная кнопка формы
 	$('.notactive .chekbox label').click(function(){
 		$(this).parents('.notactive').toggleClass('active')
 	})
 
+
+	//автозаполнения поля по нажатию на кнопку
 	$('.auto__wrap div').click(function(){
 		let autotext = $(this).attr('data-text')
 		$(this).parents('.auto-text').find('textarea').val(autotext)
 		
 	})
+
+
+	//показать больше текста мультипровайдер
+	$('.tab_more_text.down').click(function(){
+		let thisel = $(this)
+		thisel.fadeOut(200)
+		thisel.closest('.tab_item_wrap').find('.multi__img').fadeOut(200)
+		setTimeout(function(e){
+			thisel.closest('.tab_item_wrap').find('.tab_item_more').slideDown()
+		}, 200)
+	})
+	$('.tab_more_text.up').click(function(){
+		let thisel = $(this)
+		thisel.closest('.tab_item_wrap').find('.tab_more_text.down').fadeIn(200)
+		thisel.closest('.tab_item_wrap').find('.tab_item_more').slideUp()
+		setTimeout(function(e){
+			thisel.closest('.tab_item_wrap').find('.multi__img').fadeIn(200)
+			
+		}, 200)
+	})
+
+
+
+	//адаптив функциональность мультипровайдер
+	function multifuncresize(){
+		if($(window).width() < 768){
+			$('.mobMultifunc').removeClass('multifunc')
+		}
+		if($(window).width() > 767){
+			$('.mobMultifunc').addClass('multifunc')
+		}
+	}
+
+	multifuncresize();
+	
+	$(window).resize(function(){
+		multifuncresize();
+	})
+
+	
+	
 })
