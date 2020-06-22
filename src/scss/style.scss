@@ -838,11 +838,17 @@ button:focus{
     	width: 210px;
     	font-size: 16px;
     }
+    .auto__wrap div{
+		font-size: 10px;	
+	}
 }
 .burger{
 	display: none;
 }
 @media(max-width: 1023px){
+	.auto__wrap div{
+		font-size: 12px;	
+	}
 	.section5__sussces__wrap p{
 		font-size: 23px;
    	 	padding: 1px 2%;

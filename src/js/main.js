@@ -149,6 +149,11 @@ $(function(){
 		}
 	}).eq(0).addClass("active");
 
+	$(".etab").click(function() {
+		$(".etab").removeClass("active").eq($(this).index()).addClass("active");
+		$(".econ").hide().eq($(this).index()).fadeIn()
+	}).eq(0).addClass("active");
+
 	$('.tab_mobtitle').click(function(){
 		$(this).toggleClass('active')
 		$(this).next('.tab_item_wrap').slideToggle()
