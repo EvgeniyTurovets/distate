@@ -154,6 +154,8 @@ $(function(){
 		$(".econ").hide().eq($(this).index()).fadeIn()
 	}).eq(0).addClass("active");
 
+	
+
 	$('.tab_mobtitle').click(function(){
 		$(this).toggleClass('active')
 		$(this).next('.tab_item_wrap').slideToggle()
@@ -257,5 +259,48 @@ $(function(){
 	$(function(){
 	 $('form').validate();
 	});
-	
+
+
+	//страница документы
+	$('.dtabs__level1').click(function(){
+
+		
+		if($(window).width() > 767){
+			if($(this).hasClass('active') == 0){
+				$('.dtabs__level1').removeClass('active')
+				$('.dtabs__head__wrap').slideUp(200)
+				$(this).addClass('active')
+				$(this).next('.dtabs__head__wrap').slideToggle(200)
+			}
+		}else{
+			$(this).toggleClass('active')
+			$(this).next('.dtabs__head__wrap').slideToggle(200)
+		}
+			
+	})
+
+	if($(window).width() > 767){
+		$('.dcon').eq(0).fadeIn()
+		$('.dtab').eq(0).addClass('active')
+	}
+
+	$('.dtab').click(function(){
+		if($(window).width() > 767){
+			let indextab = $(this).attr('data-tab')
+
+			$('.dtab').removeClass('active')
+			$(this).addClass('active')
+			$('.dcon').fadeOut(200)
+
+			setTimeout(function(e){
+				$('.dcon').eq(indextab).fadeIn(200)
+			},200)
+		}
+	})
+	$('.dtab span').click(function(){
+		if($(window).width() < 768){
+			$(this).toggleClass('active')
+			$(this).next('.dmob-img').slideToggle()
+		}
+	})
 })
