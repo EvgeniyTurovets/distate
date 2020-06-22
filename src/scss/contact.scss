@@ -1,0 +1,244 @@
+.contact .wrap{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 76px;
+	padding-bottom: 84px;
+}
+.contact .title{
+	margin-bottom: 33px;	
+}
+.contact__text1{
+	font-size: 20px;
+	line-height: 159.7%;
+	letter-spacing: 0.015em;
+}
+.contact__text2{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 159.7%;
+	letter-spacing: 0.015em;
+}
+
+.contact__left{
+	width: 51%;
+	padding-right: 10px;
+}
+.contact__tel{
+	margin-top: 52px;
+	display: flex;
+	flex-direction: column;
+}
+.contact__mail{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.contact__map{
+	margin-top: 22px;
+	display: flex;
+	flex-direction: column;
+}
+.contact__tel__item{
+	font-size: 20px;
+	line-height: 27px;
+	letter-spacing: 0.015em;
+	padding-left: 55px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.contact__tel i{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.contact__mail span{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.contact__map i{
+	position: absolute;
+	left: 0;
+	top: 5px;
+}
+.contact__tel i.fa-phone-alt{
+	color: #FE9544;
+}
+.contact__tel i.fa-whatsapp{
+	color: #2BB927;
+}
+.contact__map i.fa-map-marker-alt{
+	color: #FE9544;
+}
+.mail{
+	width: 22px;
+	height: 17px;
+	display: inline-block;
+	background-size: contain;
+	background-color: #FC8131;
+	background-repeat: no-repeat;
+	mask-image: url(../img/contact/mail.svg);
+}
+.contact__mail .contact__tel__item{
+	font-size: 16px;
+	line-height: 190.7%;
+	letter-spacing: -0.015em;
+	margin-bottom: 0;
+}
+.contact__mail .contact__tel__item:first-child{
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.contact__map .contact__tel__item{
+	max-width: 380px;
+}
+
+.contact__right{
+	width: 49%;
+	position: relative;
+	padding-top: 52px;
+	padding-left: 28px;
+	padding-right: 31px;
+}
+.contact__right input{
+	padding: 10px 16px;
+	width: 100%;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.015em;
+	color: #0B1E73;
+	margin-bottom: 20px;
+	background: #FFFFFF;
+	border: 0.5px solid rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+.contact__right textarea{
+	padding: 14px 16px;
+	width: 100%;
+	resize: none;
+	height: 170px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	background: #FFFFFF;
+	border: 0.5px solid rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+	border-radius: 3px;
+	line-height: 24px;
+	letter-spacing: -0.015em;
+	color: #0B1E73;
+}
+
+
+.contact__right input::placeholder{
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: -0.015em;
+	color: rgba(165, 176, 194, 0.8);
+}
+.contact__right textarea::placeholder{
+	font-family: OpenSans, sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: -0.015em;
+	color: rgba(165, 176, 194, 0.8);
+
+}
+
+.contact__right__btn{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.contact__right img{
+	position: absolute;
+	z-index: -1;
+	left: -20px;
+    top: -12px;
+}
+.contact__right img:first-child{
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 200px;
+}
+
+.map__container{
+	height: 300px;
+}
+.map__container div{
+	height: 100%;
+}
+.map__container iframe{
+	border: 1px solid;
+	border-radius: 10px;
+}
+.map{
+	width: 100%;
+	margin-top: 84px;
+}
+@media(max-width: 1023px){
+	.contact .wrap{
+		flex-direction: column;
+		padding-top: 30px;
+	}
+	.contact__left{
+		width: 100%;
+	}
+	.contact__right{
+		width: 100%;
+		padding: 0;
+		order: 2;
+		margin-top: 68px;
+	}
+	.map{
+		order: 1;
+	}
+	.contact__right img{
+		display: none;
+	}
+}
+
+@media(max-width: 559px){
+	.map__container{
+		width: calc(100% + 30px);
+		position: relative;
+		left: -15px;
+	}
+	.map__container iframe{
+		border-radius: 0;
+	}
+	.contact__text1{
+		font-size: 14px;
+		line-height: 142.7%;
+		margin-bottom: 18px;
+	}
+	.contact__text2{
+		font-size: 14px;
+		line-height: 142.7%;
+	}
+	.contact__tel__item{
+		font-size: 16px;
+		padding-left: 40px;
+		line-height: 22px;
+	}
+	.contact__mail .contact__tel__item{
+		font-size: 14px;
+		line-height: 190.7%;
+	}
+	.map{
+		margin-top: 38px;
+	}
+	form .chekbox a{
+		white-space: nowrap;
+	}
+	.contact__right input{
+		margin-bottom: 10px;
+	}
+	.forma__about{
+		font-size: 14px;
+	}
+}
