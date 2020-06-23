@@ -305,4 +305,49 @@ $(function(){
 	})
 
 	
+
+	//карьера
+	$(".cartabs .cartab").click(function() {
+		
+		$(".cartabs .cartab").removeClass("active").eq($(this).index()).addClass("active");
+		$(".carcon").hide().eq($(this).index()).fadeIn()
+	
+	}).eq(0).addClass("active");
+
+	$('.carform .chekbox label').click(function(){
+		$('.carform').toggleClass('active')
+	})
+
+	$('.file input').change(function(){
+		$('.file input').each(function() {
+		    var fileName = $(this).val().split('/').pop().split('\\').pop();
+		   	$('.file label').text('Изменить')
+		   	$('.carform__link__first').removeAttr('required')
+		});
+	})
+
+
+	function formsub(){
+		$('.carform__submite').fadeIn()
+	}
+	$('.formajax').submit(function(){
+    	console.log($('form').validate())
+	    formsub();
+	    
+	    return false;
+	});
+
+	$('.carform__submite').mouseup(function (e){ // событие клика по веб-документу
+		var div = $(".carform__sub"); // тут указываем ID элемента
+		if (!div.is(e.target) // если клик был не по нашему блоку
+		    && div.has(e.target).length === 0) { // и не по его дочерним элементам
+			$('.carform__submite').fadeOut()
+		}
+	});
+	$('.carform__submite span').click(function(){
+		$('.carform__submite').fadeOut()
+	})
+	
+
+    
 })

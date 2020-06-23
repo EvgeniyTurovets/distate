@@ -30,6 +30,106 @@ label.error {
     display: none !important;
 }
 
+.carform__submite {
+    position: fixed;
+    height: 100%;
+    display: none;
+    opacity: 1;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carform__sub {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 541.95px;
+    height: 317.02px;
+    background: #FFFFFF;
+    border: 0.5px solid #0B1E73;
+    -webkit-box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.1);
+    box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.1);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 18px 40px;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.carform__sub__t {
+    font-size: 40px;
+    line-height: 54px;
+    color: #FC8131;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.carform__sub p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color: #0B1E73;
+}
+
+.carform__sub a {
+    margin-top: 37px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.carform__sub span {
+    font-size: 14px;
+    line-height: 19px;
+    color: #778BA3;
+    display: block;
+    margin-top: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 559px) {
+    .carform__sub {
+        width: 300px;
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    .carform__sub__t {
+        font-size: 30px;
+    }
+}
+
 .forma1 {
     position: fixed;
     height: 0%;

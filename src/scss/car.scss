@@ -1,0 +1,479 @@
+.car{
+	min-height: 80vh;
+	padding-top: 105px;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+.carfon{
+	position: absolute;
+	z-index: -2;
+	left: 50%;
+	top: 80px;
+	transform: translateX(-50%);
+	min-width: 2100px;
+}
+.car__top{
+	padding: 0 48px;	
+}
+.car .title span{
+	color: #FE9544;
+}
+.car__top__content{
+	height:600px;
+	padding-top: 62px;
+	display: flex;
+	position: relative;
+}
+.car__top__content img{
+	max-width: 560px;
+	position: absolute;
+	right: 0;
+}
+.car__top__content p{
+	max-width: 670px;
+	font-size: 20px;
+	line-height: 158.7%;
+}
+
+.cartab__h{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.cartab__h p{
+	margin-top: 37px;
+    max-width: 600px;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.cartabs{
+	margin-top: 54px;
+	display: flex;
+}
+.cartab{
+	border-bottom: 1px solid transparent;
+	transition: 0.3s all;
+	cursor: pointer;
+	margin: 0 25px;
+}
+
+
+.carcon{
+	display: none;
+}
+.carcon:first-child{
+	display: block;
+}
+
+.caritem{
+	justify-content: space-between;
+	display: flex;
+	background: #FFFFFF;
+	border: 1px solid #0B1E73;
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding: 37px 56px;
+	height: 239px;
+	margin-bottom: 20px;
+}
+.caritem__title{
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 41px;
+}
+.caritem__text{
+	font-size: 16px;
+	line-height: 158.7%;
+	max-width: 620px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.caritem__bot span{
+	font-size: 16px;
+	margin-right: 25px;
+	display: block;
+	line-height: 22px;
+
+}
+.carwrap{
+	margin-top: 59px;
+}
+.caritem__bot{
+	display: flex;
+}
+.caritem__bot i{
+	margin-right: 10px;
+}
+.caritem__bot .fa-map-marker-alt{
+	color: #FE9544;
+}
+
+.caritem__bot .fa-user{
+	color: #FC5C66; 
+}
+
+.caritem__left{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.caritem__right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 16%;
+}
+.caritem__right a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 172.67px;
+	height: 41.86px;
+	background: #FFFFFF;
+	border: 1px solid #0B1E73;
+	box-sizing: border-box;
+	border-radius: 20px;
+	transition: 0.3s all;
+}
+.caritem__right a:hover{
+	box-shadow: 0px 5px 10px rgba(56, 106, 216, 0.1);
+}
+.cartab.active{
+	color: #FC8131;
+	border-bottom: 1px solid #FC8131;
+}
+
+.carform{
+	padding-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+.carform form{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 855px;
+}
+.carform__title{
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 54px;
+}
+.carform__text{
+	font-size: 18px;
+    line-height: 158.7%;
+    margin-bottom: 44px;
+    margin-top: 27px;
+}
+.carform__item{
+	width: 100%;
+	margin: 0 -10px;
+	display: flex;
+	margin-bottom: 17px;
+}
+.carform input{
+	width: 50%;
+	height: 48px;
+	margin: 0 10px;
+	padding: 0 16px;
+	background: #FFFFFF;
+	border: 0.5px solid #323c65;
+	box-sizing: border-box;
+	border-radius: 3px;
+	font-size: 15px;
+	line-height: 24px;
+	color: #0B1E73;
+}
+.carform input::placeholder{
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0.015em;
+	color: #A5B0C2;
+}
+.carform__link{
+	width: 50%;
+	display: flex;
+	margin: 0 10px;
+}
+.carform__link input{
+	width: 223.05px;
+	margin: 0;
+}
+.file input{
+	display: none;
+}
+.file{
+	display: flex;
+	align-items: center;
+	padding-left: 14px;
+}
+.file label{
+	background: #F6F8FD;
+	border: 0.5px solid #0B1E73;
+	box-sizing: border-box;
+	border-radius: 3px;
+	width: 129px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 14px;
+	height: 100%;
+}
+.carform textarea{
+	font-size: 18px;
+	line-height: 24px;
+	color: #0B1E73;
+	height: 237.93px;
+	background: #FFFFFF;
+	border: 0.5px solid #323c65;
+	box-sizing: border-box;
+	border-radius: 3px;
+	padding: 16px;
+	width: 100%;
+	resize: none;
+	margin: 0 10px;
+}
+.carform textarea::placeholder{
+	font-family: OpenSans, sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0.015em;
+	color: #A5B0C2;
+	text-align: left;
+}
+
+.carform .chekbox{
+	color: #778BA3;
+}
+.carform .chekbox label{
+	cursor: pointer;
+}
+.carform .btn-o-mini{
+	background: #B7C0CE;
+	z-index: -1;
+	position: relative;
+	margin-top: 20px;
+}
+.carform.active .btn-o-mini{
+	background: #FC8131;
+	z-index: 1;
+}
+.cartabwraper{
+	margin-top: 80px;
+}
+
+@media(max-width: 1023px){
+	.car__top__content img{
+		position: relative;
+		margin: 15px 0;
+		max-width: 100%;
+	}
+	.car__top__content{
+		flex-direction: column;
+		height: auto;
+	}
+	.car{
+		padding-top: 50px;
+	}
+	.file label{
+		width: 104px;
+	}
+	.carform form{
+		width: 767px;
+	}
+	.carform__link input{
+		width: 100%;
+	}
+}
+
+@media(max-width: 767px){
+	.carform form{
+		width: 100%;
+	}
+	.car__top {
+		padding: 0;
+	}
+	.cartabs{
+		 overflow: auto;
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+	.caritem{
+		flex-direction: column;
+		align-items: center;
+		padding: 20px 40px;
+		justify-content: space-between;
+		height: 297px;
+	}
+	.caritem__right{
+		width: 100%;
+
+	}
+
+	.caritem__title{
+		text-align: center;
+	}
+
+	.caritem__text{
+		margin-top: 12px;
+		-webkit-line-clamp: 3;
+		text-align: center;
+		height: 70px;
+	}
+	.caritem__bot{
+		flex-direction: column;
+		align-items: center;
+	}
+	.caritem__bot span{
+		margin-bottom: 10px;
+	}
+	.caritem__right a{
+		font-weight: 600;
+	}
+
+	.carform__item{
+		margin: 0;
+		flex-direction: column;
+	}
+	.carform__item input{
+		width: 100%;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	.carform textarea{
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	.carform__link{
+		width: 100%;
+		margin: 0;
+	}
+	.file label {
+	    width: 104px;
+	}
+	.file{
+		margin-bottom: 20px;
+	}
+}
+
+
+@media(max-width: 559px){
+	.car__top .title{
+		font-size: 24px;
+		line-height: 33px;
+		max-width: 280px;
+	}
+	.car__top__content p{
+		margin-top: 20px;
+		font-size: 14px;
+		line-height: 142.7%;
+	}	
+	.car__top__content{
+		padding-top: 0;
+	}
+	.carfon{
+		display: none;
+	}
+	.car{
+		padding-top: 30px;
+	}
+	.cartab__h p{
+		font-size: 14px;
+		line-height: 142.7%;
+		margin-top: 25px;
+	}
+
+	.cartabs{
+		margin-top: 25px;
+	}
+	.carwrap{
+		margin-top: 25px;
+	}
+
+	.caritem__title{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.caritem{
+		padding: 20px 10px;
+	}
+	.caritem__text{
+		font-size: 14px;
+		line-height: 158.7%;
+	}
+	.caritem__bot{
+		margin-top: 10px;
+	}
+	.caritem__bot span{
+		font-size: 14px;
+		line-height: 19px;
+	}
+	.cartabwraper{
+		margin-top: 30px;
+	}
+	.cartab{
+		margin: 0 15px;
+	}
+	
+	.carform__title{
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.carform{
+		padding-top: 50px;
+	}
+	.carform__text{
+		margin-top: 20px;
+		margin-bottom: 40px;
+		font-size: 14px;
+		line-height: 142.7%;
+	}
+	.carform__link{
+		flex-direction: column;
+	}
+	.file{
+		flex-direction: column;
+		padding-left: 0;
+	}
+	.file label{
+		margin-left: 0;
+		width: 100%;
+		height: 40px;
+		margin-top: 20px;
+	}
+	.carform input{
+		height: 40px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.carform input::placeholder{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.carform textarea{
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.carform textarea::placeholder{
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.carform .chekbox span{
+		font-size: 14px;
+		text-align: left;
+	}
+	.carform .chekbox a{
+		white-space: nowrap;
+	}
+}
