@@ -105,6 +105,9 @@
 	display: none;
 }
 @media(max-width: 767px){
+	.dtabs__head{
+		padding-left: 0;
+	}
 	.dconts{
 		display: none;
 	}
