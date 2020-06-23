@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .car {
     min-height: 80vh;
     padding-top: 105px;
@@ -272,7 +274,7 @@
 
 .carform__item {
     width: 100%;
-    margin: 0 -10px;
+    margin-right: -20px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -283,7 +285,7 @@
 .carform input {
     width: 50%;
     height: 48px;
-    margin: 0 10px;
+    margin-right: 10px;
     padding: 0 16px;
     background: #FFFFFF;
     border: 0.5px solid #323c65;
@@ -330,11 +332,11 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin: 0 10px;
+    margin-right: 10px;
 }
 
 .carform__link input {
-    width: 223.05px;
+    width: 100%;
     margin: 0;
 }
 
@@ -393,7 +395,7 @@
     padding: 16px;
     width: 100%;
     resize: none;
-    margin: 0 10px;
+    margin-right: 10px;
 }
 
 .carform textarea::-webkit-input-placeholder {
@@ -444,7 +446,7 @@
     background: #B7C0CE;
     z-index: -1;
     position: relative;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .carform.active .btn-o-mini {
@@ -759,5 +761,278 @@
 
     .carform .chekbox a {
         white-space: nowrap;
+    }
+}
+
+/*детально*/
+.card {
+    padding-top: 86px;
+}
+
+i.cari {
+    width: 24.45px;
+    height: 19.23px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    background-color: #204982;
+    -webkit-mask-image: url(../img/cari.svg);
+    mask-image: url(../img/cari.svg);
+}
+
+.fa-map-marker-alt {
+    color: #FC8131;
+}
+
+.fa-user {
+    color: #EC3A5C;
+}
+
+.car-d__top {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.car-d__top .title {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.car-d__h__bot {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.car-d__h__bot span {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.car-d__h__bot i {
+    margin-right: 5px;
+    font-size: 22px;
+    margin-top: -4px;
+}
+
+.car-d__top a {
+    position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    left: 0;
+    top: 33px;
+    letter-spacing: 0.2px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+.car-d__top a:before {
+    width: 10px;
+    margin-right: 5px;
+    height: 10px;
+    display: block;
+    left: 0;
+    content: "";
+    position: relative;
+    border-right: 1px solid #0B1E73;
+    border-bottom: 1px solid #0B1E73;
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.car-d__top a:hover {
+    left: -5px;
+}
+
+.cardfon {
+    position: absolute;
+    z-index: -2;
+    min-width: 2100px;
+    left: 50%;
+    height: 456px;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.car-d__wraper {
+    width: 1000px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 5px 10px rgba(56, 106, 216, 0.1);
+    box-shadow: 0px 5px 10px rgba(56, 106, 216, 0.1);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 63px 102px;
+    margin: 0 auto;
+    margin-top: 57px;
+    margin-bottom: 100px;
+}
+
+.car-d__wraper p {
+    letter-spacing: 0.2px;
+    font-size: 18px;
+    line-height: 164.7%;
+    margin-bottom: 30px;
+}
+
+.car-d__wraper h2 {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 159.7%;
+    margin-bottom: 27px;
+}
+
+.car-d__wraper ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    list-style: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 158.7%;
+}
+
+.car-d__wraper ul li:before {
+    content: "—";
+    font-size: 14px;
+    line-height: 27px;
+    margin-right: 15px;
+}
+
+.card .carform .btn-o-mini {
+    z-index: -1;
+}
+
+.card .carform form {
+    z-index: 1;
+    position: relative;
+}
+
+.card .carform.active .btn-o-mini {
+    z-index: 1;
+}
+
+@media (max-width: 1023px) {
+    .car-d__wraper {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .car-d__top a {
+        top: -55px;
+    }
+}
+
+@media (max-width: 767px) {
+    .car-d__wraper {
+        width: -webkit-calc(100% + 30px);
+        width: calc(100% + 30px);
+        margin-right: -15px;
+        margin-left: -15px;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        padding: 20px 15px;
+        margin-bottom: -20px;
+        padding-bottom: 50px;
+    }
+
+    .car-d__wraper p {
+        font-size: 14px;
+        line-height: 142.7%;
+    }
+
+    .car-d__wraper h2 {
+        font-size: 16px;
+        line-height: 159.7%;
+    }
+
+    .car-d__wraper ul li {
+        font-size: 14px;
+        line-height: 142.7%;
+    }
+
+    .card .carform {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 559px) {
+    .card {
+        padding-top: 60px;
+    }
+
+    .car-d__h__bot {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .car-d__top a {
+        top: -40px;
+        font-size: 14px;
+        line-height: 158.7%;
+    }
+
+    .car-d__top a:before {
+        width: 8px;
+        height: 8px;
+    }
+
+    .car-d__h__bot span {
+        margin-bottom: 15px;
+    }
+
+    .car-d__top .title {
+        margin-top: 10px;
+    }
+
+    .car-d__wraper {
+        margin-top: 20px;
+    }
+
+    .car-d__wraper p {
+        margin-bottom: 20px;
+    }
+
+    .car-d__wraper h2 {
+        margin-top: 25px;
+        margin-bottom: 20px;
     }
 }
