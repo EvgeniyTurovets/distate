@@ -349,5 +349,9 @@ $(function(){
 	})
 	
 
-    
+    //техподержка
+    $('.supqa__item').click(function(){
+    	$(this).toggleClass('active')
+    	$(this).find('p').slideToggle(250)
+    })
 })
