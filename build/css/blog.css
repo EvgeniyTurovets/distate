@@ -37,14 +37,6 @@
     transition: 0.3s all;
 }
 
-.blog__item:hover {
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
-    -webkit-box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.2);
-    box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.2);
-}
-
 .blog__img {
     position: relative;
     height: 221px;
@@ -72,8 +64,18 @@
     transition: 0.3s all;
 }
 
-.blog__item:hover .blog__title {
-    color: #316BD2;
+@media (min-width: 1024px) {
+    .blog__item:hover .blog__title {
+        color: #316BD2;
+    }
+
+    .blog__item:hover {
+        -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        transform: translateY(-5px);
+        -webkit-box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.2);
+        box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.2);
+    }
 }
 
 .blog__item p {
@@ -255,6 +257,11 @@
 
     .smi .blog__more {
         margin-top: 0;
+    }
+
+    .blog__item {
+        -webkit-box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.2);
+        box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.2);
     }
 }
 
