@@ -186,7 +186,7 @@ $(function(){
 
 
 	//всплывающая форма
-	$('#formshow').click(function(){
+	$('.formshow').click(function(){
 		$('.forma1').addClass('active')
 	})
 	$('.closesform').click(function(){
@@ -194,11 +194,7 @@ $(function(){
 	})
 
 
-	//отправка формы
-	$('.section5__btn').click(function(){
-		$(this).parents('.s5__form').addClass('active')
-		$('.section5__sussces').fadeIn(500)
-	})
+	
 
 
 	//не активная кнопка формы
@@ -253,12 +249,34 @@ $(function(){
 	})
 
 	//маски и валидация
+
+	function formsub(){
+		$('.forma1').removeClass('active')
+		$('.carform__submite').fadeIn()
+	}
+
+
 	$(function(){
 		$(".phone").mask("+7(999) 999-99-99");
+
+		$(".formajax").validate({
+		  submitHandler: function(form) {
+		    formsub();
+		   	//тут отправка аксом
+		  }
+		});
+
+		$(".section5 form").validate({
+		  submitHandler: function(form) {
+		  	//тут отправка аксом
+		   	$('.s5__form').addClass('active')
+			$('.section5__sussces').fadeIn(500)
+			}
+		});
 	})
-	$(function(){
-	 $('form').validate();
-	});
+	
+
+	
 
 
 	//страница документы
@@ -327,14 +345,11 @@ $(function(){
 	})
 
 
-	function formsub(){
-		$('.carform__submite').fadeIn()
-	}
-	$('.formajax').submit(function(){
-    	console.log($('form').validate())
-	    formsub();
-	    
-	    return false;
+	
+
+	$('.forma1').submit(function(){
+    	$(this).removeClass('active')
+	    return false
 	});
 
 	$('.carform__submite').mouseup(function (e){ // событие клика по веб-документу
@@ -354,4 +369,23 @@ $(function(){
     	$(this).toggleClass('active')
     	$(this).find('p').slideToggle(250)
     })
+
+    if($('.supbot__t__r').length){
+    	if($(window).width() < 768){
+    		$('.supbot__t__l').append($('.supbot__t__r'))
+    	}
+
+    	$(window).resize(function(){
+
+    		if($(window).width() > 767){
+    			$('.supbot__t').append($('.supbot__t__r'))
+    		}
+    		if($(window).width() < 768){
+    			$('.supbot__t__l').append($('.supbot__t__r'))
+    		}
+
+    	})
+    }
+
+
 })

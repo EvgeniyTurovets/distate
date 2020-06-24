@@ -93,6 +93,7 @@ label.error{
 	}
 	.carform__sub__t{
 		font-size: 30px;
+		line-height: 35px;
 
 	}
 }
@@ -198,7 +199,7 @@ label.error{
 	cursor: default;
 	pointer-events: none;
 }
-.forma1 form.active button{
+.forma1 form.active-check button{
 	background: linear-gradient(275.6deg, #FC8131 1.16%, #FE9544 98.84%);
 	cursor: pointer;
 	pointer-events: auto;
@@ -938,6 +939,9 @@ button:focus{
 	display: none;
 }
 @media(max-width: 1023px){
+	.formt{
+
+	}
 	.auto__wrap div{
 		font-size: 12px;	
 	}
@@ -1178,6 +1182,10 @@ button:focus{
 	}
 }
 @media(max-width: 767px){
+	.forma1__title.formt{
+		font-size: 30px;
+		padding-top: 20px;
+	}
 	#app{
 		padding-top: 53px;
 	}
@@ -1197,10 +1205,7 @@ button:focus{
 		overflow: scroll;
 		align-items: flex-start;
 	}
-	.forma1 form{
-		padding: 15px 10px;
-		border-radius: 0;
-	}
+	
 	.forma1 input{
 		width:100%;
 	}
@@ -1279,6 +1284,10 @@ button:focus{
 	}
 }
 @media(max-width: 559px){
+	.forma1 form{
+		padding: 15px 10px;
+		border-radius: 0;
+	}
 	.header__right__sroll{
 		top: 59px;
 		height: calc(100% - 59px);

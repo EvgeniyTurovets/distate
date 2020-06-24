@@ -127,6 +127,7 @@ label.error {
 
     .carform__sub__t {
         font-size: 30px;
+        line-height: 35px;
     }
 }
 
@@ -316,7 +317,7 @@ label.error {
     pointer-events: none;
 }
 
-.forma1 form.active button {
+.forma1 form.active-check button {
     background: -webkit-linear-gradient(174.4deg, #FC8131 1.16%, #FE9544 98.84%);
     background: -o-linear-gradient(174.4deg, #FC8131 1.16%, #FE9544 98.84%);
     background: linear-gradient(275.6deg, #FC8131 1.16%, #FE9544 98.84%);
@@ -1794,6 +1795,11 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+    .forma1__title.formt {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
     #app {
         padding-top: 53px;
     }
@@ -1817,12 +1823,6 @@ button:focus {
         -webkit-align-items: flex-start;
         -ms-flex-align: start;
         align-items: flex-start;
-    }
-
-    .forma1 form {
-        padding: 15px 10px;
-        -webkit-border-radius: 0;
-        border-radius: 0;
     }
 
     .forma1 input {
@@ -1920,6 +1920,12 @@ button:focus {
 }
 
 @media (max-width: 559px) {
+    .forma1 form {
+        padding: 15px 10px;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+    }
+
     .header__right__sroll {
         top: 59px;
         height: -webkit-calc(100% - 59px);
