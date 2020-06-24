@@ -388,4 +388,65 @@ $(function(){
     }
 
 
+    //криптопро
+    if($('.cripto').length){
+
+    	//проставляем атрибуты
+		let $ctabLenght = $('.ctab').length
+		
+		for(let i = 0; i <= $ctabLenght; i++){
+			$('.ctab').eq(i).attr('data-tab', i)
+		}
+
+		//показываем первый
+    	$('.first').next('.ctab__wrap').slideDown(200)
+    	$('.first').addClass('active')
+    	$('.first').next('.ctab__wrap').find('.ctab').eq(0).click()
+
+    	//акорденон
+    	$('.ctab__item span').click(function(){
+
+	    	let ctabSpan = $(this)
+
+	    	if(ctabSpan.hasClass('active') == 0){
+
+	    		$('.ctab__wrap').slideUp(200)
+
+		    	setTimeout(function(e){
+					ctabSpan.next('.ctab__wrap').slideDown(200)
+					ctabSpan.addClass('active')
+		    	},200)
+
+		    	$('.ctab__item span').removeClass('active')
+	    	}
+    	})
+
+
+		//по клику показываем соответвующею таблицу
+    	$('.ctab').click(function(){
+    		
+    		if($(this).hasClass('active') == 0){
+    			$('.ctab').removeClass('active')
+    			$(this).addClass('active')
+
+    			let $dataTab = $(this).attr('data-tab')
+    			$('.cripto__form').fadeOut(200)
+    			setTimeout(function(e){
+    				$('.cripto__form').eq($dataTab).fadeIn(200)
+    			},200)
+    			
+    		}
+    		
+    	})
+
+
+    	$('.cripto__checkbox label').click(function(){
+	  		$(this).toggleClass('active')
+	  	})  
+
+	  	$('.cripto__form').eq(0).fadeIn()
+    }
+  
+
+
 })

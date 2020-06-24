@@ -1,0 +1,166 @@
+.cripto{
+	min-height: 90vh
+}
+.cripto .title{
+	margin-bottom: 43px;
+}
+.cripto__left{
+	width: 30%;
+}
+.ctab__wrap{
+	display: none;
+	border-left: 0.5px solid #0B1E73;
+	margin-left: 5px;
+	padding-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.ctab__item > span{
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 30px;
+	letter-spacing: 0.015em;
+	color: #0B1E73;
+}
+.ctab{
+	cursor: pointer;
+	margin-bottom: 15px;
+	font-size: 18px;
+	line-height: 1;
+	letter-spacing: 0.015em;
+	color: #0B1E73;
+	transition: 0.3s all;
+}
+.ctab span{
+	font-size: 14px;
+	white-space: nowrap;
+	line-height: 1;
+}
+.ctab.active{
+	color: #316BD2;
+}
+.ctab:hover{
+	color: #316BD2;
+}
+.cripto__right{
+	width: 796px;
+	background: #FFFFFF;
+	box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.1);
+	border-radius: 10px;
+	padding: 18px 10px;
+}
+.cripto{
+	display: flex;
+	padding-top: 44px;
+}
+.cripto__header{
+	background: linear-gradient(283.8deg, #FC8131 1.16%, #FE9544 98.84%);
+	border-radius: 10px;
+	height: 75.13px;
+	display: flex;
+	justify-content: space-between;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.015em;
+	text-align: center;
+	padding: 10px 5px;
+}
+.cripto__header td{
+ 	padding: 0px 10px;
+
+ 	border-right: 1px solid rgba(255, 255, 255 , 0.5);
+}
+.cripto__body td{
+	padding: 20px 10px;
+ 	height: initial;
+ 	border-right: 1px solid #00000026;
+}
+.cripto__h__price{
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+}
+.cripto__header .cripto__h__chang{
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	border-right: 0;
+}
+.cripto__h__name{
+	width: 500px;
+}
+.cripto__name{
+	width: 501px;
+}
+.cripto__name span{
+	color: #EC3A5C;
+	display: block;
+	margin-top: 25px;
+}
+.cripto__form{
+	width: 100%;
+	display: none;
+}
+.cripto__num{
+	min-width: 55px;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 30px;
+	text-align: center;
+}
+.cripto__h__num{
+	width: 48px;
+}
+.cripto__price{
+	width: 124px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.015em;
+}
+.cripto__n__price{
+	width: 127px;
+}
+.cripto__body .cripto__checkbox{
+	width: 84px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: initial;
+	border-right: 0;
+}
+.cripto__body tr{
+	display: flex;
+	width: 100%;
+	border-top: 1px solid #00000026;
+}
+.cripto__body tr:first-child{
+	border-top: 0;
+}
+.cripto__body{
+	display: block;
+}
+
+.cripto__checkbox input{
+	display: none;
+}
+.cripto__checkbox label{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	justify-content: center;
+	width: 23.6px;
+	height: 23.6px;
+	border: 0.5px solid #0B1E73;
+	border-radius: 3px;
+}
+.cripto__checkbox label i{
+	display: none;
+}
+.cripto__checkbox label.active i{
+	display: block;
+}
