@@ -28,6 +28,31 @@ $(function(){
 	});
 
 
+	//плашка внизу в продуктах
+	if($('.produc__fix').length){
+		let s1h;
+		let s5ToTop;
+
+		if($(window).width() > 767){
+			s1h = $('.s1').height()
+			s5ToTop = $('.section5').offset().top - $('.section5').height() * 2
+		}else{
+			s1h = 0
+			s5ToTop = $('.section5').offset().top - $('.section5').height() * 1
+		}
+		
+		console.log(s5ToTop)
+		$(window).scroll(function () {
+		  if ($(this).scrollTop() > s1h && $(this).scrollTop() < s5ToTop) {
+		    $('.produc__fix').fadeIn()
+		  }else{
+		  	$('.produc__fix').fadeOut()
+		  }
+
+
+		});
+
+	}
 
 	//табы
 	$('.s6__head__item').click(function(){
@@ -97,7 +122,7 @@ $(function(){
 		}
 		
 	})
-	$('.header__level2').mouseleave(function(){
+	$('.header__level2 .wrap').mouseleave(function(){
 		if($(window).width() > 1023){
 			$('.header nav ul li').removeClass('active')
 			$('.header').removeClass('m-open')
