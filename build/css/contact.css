@@ -258,6 +258,14 @@
     margin-top: 20px;
 }
 
+form .contact__right__btn button {
+    background: #B7C0CE;
+}
+
+form.active-check .contact__right__btn button {
+    background: #FC8131;
+}
+
 .contact__right img {
     position: absolute;
     z-index: -1;
@@ -377,4 +385,14 @@
     .forma__about {
         font-size: 14px;
     }
+}
+
+.carform__sub {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+}
+
+.carform__sub__t {
+    font-size: 35px;
 }

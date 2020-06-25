@@ -121,7 +121,7 @@
 								<li>Юридическая значимость документов</li>
 								<li>Информационный обмен с Пенсионным фондом</li>
 							</ul>
-							<button class="btn-o-mini" id="formshow">Связаться</button>
+							<button class="btn-o-mini formshow">Связаться</button>
 							<span>Получить персональное предложение </span>
 						</div>
 						<img src="../img/s1cadr.png">
@@ -402,15 +402,15 @@
 
 						<form class="s5__form wow fadeInUp">
 							<div class="s5__left">
-								<div class="s5__input"><input type="" name="" placeholder="Контактное лицо (ФИО) *"></div>
+								<div class="s5__input"><input type="" name="4" placeholder="Контактное лицо (ФИО) *" required=""></div>
 								<div class="s5__to__input">
-									<input type="" name="" placeholder="Номер телефона * ">
-									<input type="" name="" placeholder="Электронная почта *">
+									<input class="phone" type="" name="1" placeholder="Номер телефона * " required="">
+									<input type="" name="2" placeholder="Электронная почта *" required="">
 								</div>
-								<div class="s5__input"><input type="" name="" placeholder="Компания *"></div>
+								<div class="s5__input"><input type="" name="3" placeholder="Компания *" required=""></div>
 								<div class="s5__input auto-text"><textarea placeholder="Комментарий"></textarea>
 									<div class="auto__wrap">
-										<div data-text="Отправьте  пожалуйста презентацию по продукту">Запросить звонок </div>
+										<div data-text="Позвоните мне пожалуйста ">Запросить звонок </div>
 										<div data-text="Отправьте  пожалуйста подробности о продукте">Подробнее о продукте </div>
 										<div data-text="Отправьте  пожалуйста презентацию по продукту">Запросить презентацию </div>
 									</div>
@@ -434,13 +434,12 @@
 										<label for="check1"><i class="fas fa-check"></i></label>
 										<span>Я согласен(а) с  <a href="">Политикой конфиденциальности</a></span>
 									</div>
-									<button type="button" class="btn-big-o section5__btn">Отправить</button>
+									<button type="submite" class="btn-big-o section5__btn">Отправить</button>
 								</div>
 							</div>
 
 							<img class="s5__img wow slideInLeft" data-wow-duration="1.5s" src="../img/s5img.svg" alt="">
 							<img src="../img/s5f.png" alt="" class="s5__fon">
-
 
 							<div class="section5__sussces active">
 							<div class="section5__sussces__wrap">
@@ -572,14 +571,24 @@
 				</div>
 			</footer>
 	</div>
+
+	<div class="carform__submite">
+		<div class="carform__sub">
+			<div class="carform__sub__t">Спасибо за обращение!  </div>
+			<p>Наши специалисты свяжутся с вами
+в ближайшее время.</p>
+			<a href="" class="btn-o-mini">Завершить </a>
+		</div>
+	</div>
+
 	<div class="forma1">
-		<form>
+		<form class="formajax">
 			<div class="forma1__title">Связаться</div>
 			<span class="forma1__span">Получить консультацию</span>
-			<input type="" name="" placeholder="Контактное лицо (ФИО) *">
-			<input type="" name="" placeholder="Электронная почта *">
-			<input type="" name="" placeholder="Номер телефона *">
-			<input type="" name="" placeholder="Название компании  *">
+			<input type="" name="formajax1" placeholder="Контактное лицо (ФИО) *" required>
+			<input type="" name="formajax2" placeholder="Электронная почта *" required="">
+			<input class="phone" type="" name="formajax3" placeholder="Номер телефона *" required>
+			<input type="" name="formajax4" placeholder="Название компании  *" required>
 			<textarea placeholder="Комментарий"></textarea>
 			<div class="forma__about">
 				<span>* – поля обязательны для заполнения</span>
@@ -603,6 +612,10 @@
     <script src="../js/jquery.js"></script>
     <script src="../js/wow.min.js"></script>
     <script src="../js/slick.js"></script>
+    <script src="../js/jquery.fancybox.min.js"></script>
+     <script src="../js/jquery.maskedinput.min.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+
     <script src="../js/main.js"></script>
 </body>
 </html>

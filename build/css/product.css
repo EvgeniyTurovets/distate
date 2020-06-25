@@ -2965,3 +2965,13 @@ span.minus {
         margin-right: 30px;
     }
 }
+
+.carform__sub {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+}
+
+.carform__sub__t {
+    font-size: 35px;
+}
