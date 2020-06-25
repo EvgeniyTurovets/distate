@@ -391,9 +391,17 @@ $(function(){
     //криптопро
     if($('.cripto').length){
 
+    	$('.cripto__form').eq(0).fadeIn()
     	//проставляем атрибуты
 		let $ctabLenght = $('.ctab').length
-		
+		let $criptoCheckbox = $('.cripto__checkbox').length
+
+		//cтавим автоматически метки
+		for(let i = 0; i <= $criptoCheckbox; i++){
+			$('.cripto__checkbox').eq(i).find('input').attr('id', i)
+			$('.cripto__checkbox').eq(i).find('label').attr('for', i)
+		}
+
 		for(let i = 0; i <= $ctabLenght; i++){
 			$('.ctab').eq(i).attr('data-tab', i)
 		}
@@ -439,12 +447,46 @@ $(function(){
     		
     	})
 
+    	function criptoCounter(){
+    		if(criptoCount > 0){
+    			$('.cripto__fix').fadeIn()
+    		}
+    		else{
+    			$('.cripto__fix').fadeOut()
+    		}
+    		$('.cripto__count').html(criptoCount)
+    		$('inpt.cripto__count').val(criptoCount)
+    		if(criptoCount == 1){
+    			$('.count1').show()
+    			$('.count2').hide()
+    		}
+    		else{
+    			$('.count2').show()
+    			$('.count1').hide()
+    		}
+    	}
 
+    	//проставляем количество выбраных услуг
+    	let criptoCount = 0;
     	$('.cripto__checkbox label').click(function(){
 	  		$(this).toggleClass('active')
+
+	  		if($(this).hasClass('active')){
+	  			criptoCount++
+
+	  		}else{
+	  			criptoCount--
+	  		}
+	  		criptoCounter()
 	  	})  
 
-	  	$('.cripto__form').eq(0).fadeIn()
+	  	$('.cripto__fix-left button').click(function(){
+	  		criptoCount = 0;
+	  		$('.cripto__checkbox label').removeClass('active')
+	  		$('.cripto__checkbox input').prop( "checked", false );
+	  		criptoCounter()
+	  	})
+
     }
   
 
