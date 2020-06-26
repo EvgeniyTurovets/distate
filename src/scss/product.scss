@@ -1219,22 +1219,20 @@ span.minus {
   display: flex;
 }
 .etab.active {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 22px;
   line-height: 30px;
   color: inherit;
-  letter-spacing: 0.015em;
+  letter-spacing: -0.015em;
 }
 
 .etab {
   margin-right: 76px;
   cursor: pointer;
-  font-weight: bold;
-  color: #c8c8c8;
-  transition: 0.3s;
+  transition: 0.3s all;
   font-size: 22px;
   line-height: 30px;
-  letter-spacing: 0.015em;
+  letter-spacing: -0.015em;
 }
 
 .etab::after {
