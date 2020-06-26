@@ -38,9 +38,12 @@
 }
 
 .car__top__content img {
-    max-width: 560px;
+  /* max-width: 560px;*/
     position: absolute;
-    right: 0;
+    right: 50px;
+    width: 512px;
+    top: 60px;
+    height: 517px;
 }
 
 .car__top__content p {

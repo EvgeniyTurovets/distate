@@ -83,6 +83,7 @@
 
 .dimg img {
     width: 100%;
+    border: 1px solid #0B1E73;
 }
 
 .docfon {
@@ -161,6 +162,7 @@
     }
 
     .dmob-img img {
+        border: 1px solid #0B1E73;
         display: block;
         width: 180px;
         margin: 0 auto;
