@@ -111,7 +111,7 @@
     display: -ms-flexbox;
     display: flex;
     background: #ffffff;
-    border: 1px solid #0b1e73;
+    border: 0.5px solid #5b6bb1;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-border-radius: 20px;
@@ -205,6 +205,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    font-weight: bold;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -461,11 +462,23 @@
     margin-top: 80px;
 }
 
+@media (max-width: 1200px) {
+    .car__top__content img {
+        width: auto;
+        max-width: 520px;
+        height: auto;
+        right: 0;
+        z-index: -1;
+        top: 154px;
+    }
+}
+
 @media (max-width: 1023px) {
     .car__top__content img {
         position: relative;
         margin: 15px 0;
         max-width: 100%;
+        top: auto;
     }
 
     .car__top__content {

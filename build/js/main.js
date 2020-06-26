@@ -172,7 +172,7 @@ $(function(){
 	$(".wrapper .tab").click(function() {
 		if($(window).width() > 767){
 			$(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-			$(".tab_item").hide().eq($(this).index()).fadeIn()
+			$(".tab_item").hide().eq($(this).index()).fadeIn(1000)
 		}
 	}).eq(0).addClass("active");
 

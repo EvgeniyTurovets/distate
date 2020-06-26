@@ -67,6 +67,7 @@
     display: -ms-flexbox;
     display: flex;
     padding-top: 44px;
+    padding-bottom: 100px;
 }
 
 .cripto__header {
@@ -339,6 +340,7 @@
 .cripto__fix-right button {
     font-size: 20px;
     line-height: 27px;
+    width: 177px;
     background: -webkit-linear-gradient(173.5deg, #fc8131 1.16%, #fe9544 98.84%);
     background: -o-linear-gradient(173.5deg, #fc8131 1.16%, #fe9544 98.84%);
     background: linear-gradient(276.5deg, #fc8131 1.16%, #fe9544 98.84%);

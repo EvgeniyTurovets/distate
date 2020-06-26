@@ -308,6 +308,7 @@
 }
 
 .tab {
+    min-width: 132px;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
@@ -320,11 +321,10 @@
     line-height: 30px;
     cursor: pointer;
     margin-right: 60px;
-    transition: 0.3s all;
 }
 
 .tab:hover {
-    color: inherit;
+    font-weight: 600;
 }
 
 .tab.active::after {
