@@ -31,7 +31,7 @@
 
 .suptop__left p a {
     text-decoration: underline;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .suptop .wrap {
@@ -84,8 +84,8 @@
 
 .supqa__item {
     margin-bottom: 19px;
-    background: #FFFFFF;
-    border: 0.5px solid #0B1E73;
+    background: #ffffff;
+    border: 0.5px solid #0b1e73;
     -webkit-box-shadow: 0px 5px 10px rgba(56, 106, 216, 0.05);
     box-shadow: 0px 5px 10px rgba(56, 106, 216, 0.05);
     -webkit-border-radius: 10px;
@@ -115,14 +115,14 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     width: 100%;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px;
     line-height: 126.7%;
 }
 
 .supqa__item span i {
     margin-left: 28px;
-    color: #A5B0C2;
+    color: #a5b0c2;
     font-size: 16px;
     margin-right: 12px;
     margin-top: 2px;
@@ -149,8 +149,8 @@
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background: #FFFFFF;
-    border: 0.5px solid #0B1E73;
+    background: #ffffff;
+    border: 0.5px solid #0b1e73;
     -webkit-box-shadow: 0px 0px 20px rgba(56, 106, 216, 0.1);
     box-shadow: 0px 0px 20px rgba(56, 106, 216, 0.1);
     -webkit-border-radius: 10px;
@@ -167,7 +167,7 @@
     font-size: 18px;
     line-height: 142.7%;
     letter-spacing: 0.015em;
-    color: #0B1E73;
+    color: #0b1e73;
 }
 
 .qabot__l {
@@ -195,12 +195,12 @@
 }
 
 .qabot__r span {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 22px;
     line-height: 142.7%;
     text-align: center;
     letter-spacing: 0.015em;
-    color: #FC8131;
+    color: #fc8131;
 }
 
 .qabot__r a {
@@ -299,7 +299,7 @@ span.plus {
     width: 24px;
     height: 24px;
     display: block;
-    background-color: #FC8131;
+    background-color: #fc8131;
     -webkit-background-size: contain;
     background-size: contain;
     background-repeat: no-repeat;
@@ -325,7 +325,7 @@ span.plusp {
     width: 24px;
     height: 24px;
     display: block;
-    background-color: #FC8131;
+    background-color: #fc8131;
     -webkit-background-size: contain;
     background-size: contain;
     background-repeat: no-repeat;
@@ -345,7 +345,7 @@ table {
 }
 
 .prem {
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .stable table .stable__text {
@@ -356,7 +356,7 @@ table {
 }
 
 .stable table tbody tr {
-    border-bottom: 1px solid #778BA3;
+    border-bottom: 1px solid #778ba3;
 }
 
 .stable table tbody tr:last-child {
@@ -379,7 +379,7 @@ table {
 .stablefon {
     position: absolute;
     right: 24px;
-    background: #4B6684;
+    background: #4b6684;
     -webkit-box-shadow: 0px 5px 20px rgba(11, 30, 115, 0.1);
     box-shadow: 0px 5px 20px rgba(11, 30, 115, 0.1);
     -webkit-border-radius: 10px;
@@ -423,7 +423,7 @@ table {
 
 .schat p {
     max-width: 925px;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 22px;
     line-height: 142.7%;
 }
@@ -433,10 +433,10 @@ table {
 }
 
 .soffer {
-    background: -webkit-gradient(linear, left top, right top, from(#45AAF2), to(#3868D6));
-    background: -webkit-linear-gradient(left, #45AAF2 0%, #3868D6 100%);
-    background: -o-linear-gradient(left, #45AAF2 0%, #3868D6 100%);
-    background: linear-gradient(90deg, #45AAF2 0%, #3868D6 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#45aaf2), to(#3868d6));
+    background: -webkit-linear-gradient(left, #45aaf2 0%, #3868d6 100%);
+    background: -o-linear-gradient(left, #45aaf2 0%, #3868d6 100%);
+    background: linear-gradient(90deg, #45aaf2 0%, #3868d6 100%);
     -webkit-box-shadow: 0px 0px 20px rgba(56, 106, 216, 0.1);
     box-shadow: 0px 0px 20px rgba(56, 106, 216, 0.1);
     -webkit-border-radius: 20px;
@@ -674,9 +674,9 @@ table {
     .opertable__title {
         margin-top: 30px;
         text-align: center;
-        font-weight: 600;
+        font-weight: bold;
         padding-bottom: 10px;
-        border-bottom: 1px solid #FFFFFF;
+        border-bottom: 1px solid #ffffff;
     }
 
     .opertable__punkt {
@@ -685,7 +685,7 @@ table {
         display: -ms-flexbox;
         display: flex;
         padding: 10px 0;
-        font-weight: 600;
+        font-weight: bold;
         border-bottom: 1px solid #ffffff;
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;

@@ -9,7 +9,7 @@
 
 .ctab__wrap {
     display: none;
-    border-left: 0.5px solid #0B1E73;
+    border-left: 0.5px solid #0b1e73;
     margin-left: 5px;
     padding-left: 15px;
     margin-top: 10px;
@@ -18,11 +18,11 @@
 
 .ctab__item > span {
     cursor: pointer;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.015em;
-    color: #0B1E73;
+    color: #0b1e73;
 }
 
 .ctab {
@@ -31,7 +31,7 @@
     font-size: 18px;
     line-height: 1;
     letter-spacing: 0.015em;
-    color: #0B1E73;
+    color: #0b1e73;
     -webkit-transition: 0.3s all;
     -o-transition: 0.3s all;
     transition: 0.3s all;
@@ -44,16 +44,16 @@
 }
 
 .ctab.active {
-    color: #316BD2;
+    color: #316bd2;
 }
 
 .ctab:hover {
-    color: #316BD2;
+    color: #316bd2;
 }
 
 .cripto__right {
     width: 796px;
-    background: #FFFFFF;
+    background: #ffffff;
     -webkit-box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.1);
     box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.1);
     -webkit-border-radius: 10px;
@@ -70,9 +70,9 @@
 }
 
 .cripto__header {
-    background: -webkit-linear-gradient(166.2deg, #FC8131 1.16%, #FE9544 98.84%);
-    background: -o-linear-gradient(166.2deg, #FC8131 1.16%, #FE9544 98.84%);
-    background: linear-gradient(283.8deg, #FC8131 1.16%, #FE9544 98.84%);
+    background: -webkit-linear-gradient(166.2deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: -o-linear-gradient(166.2deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: linear-gradient(283.8deg, #fc8131 1.16%, #fe9544 98.84%);
     -webkit-border-radius: 10px;
     border-radius: 10px;
     height: 75.13px;
@@ -85,7 +85,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.015em;
@@ -105,13 +105,13 @@
 }
 
 .cripto__h__price {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 14px;
     line-height: 19px;
 }
 
 .cripto__header .cripto__h__chang {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 14px;
     line-height: 19px;
     border-right: 0;
@@ -126,7 +126,7 @@
 }
 
 .cripto__name span {
-    color: #EC3A5C;
+    color: #ec3a5c;
     display: block;
     margin-top: 25px;
 }
@@ -142,7 +142,7 @@
 
 .cripto__num {
     min-width: 55px;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 22px;
     line-height: 30px;
     text-align: center;
@@ -155,7 +155,7 @@
 .cripto__price {
     width: 124px;
     text-align: center;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.015em;
@@ -220,7 +220,7 @@
     justify-content: center;
     width: 23.6px;
     height: 23.6px;
-    border: 0.5px solid #0B1E73;
+    border: 0.5px solid #0b1e73;
     -webkit-border-radius: 3px;
     border-radius: 3px;
 }
@@ -244,7 +244,7 @@
     z-index: 2;
     right: 0;
     padding: 10px 0;
-    border: 0.5px solid #0B1E73;
+    border: 0.5px solid #0b1e73;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-right: 0;
@@ -283,7 +283,7 @@
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 0.015em;
-    color: #C7C7C7;
+    color: #c7c7c7;
 }
 
 .cripto__fix-left button svg {
@@ -292,12 +292,12 @@
 }
 
 .cripto__fix-left button:hover {
-    color: #EC3A5C;
+    color: #ec3a5c;
     cursor: pointer;
 }
 
 .cripto__fix-left button:hover svg path {
-    fill: #EC3A5C;
+    fill: #ec3a5c;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -329,19 +329,19 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border-bottom: 1px solid #0B1E73;
+    border-bottom: 1px solid #0b1e73;
     font-size: 22px;
     line-height: 30px;
-    font-weight: 600;
+    font-weight: bold;
     margin: 0 10px;
 }
 
 .cripto__fix-right button {
     font-size: 20px;
     line-height: 27px;
-    background: -webkit-linear-gradient(173.5deg, #FC8131 1.16%, #FE9544 98.84%);
-    background: -o-linear-gradient(173.5deg, #FC8131 1.16%, #FE9544 98.84%);
-    background: linear-gradient(276.5deg, #FC8131 1.16%, #FE9544 98.84%);
+    background: -webkit-linear-gradient(173.5deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: -o-linear-gradient(173.5deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: linear-gradient(276.5deg, #fc8131 1.16%, #fe9544 98.84%);
     -webkit-border-radius: 25px;
     border-radius: 25px;
     border: 0;
@@ -420,7 +420,7 @@
 
     .cripto__mob__t {
         font-size: 24px;
-        font-weight: 600;
+        font-weight: bold;
         line-height: 33px;
         text-align: center;
         letter-spacing: 0.015em;

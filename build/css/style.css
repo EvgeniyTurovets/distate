@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -12,7 +14,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
     -moz-appearance: textfield;
 }
 
@@ -53,8 +55,8 @@ label.error {
     transform: translate(-50%, -50%);
     width: 541.95px;
     height: 317.02px;
-    background: #FFFFFF;
-    border: 0.5px solid #0B1E73;
+    background: #ffffff;
+    border: 0.5px solid #0b1e73;
     -webkit-box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.1);
     box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.1);
     -webkit-border-radius: 10px;
@@ -79,17 +81,17 @@ label.error {
 .carform__sub__t {
     font-size: 40px;
     line-height: 54px;
-    color: #FC8131;
-    font-weight: 600;
+    color: #fc8131;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
 .carform__sub p {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: 0.015em;
-    color: #0B1E73;
+    letter-spacing: -0.015em;
+    color: #0b1e73;
 }
 
 .carform__sub a {
@@ -111,7 +113,7 @@ label.error {
 .carform__sub span {
     font-size: 14px;
     line-height: 19px;
-    color: #778BA3;
+    color: #778ba3;
     display: block;
     margin-top: 10px;
     text-decoration: underline;
@@ -181,7 +183,7 @@ label.error {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    border: 0.5px solid #0B1E73;
+    border: 0.5px solid #0b1e73;
     -webkit-box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.1);
     box-shadow: 0px 5px 20px rgba(56, 106, 216, 0.1);
     -webkit-border-radius: 10px;
@@ -196,26 +198,26 @@ label.error {
 }
 
 .forma1__title {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 40px;
     line-height: 54px;
     margin-bottom: 5px;
-    color: #FC8131;
-    letter-spacing: 0.015em;
+    color: #fc8131;
+    letter-spacing: -0.015em;
 }
 
 .forma1__span {
     font-size: 15px;
     line-height: 20px;
-    letter-spacing: 0.015em;
-    color: #778BA3;
+    letter-spacing: -0.015em;
+    color: #778ba3;
     display: block;
     margin-bottom: 15px;
 }
 
 .forma1 input {
-    background: #FFFFFF;
-    border: 0.5px solid #0B1E73;
+    background: #ffffff;
+    border: 0.5px solid #0b1e73;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 408px;
@@ -225,41 +227,41 @@ label.error {
     padding: 15px 16px;
     font-size: 18px;
     line-height: 24px;
-    letter-spacing: 0.015em;
-    color: #0B1E73;
+    letter-spacing: -0.015em;
+    color: #0b1e73;
 }
 
 .forma1 input::-webkit-input-placeholder {
     font-size: 15px;
     line-height: 24px;
-    letter-spacing: 0.015em;
+    letter-spacing: -0.015em;
     color: rgba(165, 176, 194, 0.8);
 }
 
 .forma1 input::-moz-placeholder {
     font-size: 15px;
     line-height: 24px;
-    letter-spacing: 0.015em;
+    letter-spacing: -0.015em;
     color: rgba(165, 176, 194, 0.8);
 }
 
 .forma1 input::-ms-input-placeholder {
     font-size: 15px;
     line-height: 24px;
-    letter-spacing: 0.015em;
+    letter-spacing: -0.015em;
     color: rgba(165, 176, 194, 0.8);
 }
 
 .forma1 input::placeholder {
     font-size: 15px;
     line-height: 24px;
-    letter-spacing: 0.015em;
+    letter-spacing: -0.015em;
     color: rgba(165, 176, 194, 0.8);
 }
 
 .forma1 textarea {
-    background: #FFFFFF;
-    border: 0.5px solid #0B1E73;
+    background: #ffffff;
+    border: 0.5px solid #0b1e73;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 408px;
@@ -270,15 +272,15 @@ label.error {
     padding: 15px 16px;
     font-size: 14px;
     line-height: 18px;
-    letter-spacing: 0.015em;
-    color: #0B1E73;
+    letter-spacing: -0.015em;
+    color: #0b1e73;
     resize: none;
 }
 
 .forma1 textarea::-webkit-input-placeholder {
     font-size: 15px;
     line-height: 24px;
-    letter-spacing: 0.015em;
+    letter-spacing: -0.015em;
     color: rgba(165, 176, 194, 0.8);
     font-family: OpenSans, sans-serif;
 }
@@ -286,7 +288,7 @@ label.error {
 .forma1 textarea::-moz-placeholder {
     font-size: 15px;
     line-height: 24px;
-    letter-spacing: 0.015em;
+    letter-spacing: -0.015em;
     color: rgba(165, 176, 194, 0.8);
     font-family: OpenSans, sans-serif;
 }
@@ -294,7 +296,7 @@ label.error {
 .forma1 textarea::-ms-input-placeholder {
     font-size: 15px;
     line-height: 24px;
-    letter-spacing: 0.015em;
+    letter-spacing: -0.015em;
     color: rgba(165, 176, 194, 0.8);
     font-family: OpenSans, sans-serif;
 }
@@ -302,7 +304,7 @@ label.error {
 .forma1 textarea::placeholder {
     font-size: 15px;
     line-height: 24px;
-    letter-spacing: 0.015em;
+    letter-spacing: -0.015em;
     color: rgba(165, 176, 194, 0.8);
     font-family: OpenSans, sans-serif;
 }
@@ -312,15 +314,15 @@ label.error {
 }
 
 .forma1 form button {
-    background: #B7C0CE;
+    background: #b7c0ce;
     cursor: default;
     pointer-events: none;
 }
 
 .forma1 form.active-check button {
-    background: -webkit-linear-gradient(174.4deg, #FC8131 1.16%, #FE9544 98.84%);
-    background: -o-linear-gradient(174.4deg, #FC8131 1.16%, #FE9544 98.84%);
-    background: linear-gradient(275.6deg, #FC8131 1.16%, #FE9544 98.84%);
+    background: -webkit-linear-gradient(174.4deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: -o-linear-gradient(174.4deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: linear-gradient(275.6deg, #fc8131 1.16%, #fe9544 98.84%);
     cursor: pointer;
     pointer-events: auto;
 }
@@ -357,8 +359,8 @@ label.error {
     -ms-flex-align: center;
     align-items: center;
     height: 20px;
-    background: #FFFFFF;
-    border: 0.5px solid #0B1E73;
+    background: #ffffff;
+    border: 0.5px solid #0b1e73;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-border-radius: 3px;
@@ -367,7 +369,7 @@ label.error {
 
 .chekbox label i {
     display: none;
-    color: #0B1E73;
+    color: #0b1e73;
 }
 
 .chekbox span {
@@ -400,7 +402,7 @@ form.active-check .chekbox label i {
     padding: 5px;
     right: 20px;
     font-size: 20px;
-    color: #C7C7C7;
+    color: #c7c7c7;
     -webkit-transition: 0.3s all;
     -o-transition: 0.3s all;
     transition: 0.3s all;
@@ -411,7 +413,7 @@ form.active-check .chekbox label i {
 }
 
 .forma__about {
-    color: #778BA3;
+    color: #778ba3;
 }
 
 .forma__about .chekbox {
@@ -431,9 +433,10 @@ a {
 
 body {
     min-width: 320px;
-    color: #0B1E73;
-    font-family: OpenSans, sans-serif;
+    color: #0b1e73;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
+    letter-spacing: -0.015em !important;
 }
 
 .wrap {
@@ -488,7 +491,7 @@ body {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    border-bottom: 0.5px solid #E0E0E0;
+    border-bottom: 0.5px solid #e0e0e0;
 }
 
 .header.fix .wrap {
@@ -496,7 +499,7 @@ body {
 }
 
 .header.m-open .wrap {
-    border-bottom: 0.5px solid #E0E0E0;
+    border-bottom: 0.5px solid #e0e0e0;
 }
 
 .header__top {
@@ -525,7 +528,7 @@ body {
 }
 
 .header__top a:hover {
-    color: #316BD2;
+    color: #316bd2;
 }
 
 .logo {
@@ -557,8 +560,8 @@ body {
     margin-left: 8px;
     letter-spacing: 2px;
     padding-left: 8px;
-    color: #5D637C;
-    border-left: 1px solid #5D637C;
+    color: #5d637c;
+    border-left: 1px solid #5d637c;
     line-height: 27px;
 }
 
@@ -603,14 +606,14 @@ body {
 .level2__title {
     font-size: 40px;
     line-height: 1;
-    color: #4B6684;
+    color: #4b6684;
     opacity: 0.2;
 }
 
 .header__level2 {
     -webkit-box-shadow: 0px 5px 5px 1px rgba(56, 106, 216, 0.1);
     box-shadow: 0px 5px 5px 1px rgba(56, 106, 216, 0.1);
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: 1px solid #e0e0e0;
     position: absolute;
     top: -1000px;
     opacity: 0;
@@ -664,14 +667,14 @@ body {
     -o-transition: 0.3s all;
     transition: 0.3s all;
     width: 245px;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px;
     line-height: 27px;
     margin-right: 35px;
     margin-bottom: 30px;
     letter-spacing: -0.015em;
     display: block;
-    color: #0B1E73;
+    color: #0b1e73;
 }
 
 .level2__links {
@@ -713,7 +716,7 @@ textarea::-webkit-scrollbar-track {
 
 /* Handle */
 textarea::-webkit-scrollbar-thumb {
-    background: #0B1E73;
+    background: #0b1e73;
     -webkit-border-radius: 25px;
     border-radius: 25px;
     margin-right: 5px;
@@ -721,7 +724,7 @@ textarea::-webkit-scrollbar-thumb {
 
 /* Handle on hover */
 textarea::-webkit-scrollbar-thumb:hover {
-    background: #0B1E73;
+    background: #0b1e73;
 }
 
 button:focus {
@@ -729,9 +732,9 @@ button:focus {
 }
 
 .btn-o-mini {
-    background: -webkit-linear-gradient(174.38deg, #FC8131 1.16%, #FE9544 98.84%);
-    background: -o-linear-gradient(174.38deg, #FC8131 1.16%, #FE9544 98.84%);
-    background: linear-gradient(275.62deg, #FC8131 1.16%, #FE9544 98.84%);
+    background: -webkit-linear-gradient(174.38deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: -o-linear-gradient(174.38deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: linear-gradient(275.62deg, #fc8131 1.16%, #fe9544 98.84%);
     -webkit-border-radius: 25px;
     border-radius: 25px;
     width: 231px;
@@ -768,14 +771,14 @@ button:focus {
 .more-link i {
     width: 27px;
     height: 27px;
-    border: 1px solid #0B1E73;
+    border: 1px solid #0b1e73;
     -webkit-border-radius: 100%;
     border-radius: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    color: #0B1E73;
+    color: #0b1e73;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -792,8 +795,8 @@ button:focus {
 }
 
 .more-link:hover i {
-    border: 1px solid #FC8131;
-    background: #FC8131;
+    border: 1px solid #fc8131;
+    background: #fc8131;
     color: #ffffff;
 }
 
@@ -811,11 +814,11 @@ button:focus {
 .footer__conf > a {
     display: block;
     margin-bottom: 15px;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 15px;
     line-height: 24px;
     letter-spacing: -0.015em;
-    color: #1D1D1F;
+    color: #1d1d1f;
 }
 
 .footer__soc {
@@ -881,11 +884,11 @@ button:focus {
 }
 
 .footer__menu__t {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 15px;
     line-height: 24px;
     letter-spacing: -0.015em;
-    color: #1D1D1F;
+    color: #1d1d1f;
     margin-bottom: 16px;
 }
 
@@ -945,7 +948,7 @@ button:focus {
 }
 
 .footer {
-    background-color: #F6F8FD;
+    background-color: #f6f8fd;
     margin-top: 26px;
 }
 
@@ -993,8 +996,8 @@ button:focus {
 .title {
     font-size: 40px;
     line-height: 54px;
-    font-weight: 600;
-    letter-spacing: 0.015em;
+    font-weight: bold;
+    letter-spacing: -0.015em;
 }
 
 /*section5*/
@@ -1043,10 +1046,10 @@ button:focus {
     -webkit-border-radius: 20px;
     border-radius: 20px;
     bottom: 0;
-    background: -webkit-gradient(linear, left top, right top, from(#45AAF2), to(#3868D6));
-    background: -webkit-linear-gradient(left, #45AAF2 0%, #3868D6 100%);
-    background: -o-linear-gradient(left, #45AAF2 0%, #3868D6 100%);
-    background: linear-gradient(90deg, #45AAF2 0%, #3868D6 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#45aaf2), to(#3868d6));
+    background: -webkit-linear-gradient(left, #45aaf2 0%, #3868d6 100%);
+    background: -o-linear-gradient(left, #45aaf2 0%, #3868d6 100%);
+    background: linear-gradient(90deg, #45aaf2 0%, #3868d6 100%);
 }
 
 .section5__sussces__wrap {
@@ -1076,14 +1079,14 @@ button:focus {
     padding: 0 30%;
     text-align: center;
     line-height: 41px;
-    letter-spacing: 0.015em;
+    letter-spacing: -0.015em;
 }
 
 .s5__form {
-    background: -webkit-gradient(linear, left top, right top, from(#45AAF2), to(#3868D6));
-    background: -webkit-linear-gradient(left, #45AAF2 0%, #3868D6 100%);
-    background: -o-linear-gradient(left, #45AAF2 0%, #3868D6 100%);
-    background: linear-gradient(90deg, #45AAF2 0%, #3868D6 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#45aaf2), to(#3868d6));
+    background: -webkit-linear-gradient(left, #45aaf2 0%, #3868d6 100%);
+    background: -o-linear-gradient(left, #45aaf2 0%, #3868d6 100%);
+    background: linear-gradient(90deg, #45aaf2 0%, #3868d6 100%);
     -webkit-box-shadow: 0px 0px 20px rgba(56, 106, 216, 0.1);
     box-shadow: 0px 0px 20px rgba(56, 106, 216, 0.1);
     -webkit-border-radius: 20px;
@@ -1128,7 +1131,7 @@ button:focus {
 }
 
 .s5__form input {
-    background: #FFFFFF;
+    background: #ffffff;
     border: 0.5px solid rgba(0, 0, 0, 0.5);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1143,7 +1146,7 @@ button:focus {
     line-height: 18px;
   /* or 129% */
     letter-spacing: -0.015em;
-    color: #0B1E73;
+    color: #0b1e73;
 }
 
 .s5__input {
@@ -1181,11 +1184,11 @@ button:focus {
     line-height: 18px;
   /* or 129% */
     letter-spacing: -0.015em;
-    color: #0B1E73;
+    color: #0b1e73;
 }
 
 .s5__input textarea {
-    background: #FFFFFF;
+    background: #ffffff;
     border: 0.5px solid rgba(0, 0, 0, 0.5);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1199,7 +1202,7 @@ button:focus {
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.015em;
-    color: #0B1E73;
+    color: #0b1e73;
 }
 
 .auto__wrap {
@@ -1234,7 +1237,7 @@ button:focus {
 
 @media (min-width: 768px) {
     .notactive.active button {
-        background: #B7C0CE;
+        background: #b7c0ce;
         opacity: 0.8;
         cursor: default;
         -webkit-transition: 0.3s all;
@@ -1269,18 +1272,18 @@ button:focus {
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
-        background: #FFFFFF;
-        border: 1px solid #0B1E73;
+        background: #ffffff;
+        border: 1px solid #0b1e73;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
         -webkit-border-radius: 3px;
         border-radius: 3px;
-        font-weight: 600;
+        font-weight: bold;
         font-size: 12px;
         line-height: 24px;
         text-align: center;
-        letter-spacing: 0.015em;
-        color: #0B1E73;
+        letter-spacing: -0.015em;
+        color: #0b1e73;
     }
 
     .auto__wrap div:hover {
@@ -1326,7 +1329,7 @@ button:focus {
 }
 
 .s5__title {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 40px;
     line-height: 54px;
     margin-bottom: 27px;
@@ -1336,7 +1339,7 @@ button:focus {
 .s5__right span {
     display: block;
     margin-bottom: 10px;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 16px;
     line-height: 22px;
     letter-spacing: -0.015em;
@@ -1387,12 +1390,12 @@ button:focus {
 
 /*section5*/
 .btn-big-o {
-    font-weight: 600;
+    font-weight: bold;
     width: 230.23px;
     height: 56px;
-    background: -webkit-linear-gradient(174.4deg, #FC8131 1.16%, #FE9544 98.84%);
-    background: -o-linear-gradient(174.4deg, #FC8131 1.16%, #FE9544 98.84%);
-    background: linear-gradient(275.6deg, #FC8131 1.16%, #FE9544 98.84%);
+    background: -webkit-linear-gradient(174.4deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: -o-linear-gradient(174.4deg, #fc8131 1.16%, #fe9544 98.84%);
+    background: linear-gradient(275.6deg, #fc8131 1.16%, #fe9544 98.84%);
     -webkit-border-radius: 25px;
     border-radius: 25px;
     border: none;
@@ -1480,7 +1483,7 @@ button:focus {
 
     .header {
         background-color: #ffffff;
-        border-bottom: 0.5px solid #E0E0E0;
+        border-bottom: 0.5px solid #e0e0e0;
         padding-top: 10px;
         position: fixed;
         top: 0;
@@ -1506,7 +1509,7 @@ button:focus {
     }
 
     .header nav ul li span:hover {
-        color: #0B1E73 !important;
+        color: #0b1e73 !important;
     }
 
     .header__right {
@@ -1579,7 +1582,7 @@ button:focus {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
-        border-left: 1px solid #0B1E73;
+        border-left: 1px solid #0b1e73;
         width: 100%;
         padding-left: 25px;
         margin-top: 20px;
@@ -1606,7 +1609,7 @@ button:focus {
     }
 
     .header nav ul li {
-        font-weight: 600;
+        font-weight: bold;
         margin-left: 0;
         margin-bottom: 15px;
     }
@@ -1627,7 +1630,7 @@ button:focus {
         flex-direction: column;
         padding-top: 30px;
         margin-top: 10px;
-        border-top: 1px solid #E0E0E0;
+        border-top: 1px solid #e0e0e0;
     }
 
     .header__top a {

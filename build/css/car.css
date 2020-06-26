@@ -24,7 +24,7 @@
 }
 
 .car .title span {
-    color: #FE9544;
+    color: #fe9544;
 }
 
 .car__top__content {
@@ -107,8 +107,8 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    background: #FFFFFF;
-    border: 1px solid #0B1E73;
+    background: #ffffff;
+    border: 1px solid #0b1e73;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-border-radius: 20px;
@@ -119,7 +119,7 @@
 }
 
 .caritem__title {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 30px;
     line-height: 41px;
 }
@@ -158,11 +158,11 @@
 }
 
 .caritem__bot .fa-map-marker-alt {
-    color: #FE9544;
+    color: #fe9544;
 }
 
 .caritem__bot .fa-user {
-    color: #FC5C66;
+    color: #fc5c66;
 }
 
 .caritem__left {
@@ -212,8 +212,8 @@
     align-items: center;
     width: 172.67px;
     height: 41.86px;
-    background: #FFFFFF;
-    border: 1px solid #0B1E73;
+    background: #ffffff;
+    border: 1px solid #0b1e73;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-border-radius: 20px;
@@ -229,8 +229,8 @@
 }
 
 .cartab.active {
-    color: #FC8131;
-    border-bottom: 1px solid #FC8131;
+    color: #fc8131;
+    border-bottom: 1px solid #fc8131;
 }
 
 .carform {
@@ -260,7 +260,7 @@
 }
 
 .carform__title {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 40px;
     line-height: 54px;
 }
@@ -287,7 +287,7 @@
     height: 48px;
     margin-right: 10px;
     padding: 0 16px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 0.5px solid #323c65;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -295,35 +295,35 @@
     border-radius: 3px;
     font-size: 15px;
     line-height: 24px;
-    color: #0B1E73;
+    color: #0b1e73;
 }
 
 .carform input::-webkit-input-placeholder {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.015em;
-    color: #A5B0C2;
+    color: #a5b0c2;
 }
 
 .carform input::-moz-placeholder {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.015em;
-    color: #A5B0C2;
+    color: #a5b0c2;
 }
 
 .carform input::-ms-input-placeholder {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.015em;
-    color: #A5B0C2;
+    color: #a5b0c2;
 }
 
 .carform input::placeholder {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.015em;
-    color: #A5B0C2;
+    color: #a5b0c2;
 }
 
 .carform__link {
@@ -357,8 +357,8 @@
 }
 
 .file label {
-    background: #F6F8FD;
-    border: 0.5px solid #0B1E73;
+    background: #f6f8fd;
+    border: 0.5px solid #0b1e73;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-border-radius: 3px;
@@ -384,9 +384,9 @@
 .carform textarea {
     font-size: 18px;
     line-height: 24px;
-    color: #0B1E73;
+    color: #0b1e73;
     height: 237.93px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 0.5px solid #323c65;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -403,7 +403,7 @@
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.015em;
-    color: #A5B0C2;
+    color: #a5b0c2;
     text-align: left;
 }
 
@@ -412,7 +412,7 @@
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.015em;
-    color: #A5B0C2;
+    color: #a5b0c2;
     text-align: left;
 }
 
@@ -421,7 +421,7 @@
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.015em;
-    color: #A5B0C2;
+    color: #a5b0c2;
     text-align: left;
 }
 
@@ -430,12 +430,12 @@
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.015em;
-    color: #A5B0C2;
+    color: #a5b0c2;
     text-align: left;
 }
 
 .carform .chekbox {
-    color: #778BA3;
+    color: #778ba3;
 }
 
 .carform .chekbox label {
@@ -443,14 +443,14 @@
 }
 
 .carform .btn-o-mini {
-    background: #B7C0CE;
+    background: #b7c0ce;
     z-index: -1;
     position: relative;
     margin-top: 35px;
 }
 
 .carform.active .btn-o-mini {
-    background: #FC8131;
+    background: #fc8131;
     z-index: 1;
 }
 
@@ -556,7 +556,7 @@
     }
 
     .caritem__right a {
-        font-weight: 600;
+        font-weight: bold;
     }
 
     .carform__item {
@@ -782,11 +782,11 @@ i.cari {
 }
 
 .fa-map-marker-alt {
-    color: #FC8131;
+    color: #fc8131;
 }
 
 .fa-user {
-    color: #EC3A5C;
+    color: #ec3a5c;
 }
 
 .car-d__top {
@@ -857,8 +857,8 @@ i.cari {
     left: 0;
     content: "";
     position: relative;
-    border-right: 1px solid #0B1E73;
-    border-bottom: 1px solid #0B1E73;
+    border-right: 1px solid #0b1e73;
+    border-bottom: 1px solid #0b1e73;
     -webkit-transform: rotate(135deg);
     -ms-transform: rotate(135deg);
     transform: rotate(135deg);
@@ -886,7 +886,7 @@ i.cari {
 
 .car-d__wraper {
     width: 1000px;
-    background: #FFFFFF;
+    background: #ffffff;
     -webkit-box-shadow: 0px 5px 10px rgba(56, 106, 216, 0.1);
     box-shadow: 0px 5px 10px rgba(56, 106, 216, 0.1);
     -webkit-border-radius: 10px;
@@ -906,7 +906,7 @@ i.cari {
 
 .car-d__wraper h2 {
     margin-top: 40px;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 22px;
     line-height: 159.7%;
     margin-bottom: 27px;

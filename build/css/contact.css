@@ -18,13 +18,15 @@
     font-size: 20px;
     line-height: 159.7%;
     letter-spacing: 0.015em;
+    max-width: 90%;
 }
 
 .contact__text2 {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px;
     line-height: 159.7%;
     letter-spacing: 0.015em;
+    max-width: 81%;
 }
 
 .contact__left {
@@ -105,15 +107,16 @@
 }
 
 .contact__tel i.fa-phone-alt {
-    color: #FE9544;
+    color: #fe9544;
 }
 
 .contact__tel i.fa-whatsapp {
-    color: #2BB927;
+    color: #2bb927;
+    font-size: 26px;
 }
 
 .contact__map i.fa-map-marker-alt {
-    color: #FE9544;
+    color: #fe9544;
 }
 
 .mail {
@@ -122,7 +125,7 @@
     display: inline-block;
     -webkit-background-size: contain;
     background-size: contain;
-    background-color: #FC8131;
+    background-color: #fc8131;
     background-repeat: no-repeat;
     -webkit-mask-image: url(../img/contact/mail.svg);
     mask-image: url(../img/contact/mail.svg);
@@ -141,7 +144,7 @@
 }
 
 .contact__map .contact__tel__item {
-    max-width: 380px;
+    max-width: 390px;
 }
 
 .contact__right {
@@ -158,9 +161,9 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.015em;
-    color: #0B1E73;
+    color: #0b1e73;
     margin-bottom: 20px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 0.5px solid rgba(0, 0, 0, 0.5);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -175,7 +178,7 @@
     height: 170px;
     margin-bottom: 5px;
     font-size: 18px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 0.5px solid rgba(0, 0, 0, 0.5);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -183,7 +186,7 @@
     border-radius: 3px;
     line-height: 24px;
     letter-spacing: -0.015em;
-    color: #0B1E73;
+    color: #0b1e73;
 }
 
 .contact__right input::-webkit-input-placeholder {
@@ -259,11 +262,11 @@
 }
 
 form .contact__right__btn button {
-    background: #B7C0CE;
+    background: #b7c0ce;
 }
 
 form.active-check .contact__right__btn button {
-    background: #FC8131;
+    background: #fc8131;
 }
 
 .contact__right img {
@@ -277,7 +280,8 @@ form.active-check .contact__right__btn button {
     position: absolute;
     z-index: -1;
     top: 100px;
-    left: 200px;
+    left: auto;
+    right: 0;
 }
 
 .map__container {
@@ -352,11 +356,13 @@ form.active-check .contact__right__btn button {
         font-size: 14px;
         line-height: 142.7%;
         margin-bottom: 18px;
+        max-width: 100%;
     }
 
     .contact__text2 {
         font-size: 14px;
         line-height: 142.7%;
+        max-width: 100%;
     }
 
     .contact__tel__item {

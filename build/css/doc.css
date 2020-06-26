@@ -11,7 +11,7 @@
 }
 
 .dtabs__level1 {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 22px;
     line-height: 30px;
     letter-spacing: -0.015em;
@@ -27,7 +27,7 @@
 }
 
 .dtab.active {
-    color: #316BD2;
+    color: #316bd2;
 }
 
 .dcon {
@@ -55,7 +55,7 @@
     margin: 10px 0;
     margin-left: 5px;
     padding-left: 16px;
-    border-left: 1px solid #316BD2;
+    border-left: 1px solid #316bd2;
 }
 
 .dtabs__level1 {
@@ -208,8 +208,8 @@
         transition: 0.3s all;
         margin-left: 10px;
         height: 15px;
-        border-right: 1px solid #0B1E73;
-        border-bottom: 1px solid #0B1E73;
+        border-right: 1px solid #0b1e73;
+        border-bottom: 1px solid #0b1e73;
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
@@ -258,15 +258,15 @@
         margin-left: 10px;
         height: 15px;
         margin-top: -10px;
-        border-right: 1px solid #0B1E73;
-        border-bottom: 1px solid #0B1E73;
+        border-right: 1px solid #0b1e73;
+        border-bottom: 1px solid #0b1e73;
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
     }
 
     .dtab span.active {
-        color: #316BD2;
+        color: #316bd2;
     }
 
     .dtab span.active:after {

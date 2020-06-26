@@ -5,6 +5,9 @@ $(function(){
 	}
 	
 
+	
+
+
 	// слайдеры
 	$('.s4__slider').slick({
 	  centerMode: true,
@@ -41,7 +44,6 @@ $(function(){
 			s5ToTop = $('.section5').offset().top - $('.section5').height() * 1
 		}
 		
-		console.log(s5ToTop)
 		$(window).scroll(function () {
 		  if ($(this).scrollTop() > s1h && $(this).scrollTop() < s5ToTop) {
 		    $('.produc__fix').fadeIn()
@@ -220,18 +222,46 @@ $(function(){
 
 
 	
-
+	//доп возможности
+	$('.cardrdopva a').click(function(){
+		$(this).toggleClass('active')
+		$(this).parents('.dopv').find('.hidden').slideToggle(200)
+	})
 
 	//не активная кнопка формы
 	$('.notactive .chekbox label').click(function(){
+
 		$(this).parents('.notactive').toggleClass('active')
 	})
 
+	//фидбек счетчик
+	let maxlenth = $('.feedback__content textarea').attr('maxlength')
 
+	$('.feedback__content textarea').keyup(function(){
+
+		let nowlenth = $('.feedback__content textarea').val().length
+		if(nowlenth > 0){
+			$('.feadbtn').addClass('active')
+		}
+		if(nowlenth == 0){
+			$('.feadbtn').removeClass('active')
+		}
+		$('.feadbackcount span').html(maxlenth - nowlenth)
+	})
 	//автозаполнения поля по нажатию на кнопку
+	let flagtexrea = false
+
+	$('.s5__input textarea').click(function(){
+		if( flagtexrea == false){
+			$(this).val('Здравствуйте ');
+			flagtexrea == true
+		}
+		
+	})
 	$('.auto__wrap div').click(function(){
 		let autotext = $(this).attr('data-text')
-		$(this).parents('.auto-text').find('textarea').val(autotext)
+		let valtext = $(this).parents('.auto-text').find('textarea').val()
+		$(this).parents('.auto-text').find('textarea').val(valtext + " \n" + autotext)
 		
 	})
 
@@ -306,7 +336,7 @@ $(function(){
 
 	//страница документы
 	$('.dtabs__level1').click(function(){
-
+		let thisdtab = $(this)
 		
 		if($(window).width() > 767){
 			if($(this).hasClass('active') == 0){
@@ -314,10 +344,16 @@ $(function(){
 				$('.dtabs__head__wrap').slideUp(200)
 				$(this).addClass('active')
 				$(this).next('.dtabs__head__wrap').slideToggle(200)
+
+				setTimeout(function(e){
+					thisdtab.next('.dtabs__head__wrap').find('.dtab').eq(0).click()
+				},200)
 			}
 		}else{
 			$(this).toggleClass('active')
 			$(this).next('.dtabs__head__wrap').slideToggle(200)
+
+			
 		}
 			
 	})
@@ -347,6 +383,32 @@ $(function(){
 		}
 	})
 
+	if($('.dtabs__level1').length){
+		$('[data-fancybox="gallery"]').fancybox({
+			btnTpl: {
+		    download:
+		      '<a download data-fancybox-download class="fancybox-button fancybox-button--download" title="{{DOWNLOAD}}" href="javascript:;">' +
+		      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.62 17.09V19H5.38v-1.91zm-2.97-6.96L17 11.45l-5 4.87-5-4.87 1.36-1.32 2.68 2.64V5h1.92v7.77z"/></svg>' +
+		      "</a>",
+		    },
+		    buttons: [
+		    "download",
+		    "close"
+		  ]
+		});
+		$('[data-fancybox="gallery2"]').fancybox({
+			btnTpl: {
+		    download:
+		      '<a download data-fancybox-download class="fancybox-button fancybox-button--download" title="{{DOWNLOAD}}" href="javascript:;">' +
+		      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.62 17.09V19H5.38v-1.91zm-2.97-6.96L17 11.45l-5 4.87-5-4.87 1.36-1.32 2.68 2.64V5h1.92v7.77z"/></svg>' +
+		      "</a>",
+		    },
+		    buttons: [
+		    "download",
+		    "close"
+		  ]
+		});
+	}
 	
 
 	//карьера
