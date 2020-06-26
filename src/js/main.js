@@ -577,5 +577,9 @@ $(function(){
     }
   
 
-
+    //
+    $('.blog__more a').click(function(){
+    	$(this).toggleClass('active')
+    	$(this).parents('.iblog').find('.hidden').slideToggle()
+    })
 })

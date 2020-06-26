@@ -7,7 +7,7 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 0 -10px;
-    margin-bottom: -26px;
+    margin-bottom: 0px;
 }
 
 .blog__item {
@@ -117,6 +117,10 @@
     margin-bottom: 69px;
 }
 
+.hidden {
+    display: none;
+}
+
 .blog__more {
     display: -webkit-box;
     display: -webkit-flex;
@@ -149,6 +153,15 @@
 .blog__more a i {
     margin-left: 10px;
     font-size: 14px;
+    -webkit-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+.blog__more a.active i {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    margin-top: 2px;
 }
 
 .blog__partner {
