@@ -1005,11 +1005,12 @@
 .multi .s1__text .title {
   max-width: 628px;
 }
-.multi.s1 img {
+/*.multi.s1 img {
   right: -109px;
   top: 42%;
   width: 62%;
-}
+}*/
+
 
 /*оператор*/
 
@@ -2337,4 +2338,183 @@ span.minus {
 }
 .feadbackcount span{
   margin: 0 5px;
+}
+
+.s1 .p-animmono img{
+  position: relative;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  top: auto;
+  transform: translate(0);
+}
+.s1{
+  .p-animmono {
+    display: inline-block;
+    position: absolute;
+    right: -100px;
+    top: -85px;
+    z-index: -1;
+  }
+  .p-animmono__test {
+      display: block;
+      width: auto;
+      height: auto;
+      opacity: 0;
+  }
+  .p-animmono__wrapmonitor {
+      position: absolute;
+      display: block;
+      max-width: 67%;
+      height: auto;
+      width: 100%;
+      top: 5.4%;
+      left: 37%;
+      z-index: 2;
+  }
+  .p-animmono__monitorimg {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+  .p-animmono__wrapline {
+      display: block;
+      position: absolute;
+      max-width: 27%;
+      height: auto;
+      width: 100%;
+      top: 60%;
+      left: 19.4%;
+      z-index: 1;
+  }
+  .p-animmono__lineimg {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+  .p-animmono__wrapmodems {
+      position: absolute;
+      display: block;
+      max-width: 59%;
+      height: auto;
+      width: 100%;
+      top: 46.4%;
+      left: 6%;
+      z-index: 2;
+  }
+  .p-animmono__modemsimg {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+  .p-animmono__wrappatern {
+      position: absolute;
+      display: block;
+      max-width: 82.6%;
+      height: auto;
+      width: 100%;
+      top: 22.4%;
+      left: 8%;
+      z-index: -1;
+  }
+  .p-animmono__paternimg {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+  .p-animmono__row {
+
+  }
+  .p-animmono__round {
+      position: absolute;
+      z-index: 1;
+      max-width: 1.69%;
+  }
+  .p-animmono__roundimg {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+  .p-animmono__round-green {
+      left: 43%;
+      top: 55.2%;
+  }
+  .p-animmono__round-blue {
+      left: 46%;
+      top: 57%;
+  }
+  .p-animmono__round-red {
+      left: 49%;
+      top: 59%;
+  }
+  .p-animmono__monwrapper {
+      position: absolute;
+      top: 6%;
+      left: 46.4%;
+      width: 100%;
+      max-width: 29%;
+      z-index: 3;
+      height: 100px;
+  }
+  /*
+  .p-animmono__monwrapper::before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 100px solid red;
+      border-left: 100px solid transparent;
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+  .p-animmono__monwrapper::after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-bottom: 100px solid red;
+      border-right: 100px solid transparent;
+      left: 0;
+      bottom: 0;
+  }
+  */
+  .p-animmono__mon {
+
+  }
+  .p-animmono__monitem {
+      height: 60px;
+      display: none;
+  }
+
+  .p-animmono__monitem.first {
+      opacity: 1;
+      display: block !important;
+  }
+  .p-animmono__monitem.second {
+      opacity: .7;
+      display: block !important;
+  }
+  .p-animmono__monitem.thirs {
+      opacity: .4;
+      display: block !important;
+  }
+  .p-animmono__monimg {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+  .p-animmono__mon .slick-list {
+
+  }
+  .p-animmono__mon .slick-slide {
+      outline: none !important;
+  }
+}
+
+
+@media(max-width: 1023px){
+  .s1 .p-animmono{
+    right: auto;
+    top: 0;
+    position: relative;
+  }
 }
