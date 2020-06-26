@@ -308,7 +308,9 @@
 }
 
 .tab {
-    width: 122px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
     display: inline-block;
     -webkit-transition: 0.3s all;
     -o-transition: 0.3s all;
