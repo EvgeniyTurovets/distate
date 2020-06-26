@@ -753,8 +753,10 @@
     padding-right: 0;
 }
 
-.suport__item.revers .img {
-    width: 87%;
+@media (min-width: 1024px) {
+    .suport__item.revers img {
+        width: 87%;
+    }
 }
 
 .suport__text a {
