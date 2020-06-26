@@ -13,7 +13,7 @@ $(function(){
 	  centerMode: true,
 	  autoplay: true,
 	  autoplaySpeed: 5000,
-	  speed: 500,
+	  speed: 800,
 	  centerPadding: '10px',
 	  slidesToShow: 1,
 	  prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fas fa-chevron-left'></i></button>",

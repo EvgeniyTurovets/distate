@@ -13,7 +13,7 @@ $(function(){
 	  centerMode: true,
 	  autoplay: true,
 	  autoplaySpeed: 5000,
-	  speed: 500,
+	  speed: 800,
 	  centerPadding: '10px',
 	  slidesToShow: 1,
 	  prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fas fa-chevron-left'></i></button>",
@@ -172,7 +172,7 @@ $(function(){
 	$(".wrapper .tab").click(function() {
 		if($(window).width() > 767){
 			$(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-			$(".tab_item").hide().eq($(this).index()).fadeIn()
+			$(".tab_item").hide().eq($(this).index()).fadeIn(600)
 		}
 	}).eq(0).addClass("active");
 

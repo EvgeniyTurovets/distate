@@ -154,7 +154,8 @@
 .blog__partner {
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: 0.015em;
+    font-weight: bold;
+    letter-spacing: -0.015em;
     color: #778BA3;
     position: absolute;
     bottom: 15px;

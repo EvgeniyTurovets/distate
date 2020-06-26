@@ -12,7 +12,7 @@
 }
 .s1__text .title {
   margin-bottom: 34px;
-  max-width: 600px;
+  max-width: 660px;
 }
 .s1__text ul li {
   font-size: 22px;
@@ -42,7 +42,7 @@
 
 .s2 {
   position: relative;
-  padding: 63px 0;
+  padding: 60px 0;
 }
 .s2__p {
   font-size: 22px;
@@ -62,7 +62,7 @@
   min-width: 1920px;
 }
 .s2 .title {
-  margin-bottom: 76px;
+  margin-bottom: 65px;
 }
 .s2__wrap {
   margin-top: 60px;
@@ -216,7 +216,8 @@
   font-weight: 600;
 }
 .tab {
-  width: 122px;
+  min-width: 132px;
+  width: max-content;
   display: inline-block;
   transition: 0.3s all;
   font-size: 22px;
@@ -224,17 +225,16 @@
   line-height: 30px;
   cursor: pointer;
   margin-right: 60px;
-  transition: 0.3s all;
 }
 .tab:hover {
-  color: inherit;
+ font-weight: 600;
 }
 .tab.active::after {
   content: "";
   margin-top: 5px;
   display: block;
-  height: 1px;
-  width: 70%;
+  height: 2px;
+  width: 40%;
   transition: 0.3s all;
   background: -webkit-linear-gradient(174.38deg, #fc8131 1.16%, #fe9544 98.84%);
   background: -o-linear-gradient(174.38deg, #fc8131 1.16%, #fe9544 98.84%);
@@ -243,7 +243,7 @@
 .tab::after {
   content: "";
   display: block;
-  height: 1px;
+  height: 2px;
   margin-top: 5px;
   transition: 0.3s all;
   width: 0px;
@@ -527,8 +527,11 @@
   white-space: nowrap;
 }
 .suport__item.revers .suport__text {
-  padding-left: 6%;
+  padding-left: 2%;
   padding-right: 0;
+}
+.suport__item.revers .img{
+  width: 87%;
 }
 .suport__text a {
   margin-top: 20px;
@@ -679,6 +682,7 @@
 }
 .cadrtabs .tab {
   width: max-content;
+  min-width: 150px;
 }
 
 .cadrtabs .tab_item_wrap {
@@ -1300,6 +1304,7 @@ span.minus {
   }
 }
 @media (max-width: 1023px) {
+
   .s2 .title {
     margin-bottom: 40px;
   }
@@ -1326,6 +1331,7 @@ span.minus {
   .suport .title {
     margin-bottom: 40px;
   }
+
   .s1__text {
     width: 80%;
   }
@@ -1355,7 +1361,11 @@ span.minus {
   }
   .tab {
     width: 115px;
+    min-width: auto;
     margin-right: 50px;
+  }
+  .cadrtabs .tab{
+    min-width: auto;
   }
   .tab_item_wrap {
     flex-direction: column;
@@ -1380,7 +1390,10 @@ span.minus {
     margin-bottom: 0;
     justify-content: space-between;
     align-items: center;
-    transform: scale(0.8) translateX(-12%);
+    transform: scale(1) translateX(0);
+  }
+  .dopv__item:hover .dopv__title{
+    transform: scale(1) translateX(0);
   }
   .dopv__item p {
     opacity: 1;

@@ -51,6 +51,7 @@
 .cripto {
   display: flex;
   padding-top: 44px;
+  padding-bottom: 100px;
 }
 .cripto__header {
   background: linear-gradient(283.8deg, #fc8131 1.16%, #fe9544 98.84%);
@@ -235,6 +236,7 @@
 .cripto__fix-right button {
   font-size: 20px;
   line-height: 27px;
+  width: 177px;
   background: linear-gradient(276.5deg, #fc8131 1.16%, #fe9544 98.84%);
   border-radius: 25px;
   border: 0;
