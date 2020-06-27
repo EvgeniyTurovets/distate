@@ -428,7 +428,7 @@ a {
 #app {
     position: relative;
     overflow-x: hidden;
-    padding-top: 127px;
+    padding-top: 124px;
 }
 
 body {
@@ -455,7 +455,7 @@ body {
 }
 
 .header {
-    padding-top: 30px;
+    padding-top: 22px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -520,7 +520,7 @@ body {
 }
 
 .header__top a {
-    margin-left: 40px;
+    margin-left: 36px;
     display: inline-block;
     -webkit-transition: 0.3s all;
     -o-transition: 0.3s all;
@@ -537,7 +537,7 @@ body {
 
 @media (min-width: 768px) {
     .logo {
-        width: 159px;
+        width: 165px;
     }
 }
 
@@ -565,8 +565,16 @@ body {
     line-height: 27px;
 }
 
+@media (min-width: 1200px) {
+    .logo__wraper span {
+        margin-left: 14px;
+        padding-left: 14px;
+        letter-spacing: 0.03em;
+    }
+}
+
 .header nav ul li {
-    margin-left: 40px;
+    margin-left: 37px;
     list-style: none;
     display: inline-block;
     -webkit-transition: 0.3s all;
@@ -808,12 +816,12 @@ button:focus {
 }
 
 .footer__conf {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .footer__conf > a {
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-weight: bold;
     font-size: 15px;
     line-height: 24px;
@@ -907,14 +915,21 @@ button:focus {
     flex-wrap: wrap;
     position: relative;
     margin-bottom: -40px;
-    margin-right: -75px;
+    margin-right: -50px;
     height: 385px;
-    width: 75%;
+    width: 73%;
 }
 
 .footer__menu {
     margin-right: 75px;
-    margin-bottom: 40px;
+    margin-bottom: 37px;
+}
+
+@media (min-width: 1200px) {
+    .footer__menu:last-child {
+        position: relative;
+        right: -28px;
+    }
 }
 
 .footer__right__item {
@@ -949,7 +964,7 @@ button:focus {
 
 .footer {
     background-color: #f6f8fd;
-    margin-top: 26px;
+    margin-top: 28px;
 }
 
 .footer__bot {
@@ -1097,9 +1112,9 @@ button:focus {
 
 .s5__img {
     position: absolute;
-    top: -45px;
+    top: -50px;
     z-index: 1;
-    right: 86px;
+    right: 79px;
 }
 
 .s5__form input::-webkit-input-placeholder {
@@ -1154,7 +1169,7 @@ button:focus {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .s5__left {
@@ -1194,7 +1209,7 @@ button:focus {
     box-sizing: border-box;
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    height: 136px;
+    height: 135px;
     padding: 15px;
     width: 100%;
     margin-bottom: -15px;

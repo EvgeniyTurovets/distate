@@ -273,7 +273,7 @@ a {
 #app {
   position: relative;
   overflow-x: hidden;
-  padding-top: 127px;
+  padding-top: 124px;
 }
 body {
   min-width: 320px;
@@ -294,7 +294,7 @@ body {
   }
 }
 .header {
-  padding-top: 30px;
+  padding-top: 22px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -333,7 +333,7 @@ body {
   margin-right: 13px;
 }
 .header__top a {
-  margin-left: 40px;
+  margin-left: 36px;
   display: inline-block;
   transition: 0.3s all;
 }
@@ -345,7 +345,7 @@ body {
 }
 @media (min-width: 768px) {
   .logo {
-    width: 159px;
+    width: 165px;
   }
 }
 .logo__wraper {
@@ -364,8 +364,15 @@ body {
   border-left: 1px solid #5d637c;
   line-height: 27px;
 }
+@media(min-width: 1200px){
+  .logo__wraper span {
+    margin-left: 14px;
+    padding-left: 14px;
+    letter-spacing: 0.03em;
+  }
+}
 .header nav ul li {
-  margin-left: 40px;
+  margin-left: 37px;
   list-style: none;
   display: inline-block;
   transition: 0.3s all;
@@ -533,11 +540,11 @@ button:focus {
   display: flex;
 }
 .footer__conf {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .footer__conf > a {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-weight: bold;
   font-size: 15px;
   line-height: 24px;
@@ -596,13 +603,19 @@ button:focus {
   flex-wrap: wrap;
   position: relative;
   margin-bottom: -40px;
-  margin-right: -75px;
+  margin-right: -50px;
   height: 385px;
-  width: 75%;
+  width: 73%;
 }
 .footer__menu {
   margin-right: 75px;
-  margin-bottom: 40px;
+  margin-bottom: 37px;
+}
+@media(min-width: 1200px){
+  .footer__menu:last-child{
+    position: relative;
+    right: -28px;
+  }
 }
 .footer__right__item {
   display: flex;
@@ -618,7 +631,7 @@ button:focus {
 }
 .footer {
   background-color: #f6f8fd;
-  margin-top: 26px;
+  margin-top: 28px;
 }
 .footer__bot {
   border-top: 0.5px solid #515154;
@@ -716,9 +729,9 @@ button:focus {
 }
 .s5__img {
   position: absolute;
-  top: -45px;
+  top: -50px;
   z-index: 1;
-  right: 86px;
+  right: 79px;
 }
 .s5__form input::placeholder {
   font-size: 15px;
@@ -743,7 +756,7 @@ button:focus {
 }
 .s5__input {
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
 
 .s5__left {
@@ -773,7 +786,7 @@ button:focus {
   border: 0.5px solid rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   border-radius: 3px;
-  height: 136px;
+  height: 135px;
   padding: 15px;
   width: 100%;
   margin-bottom: -15px;
