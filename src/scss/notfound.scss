@@ -11,7 +11,6 @@
 #app{
     display: flex;
     min-height: 100vh;
-    min-height: -webkit-fill-available;
 }
 .notfound img{
     height: 520px;
@@ -53,13 +52,14 @@
     line-height: 27px;
     font-weight: bold;
 }
-@media(max-width: 768px){
+@media(max-width: 767px){
     .notfound img{
         height: auto;
         width: 100%;
     }
     .notfound{
         min-height: auto;
+        height: 500px;
     }
     .notfound__wrap span{
         font-size: 16px;
