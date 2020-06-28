@@ -30,6 +30,11 @@ $(function(){
 	   ]
 	});
 
+	
+
+
+	
+	
 
 	//плашка внизу в продуктах
 	if($('.produc__fix').length){
@@ -577,9 +582,88 @@ $(function(){
     }
   
 
-    //
+    //блог
     $('.blog__more a').click(function(){
     	$(this).toggleClass('active')
     	$(this).parents('.iblog').find('.hidden').slideToggle()
-    })
+	})
+	
+	//о компанни слайдер
+	if($('.o-slider').length){
+
+		$('.o-slider__wrap').slick({
+			slidesToShow: 3,
+			
+			arrows: true,
+			draggable: true,
+			slidesToScroll: 1,
+			prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fas fa-chevron-left'></i></button>",
+			nextArrow: "<button type='button' class='slick-next pull-left'><i class='fas fa-chevron-right'></i></button>",
+			infinite: false,
+			responsive: [
+				{
+				  breakpoint: 1199,
+				  settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				  }
+				},
+				{
+					breakpoint: 1023,
+					settings: {
+					  slidesToShow: 2,
+					  slidesToScroll: 2,
+					  variableWidth: false,
+					  arrows: false
+					}
+				},
+				{
+					breakpoint: 767,
+					settings: {
+					  slidesToShow: 1,
+					  slidesToScroll: 1,
+					  arrows: false
+					}
+				}
+			]
+			
+		});
+
+		$('.o-slider_dots__li').click(function(){
+			if($(window).width()  > 1199){
+				if($(this).index() < 5){
+					$( '.o-slider__wrap' ).slick('slickGoTo', $(this).index());
+				}else{
+					$( '.o-slider__wrap' ).slick('slickGoTo', 4);
+				}
+			}
+			else{
+				$( '.o-slider__wrap' ).slick('slickGoTo', $(this).index());
+			}
+			
+			slickClass()
+		})
+
+		$('.slick-arrow').click(function(){
+			slickClass()
+		})
+
+		function slickClass(){
+			$('.o-slider_dots__li').removeClass('ye')
+			for(let i = 0; i < $('.slick-slide.slick-active').length; i++){
+				let slideIndex = $('.slick-slide.slick-active').eq(i).index()
+				$('.o-slider_dots__li').eq(slideIndex).addClass('ye')
+			}
+		}
+
+		$('.o-slider__wrap').on('swipe', function(event, slick, direction){
+			slickClass()
+			
+		});
+		
+		slickClass()
+		
+		
+	}
+	
 })
