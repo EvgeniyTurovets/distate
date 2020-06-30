@@ -69,8 +69,8 @@
 .p-documents1.s1 img {
     background-image: url("../img/fon/fon1.png");
     background-repeat: no-repeat;
-    -webkit-background-size: 75% 75%;
-    background-size: 75%;
+    -webkit-background-size: 85% 85%;
+    background-size: 85%;
     background-position: 15px;
 }
 
@@ -342,8 +342,8 @@
 @media (min-width: 1200px) {
     .forho__fon {
         right: 0;
-        width: 630px;
-        height: 594px;
+        width: 610px;
+        height: 626px;
         position: absolute;
         top: 15px;
     }
@@ -689,7 +689,7 @@
 
 .dopv__item:before {
     content: "";
-    z-index: 2;
+    z-index: 1;
     position: absolute;
     left: 0px;
     top: -1px;
@@ -978,28 +978,28 @@
 }
 
 .feedback__content textarea::-webkit-input-placeholder {
-    font-family: OpenSans, sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 18px;
     line-height: 24px;
     color: #a5b0c2;
 }
 
 .feedback__content textarea::-moz-placeholder {
-    font-family: OpenSans, sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 18px;
     line-height: 24px;
     color: #a5b0c2;
 }
 
 .feedback__content textarea::-ms-input-placeholder {
-    font-family: OpenSans, sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 18px;
     line-height: 24px;
     color: #a5b0c2;
 }
 
 .feedback__content textarea::placeholder {
-    font-family: OpenSans, sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 18px;
     line-height: 24px;
     color: #a5b0c2;
@@ -1296,6 +1296,8 @@
     top: 45%;
     width: 714px;
     background-position: 50%;
+    -webkit-background-size: 85% 85%;
+    background-size: 85%;
     background-image: url("../img/fon/fon2.png");
 }
 
@@ -2997,6 +2999,7 @@ span.minus {
 
     .dopv__item {
         padding: 15px;
+        padding-left: 30px;
     }
 
     .dopv__title {
@@ -3580,12 +3583,14 @@ span.minus {
         margin-top: -7px;
     }
 
-    .tab_item:nth-child(1) .tab_item_wrap img {
-        width: 500px;
-        right: 27px;
+    .cadrtabs .tab_item:nth-child(1) .tab_item_wrap img {
+        width: 499px;
+        right: 21px;
+        height: 337px;
+        bottom: 7px;
     }
 
-    .tab_content {
+    .cadrtabs .tab_content {
         height: 249px;
     }
 
@@ -3595,5 +3600,28 @@ span.minus {
 
     .cadrtabs .tab_item_wrap div p {
         margin-bottom: 20px;
+    }
+
+    .p-doc-stabs .tab {
+        min-width: 100px;
+        margin-right: 56px;
+    }
+
+    .cardperevagi.perevagi {
+        margin-top: -4px;
+    }
+
+    .funtional {
+        padding-top: 64px;
+        padding-bottom: 70px;
+    }
+
+    .cardrdopv.dopv {
+        padding: 120px;
+        padding-bottom: 45px;
+    }
+
+    .cardrdopv.dopv .title {
+        margin-bottom: 90px;
     }
 }
