@@ -765,6 +765,13 @@
   bottom: 20px;
   width: 35%;
 }
+@media(min-width: 1200px){
+  .cadrtabs .tab_item_wrap img{
+    right: 0;
+    left: auto;
+    top: auto;
+  }
+}
 .cadrtabs .tab_item_wrap .tab-img-unic {
   width: auto;
   height: 320px;
