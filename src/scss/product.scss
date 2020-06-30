@@ -2,6 +2,14 @@
   padding: 90px 0;
   position: relative;
 }
+@media(min-width: 1200px){
+  .s1{
+    padding-top: 92px;
+  }
+  .cadrs1{
+    padding-top: 95px;
+  }
+}
 .s1 .wrap {
   position: relative;
 }
@@ -37,6 +45,18 @@
   transform: translateY(-40%);
   width: 53%;
   z-index: -1;
+  
+}
+.p-documents1.s1 img{
+  background-image: url('../img/fon/fon1.png');
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: 15px;
+}
+.oper.s1 img{
+  background-image: url('../img/fon/fon3.png');
+  background-repeat: no-repeat;
+  background-size: 85%;
 }
 .s1 button {
   margin-top: 47px;
@@ -78,12 +98,17 @@
 .s2__item {
   width: calc(100% / 2);
 }
+@media(min-width: 1200px){
+  .s2__item:last-child{
+    padding-left: 10px;
+  }
+}
 .s2__item img {
   margin-bottom: 26px;
   max-height: 125px;
 }
 .s2__item div {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 22px;
   line-height: 142.7%;
   letter-spacing: -0.015em;
@@ -106,7 +131,7 @@
   flex-wrap: wrap;
 }
 .voz__title {
-  margin-bottom: 20px;
+  margin-bottom: 17px;
   font-size: 22px;
   line-height: 30px;
   font-weight: bold;
@@ -168,7 +193,7 @@
 }
 .forho__wrap {
   margin: 0 -10px;
-  width: 50%;
+  width: 51%;
   display: flex;
   height: max-content;
   flex-wrap: wrap;
@@ -358,7 +383,7 @@
 }
 .perevagi__item__img {
   min-width: 80px;
-  margin-right: 21px;
+  margin-right: 18px;
   height: 68px;
   display: flex;
   position: relative;
@@ -426,7 +451,7 @@
   min-width: 2100px;
 }
 .dopv .title {
-  margin-bottom: 98px;
+  margin-bottom: 102px;
 }
 .dopv__wrap {
   margin: 0 -10px;
@@ -456,6 +481,12 @@
   padding: 32px 31px;
   margin-bottom: 20px;
   border-left: 0;
+}
+@media(min-width: 1200px){
+  .dopv__item {
+    padding-right: 26px;
+  }
+  
 }
 .dopv__item:hover .dopv__title {
   transform: scale(0.8) translateX(-12%);
@@ -517,7 +548,7 @@
   max-width: 877px;
 }
 .suport .title {
-  margin-bottom: 75px;
+  margin-bottom: 73px;
 }
 .suport__wrap {
   display: flex;
@@ -531,7 +562,7 @@
 }
 @media(min-width: 1200px){
   .revers   .suport__title{
-    margin-top: 60px;
+    margin-top: 50px;
   }
   .revers  .suport__btn{
     padding: 19px 60px;
@@ -557,7 +588,7 @@
   font-weight: bold;
   font-size: 18px;
   transition: 0.3s all;
-  margin-top: 46px;
+  margin-top: 39px;
 }
 .suport__btn:hover {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
@@ -573,10 +604,9 @@
   align-items: center;
 }
 .suport__p {
-  max-width: 94%;
+  max-width: 91%;
   font-size: 22px;
   line-height: 142.7%;
-  letter-spacing: 0.015em;
 }
 .suport__p a {
   text-decoration: underline;
@@ -595,7 +625,8 @@
 }
 
 .suport__text a {
-  margin-top: 20px;
+  margin-top: 18px;
+  margin-bottom: 8px;
 }
 .feedback{
   margin-bottom: 73px;
@@ -708,10 +739,10 @@
   width: 600px;
   margin-left: 200px;
 }
+
 .big__p {
   font-size: 22px;
   line-height: 142.7%;
-  letter-spacing: 0.015em;
 }
 
 .cadr2 {
@@ -882,6 +913,8 @@
   right: -20px;
   top: 45%;
   width: 714px;
+  background-position: 50%;
+  background-image: url('../img/fon/fon2.png');
 }
 
 /*мультипровайдер*/
@@ -946,8 +979,10 @@
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  top: -45%;
+  top: -35%;
   z-index: -2;
+
+  height: 1100px;
   min-width: 2100px;
 }
 .multifunc .wrapper {
@@ -1073,11 +1108,7 @@
 .multi .s1__text .title {
   max-width: 628px;
 }
-/*.multi.s1 img {
-  right: -109px;
-  top: 42%;
-  width: 62%;
-}*/
+
 
 
 /*оператор*/
@@ -1718,6 +1749,7 @@ span.minus {
     position: relative;
     transform: translate(0, 0);
     margin-top: 25px;
+    right: auto;
   }
   .s1 {
     padding: 50px 0;
@@ -2418,7 +2450,9 @@ span.minus {
   bottom: auto;
   top: auto;
   transform: translate(0);
+  
 }
+
 .s1{
   .p-animmono {
     display: inline-block;
@@ -2487,6 +2521,9 @@ span.minus {
       top: 22.4%;
       left: 8%;
       z-index: -1;
+  }
+  .p-animmono__wrappatern img{
+    display: none;
   }
   .p-animmono__paternimg {
       width: 100%;
@@ -2587,5 +2624,50 @@ span.minus {
     right: auto;
     top: 0;
     position: relative;
+  }
+}
+
+
+
+
+//пиксельперфт
+@media(min-width: 1200px){
+  .cadr2__top p{
+    margin-left: 207px;
+  }
+  .cadr__item p{
+    font-size: 18px;
+    line-height: 142.7%;
+  }
+  .cadr__item{
+    padding-right: 15px;
+  }
+  .cadr__item:nth-child(3){
+    margin-top: 165px;
+    padding-left: 12px;
+    padding-right: 0;
+  }
+  .cadr__item:nth-child(3) img{
+    margin-left: 0;
+  }
+  .cadr__item:nth-child(2){
+    padding-right: 0;
+    padding-left: 5px;
+  }
+  .cadrtabs{
+    margin-top: -7px;
+  }
+  .tab_item:nth-child(1) .tab_item_wrap img{
+    width: 500px;
+    right: 27px;
+  }
+  .tab_content{
+    height: 249px;
+  }
+  .cadrtabs .tab_item_wrap{
+    padding: 34px;
+  }
+  .cadrtabs .tab_item_wrap div p{
+    margin-bottom: 20px;
   }
 }

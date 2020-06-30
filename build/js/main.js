@@ -5,13 +5,11 @@ $(function(){
 	}
 	
 
-	
-
-
 	// слайдеры
 	$('.s4__slider').slick({
 	  centerMode: true,
 	  autoplay: true,
+	  infinite: true,
 	  autoplaySpeed: 5000,
 	  speed: 800,
 	  centerPadding: '10px',
@@ -30,10 +28,6 @@ $(function(){
 	   ]
 	});
 
-	
-
-
-	
 	
 
 	//плашка внизу в продуктах
@@ -135,6 +129,13 @@ $(function(){
 			$('.header').removeClass('m-open')
 		}
 	})
+	$('.header__top').hover(function(){
+		if($(window).width() > 1023){
+			$('.header nav ul li').removeClass('active')
+			$('.header').removeClass('m-open')
+		}
+	})
+	
 	
 
 	//Акордеон в футере

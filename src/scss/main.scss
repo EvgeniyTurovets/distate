@@ -24,10 +24,10 @@
 .s1__img {
   position: absolute;
   right: -115px;
-  top: 56px;
+  top: 54px;
   width: auto;
   z-index: -1;
-  max-width: 880px;
+  max-width: 887px;
 }
 .s1__fon {
   width: auto;
@@ -123,16 +123,17 @@
 @media(min-width: 1200px){
   .s2__p__bot a span {
     position: relative;
-    margin-right: 9px;
+    margin-right: 13px;
     top: 4px;
   }
 }
 .s2__p__bot {
-  margin: 8px -15px -15px -15px;
+  margin: 8px -20px -15px -20px;
 }
 .s2__p__bot a:hover {
   background-color: #f6f8fd;
   color: $blueh;
+  border-radius: 0 0 10px 10px;
 }
 .s2__p__bot a:hover span {
   border-color: $blueh;
@@ -207,7 +208,7 @@
 @media(min-width: 1200px){
   .s2__f__right {
     padding-left: 28px;
-    padding-top: 17px;
+    padding-top: 9px;
   }
 }
 .s2__f__p {
@@ -237,7 +238,7 @@
   display: flex;
 }
 .section3 .title {
-  margin-bottom: 159px;
+  margin-bottom: 157px;
   max-width: 65%;
 }
 .s3__left {
@@ -245,7 +246,7 @@
   padding-right: 30px;
 }
 .s3__item {
-  margin-bottom: 123px;
+  margin-bottom: 122px;
   display: flex;
 }
 .s3__item__img {
@@ -281,7 +282,7 @@
 
 /*.section4 */
 .section4 {
-  margin-top: -9px;
+  margin-top: -7px;
   position: relative;
 }
 .s4__fon {
@@ -352,15 +353,28 @@
 .s4__slider .slick-list {
   overflow: visible;
 }
+.slick-slide {
+  -webkit-transform: translate3d(0,0,0);
+}
 .s4__slider .slick-slide {
   opacity: 0.5;
   transition: 0.5s all;
   cursor: grab;
   transform: scale(0.8, 0.8);
+  transition: 0.3s all;
 }
 .s4__slider .slick-slide.slick-active {
   opacity: 1;
   transform: scale(1, 1);
+  transition: 0.3s all;
+}
+.slick-slide.slick-cloned{
+  transition: 0.3s all;
+}
+
+
+.slick-track div{
+  transition: 0.3s all;
 }
 @media (max-width: 1023px) {
   .s4__slider .slick-slide {
@@ -409,7 +423,7 @@
   font-size: 40px;
   line-height: 54px;
   font-weight: bold;
-  padding: 0px 33px;
+  padding: 0px 31px;
   color: #c8c8c8;
   transition: 0.3s all;
 }
@@ -429,7 +443,7 @@
   content: "";
   display: block;
   height: 2px;
-  width: 111px;
+  width: 119px;
   transition: 0.3s all;
   background: linear-gradient(275.62deg, #fc8131 1.16%, #fe9544 98.84%);
 }
@@ -552,6 +566,7 @@
 }
 .section6 {
   overflow: hidden;
+  padding-top: 4px;
 }
 
 @media (max-width: 1200px) {
@@ -824,5 +839,18 @@
   .s4__bot img {
     width: calc(100% / 2 - 60px);
     margin: 20px 30px;
+  }
+}
+@media(min-width: 1200px){
+  .s1__fon{
+    width: 67%;
+    left: 33%;
+    height:964px;
+  }
+  .s3__item__img img{
+    min-width: 120px;
+  }
+  .section1 .s1__text p{
+    max-width: 463px;
   }
 }
