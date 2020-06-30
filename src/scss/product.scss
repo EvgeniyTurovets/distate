@@ -294,7 +294,7 @@
   margin-top: 5px;
   display: block;
   height: 2px;
-  width: 40%;
+  width: 65px;
   transition: 0.3s all;
   background: -webkit-linear-gradient(174.38deg, #fc8131 1.16%, #fe9544 98.84%);
   background: -o-linear-gradient(174.38deg, #fc8131 1.16%, #fe9544 98.84%);
@@ -2678,7 +2678,7 @@ span.minus {
 
 
   .p-doc-stabs .tab{
-    min-width: 100px;
+    min-width: 120px;
     margin-right: 56px;
   }
   .cardperevagi.perevagi{
@@ -2694,5 +2694,11 @@ span.minus {
   }
   .cardrdopv.dopv .title{
     margin-bottom: 90px;
+  }
+  .cadrtabs .tab{
+    min-width: 160px;
+  }
+  .multi__cloud{
+    padding-bottom: 198px;
   }
 }

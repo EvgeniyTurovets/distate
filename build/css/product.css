@@ -402,7 +402,7 @@
     margin-top: 5px;
     display: block;
     height: 2px;
-    width: 40%;
+    width: 65px;
     -webkit-transition: 0.3s all;
     -o-transition: 0.3s all;
     transition: 0.3s all;
@@ -3603,7 +3603,7 @@ span.minus {
     }
 
     .p-doc-stabs .tab {
-        min-width: 100px;
+        min-width: 120px;
         margin-right: 56px;
     }
 
@@ -3623,5 +3623,13 @@ span.minus {
 
     .cardrdopv.dopv .title {
         margin-bottom: 90px;
+    }
+
+    .cadrtabs .tab {
+        min-width: 160px;
+    }
+
+    .multi__cloud {
+        padding-bottom: 198px;
     }
 }
