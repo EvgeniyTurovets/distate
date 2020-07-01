@@ -533,7 +533,7 @@ $(function(){
     	$('.first').next('.ctab__wrap').find('.ctab').eq(0).click()
 
     	//акорденон
-    	$('.ctab__item span').click(function(){
+    	$('.ctab__item > span').click(function(){
 
 	    	let ctabSpan = $(this)
 
@@ -546,7 +546,7 @@ $(function(){
 					ctabSpan.addClass('active')
 		    	},200)
 
-		    	$('.ctab__item span').removeClass('active')
+		    	$('.ctab__item > span').removeClass('active')
 	    	}
     	})
 
