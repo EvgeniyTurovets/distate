@@ -15,7 +15,7 @@
   letter-spacing: -0.015em;
 }
 .dtab {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   font-size: 18px;
   cursor: pointer;
   transition: 0.3s all;
@@ -39,8 +39,8 @@
 .dtabs__head__wrap {
   display: none;
   margin: 10px 0;
-  margin-left: 5px;
-  padding-left: 16px;
+  margin-left: 11px;
+  padding-left: 17px;
   border-left: 1px solid #316bd2;
 }
 .dtabs__level1 {
@@ -207,5 +207,15 @@
   .dtab span {
     font-size: 16px;
     line-height: 22px;
+  }
+}
+
+
+@media(min-width: 1200px){
+  .dimg{
+    width: 388px;
+    margin-right: auto;
+    margin-left: 115px;
+    margin-top: 11px;
   }
 }

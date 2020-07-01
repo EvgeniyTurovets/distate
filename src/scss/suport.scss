@@ -168,14 +168,15 @@
   margin-bottom: 69px;
 }
 .supbot__t__l p {
-  margin-bottom: 101px;
+  margin-bottom: 69px;
   font-size: 22px;
   line-height: 142.7%;
 }
+
 .supbot__t__l span {
   font-size: 14px;
   line-height: 19px;
-  margin-top: 12px;
+  margin-top: 8px;
   letter-spacing: -0.015em;
 }
 .supbot__t__r {
@@ -187,7 +188,7 @@
   width: 591px;
   position: relative;
   right: -27px;
-  top: 12px;
+  top: 16px;
 }
 .supbot__t {
   display: flex;
@@ -638,5 +639,14 @@ table {
   }
   .qabot {
     padding: 20px 10px;
+  }
+}
+
+
+@media(min-width: 1200px){
+  .supbot__t__l .btn-o-mini{
+    width: 244px;
+    height: 61px;
+    font-size: 23px;
   }
 }

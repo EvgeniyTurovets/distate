@@ -661,7 +661,8 @@ $(function(){
 		$('.o-slider_dots__li').click(function(){
 			if($(window).width()  > 1199){
 				if($(this).index() < 5){
-					$( '.o-slider__wrap' ).slick('slickGoTo', $(this).index());
+					console.log($(this).index())
+					$( '.o-slider__wrap' ).slick('slickGoTo', $(this).index() - 1);
 				}else{
 					$( '.o-slider__wrap' ).slick('slickGoTo', 4);
 				}

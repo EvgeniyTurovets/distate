@@ -10,15 +10,14 @@
 .contact__text1 {
   font-size: 20px;
   line-height: 159.7%;
-  letter-spacing: 0.015em;
   max-width: 90%;
+  margin-bottom: 6px;
 }
 .contact__text2 {
   font-weight: bold;
   font-size: 18px;
   line-height: 159.7%;
-  letter-spacing: 0.015em;
-  max-width: 81%;
+  max-width: 77%;
 }
 
 .contact__left {
@@ -31,7 +30,7 @@
   flex-direction: column;
 }
 .contact__mail {
-  margin-top: 30px;
+  margin-top: 23px;
   display: flex;
   flex-direction: column;
 }
@@ -43,8 +42,7 @@
 .contact__tel__item {
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: 0.015em;
-  padding-left: 55px;
+  padding-left: 58px;
   margin-bottom: 5px;
   position: relative;
 }
@@ -62,8 +60,8 @@
 }
 .contact__map i {
   position: absolute;
-  left: 0;
-  top: 5px;
+  left: 7px;
+  top: 2px;
 }
 .contact__tel i.fa-phone-alt {
   color: #fe9544;

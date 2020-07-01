@@ -17,6 +17,9 @@
 .car__top {
   padding: 0 48px;
 }
+.car__top .title{
+  font-weight: 600;
+}
 .car .title span {
   color: #fe9544;
 }
@@ -28,11 +31,11 @@
 }
 .car__top__content img {
  /* max-width: 560px;*/
-  position: absolute;
-  right: 50px;
-  width: 512px;
-  top: 60px;
-  height: 517px;
+ position: absolute;
+ right: -18px;
+ width: 590px;
+ top: 68px;
+ height: 500px;
 }
 .car__top__content p {
   max-width: 670px;

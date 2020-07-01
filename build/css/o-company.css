@@ -355,7 +355,6 @@
 
 .o-slider_dots__li.ye {
     color: #FC8131;
-    pointer-events: none;
 }
 
 .uznay {
@@ -426,8 +425,8 @@
     height: 11px;
     width: 11px;
     display: block;
-    border-right: 1px solid #0B1E73;
-    border-bottom: 1px solid #0B1E73;
+    border-right: 2px solid #0B1E73;
+    border-bottom: 2px solid #0B1E73;
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
@@ -666,5 +665,13 @@
 
     .uznay {
         padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .o-company__img {
+        right: auto;
+        width: 900px;
+        left: 44%;
     }
 }

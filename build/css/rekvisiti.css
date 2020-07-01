@@ -43,7 +43,7 @@
 
 .rek__text {
     margin-bottom: 47px;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 22px;
     line-height: 159.7%;
 }
@@ -73,10 +73,9 @@
 }
 
 .rek__left {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 16px;
     line-height: 159.7%;
-    letter-spacing: 0.015em;
     color: #0b1e73;
     margin-right: 15px;
     text-align: right;
@@ -85,17 +84,17 @@
 .rek__right {
     font-size: 16px;
     line-height: 159.7%;
-    letter-spacing: 0.015em;
     padding-right: 45px;
     text-align: left;
     margin-left: 15px;
 }
 
 .rek__left.group {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
     line-height: 159.7%;
-    margin-top: 24px;
+    margin-top: 25px;
+    margin-bottom: -4px;
 }
 
 .rek__download {
@@ -238,5 +237,12 @@
         font-weight: bold;
         font-size: 18px;
         line-height: 142.7%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .rek__item:last-child {
+        margin-top: 55px;
+        margin-bottom: 8px;
     }
 }

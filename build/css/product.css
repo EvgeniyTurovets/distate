@@ -3585,8 +3585,8 @@ span.minus {
     .cadrtabs .tab_item:nth-child(1) .tab_item_wrap img {
         width: 499px;
         right: 21px;
-        height: 337px;
-        bottom: 7px;
+        height: 340px;
+        bottom: -1px;
     }
 
     .cadrtabs .tab_item:nth-child(2) .tab_item_wrap img {

@@ -23,6 +23,10 @@
     padding: 0 48px;
 }
 
+.car__top .title {
+    font-weight: 600;
+}
+
 .car .title span {
     color: #fe9544;
 }
@@ -40,10 +44,10 @@
 .car__top__content img {
   /* max-width: 560px;*/
     position: absolute;
-    right: 50px;
-    width: 512px;
-    top: 60px;
-    height: 517px;
+    right: -18px;
+    width: 590px;
+    top: 68px;
+    height: 500px;
 }
 
 .car__top__content p {

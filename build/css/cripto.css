@@ -86,7 +86,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 17px;
     line-height: 25px;
     letter-spacing: -0.015em;
@@ -106,13 +106,13 @@
 }
 
 .cripto__h__price {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 14px;
     line-height: 19px;
 }
 
 .cripto__header .cripto__h__chang {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 14px;
     line-height: 19px;
     border-right: 0;
@@ -143,7 +143,7 @@
 
 .cripto__num {
     min-width: 55px;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 22px;
     line-height: 30px;
     text-align: center;
@@ -156,7 +156,7 @@
 .cripto__price {
     width: 124px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.015em;
@@ -333,7 +333,7 @@
     border-bottom: 1px solid #0b1e73;
     font-size: 22px;
     line-height: 30px;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0 10px;
 }
 
@@ -423,7 +423,7 @@
 
     .cripto__mob__t {
         font-size: 24px;
-        font-weight: bold;
+        font-weight: 600;
         line-height: 33px;
         text-align: center;
         letter-spacing: 0.015em;
