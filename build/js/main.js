@@ -4,30 +4,53 @@ $(function(){
 		new WOW().init();
 	}
 	
+	// $('.s4__slider').slick({
+	//   centerMode: true,
+	//   autoplay: true,
+	//   infinite: true,
+	//   autoplaySpeed: 5000,
+	//   speed: 1000,
+	//   centerPadding: '10px',
+	//   slidesToShow: 1,
 
-	// слайдеры
-	$('.s4__slider').slick({
-	  centerMode: true,
-	  autoplay: true,
-	  infinite: true,
-	  autoplaySpeed: 5000,
-	  speed: 800,
-	  centerPadding: '10px',
-	  slidesToShow: 1,
-	  prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fas fa-chevron-left'></i></button>",
-      nextArrow: "<button type='button' class='slick-next pull-left'><i class='fas fa-chevron-right'></i></button>",
-      responsive: [
-	    {
-	      breakpoint: 1023,
-	      settings: {
-	        slidesToShow: 1,
-	        slidesToScroll: 1,
-	        centerMode: false
-	      }
-	    },
-	   ]
-	});
-
+	//   prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fas fa-chevron-left'></i></button>",
+    //   nextArrow: "<button type='button' class='slick-prev pull-left'><i class='fas fa-chevron-left'></i></button>",
+    //   responsive: [
+	//     {
+	//       breakpoint: 1023,
+	//       settings: {
+	//         slidesToShow: 1,
+	//         slidesToScroll: 1,
+	//         centerMode: false
+	//       }
+	//     },
+	//    ]
+	   
+	// });
+	if($('.s4__slider').length){
+		$('.s4__slider').owlCarousel({
+			item: 1,
+			nav: true,
+			loop:true,
+			autoWidth:true,
+			margin:30,
+			autoplay: false,
+			autoplayTimeout: 5000,
+			autoplaySpeed: 1000,
+			smartSpeed:1000,
+			center: true,
+			dots: false,
+			responsive: {
+					  1023:{
+						singleItem:true,
+						margin:0
+					  }
+					}
+			
+		});
+		$( ".owl-prev").html("<i class='fas fa-chevron-left'></i>");
+		$( ".owl-next").html("<i class='fas fa-chevron-right'></i>");
+	}
 	
 
 	//плашка внизу в продуктах
@@ -123,7 +146,7 @@ $(function(){
 		}
 		
 	})
-	$('.header__level2 .wrap').mouseleave(function(){
+	$('.header__level2').mouseleave(function(){
 		if($(window).width() > 1023){
 			$('.header nav ul li').removeClass('active')
 			$('.header').removeClass('m-open')
@@ -135,7 +158,12 @@ $(function(){
 			$('.header').removeClass('m-open')
 		}
 	})
-	
+	$('.header nav ul li').eq(4).hover(function(){
+		if($(window).width() > 1023){
+			$('.header nav ul li').removeClass('active')
+			$('.header').removeClass('m-open')
+		}
+	})
 	
 
 	//Акордеон в футере
@@ -255,15 +283,15 @@ $(function(){
 		$('.feadbackcount span').html(maxlenth - nowlenth)
 	})
 	//автозаполнения поля по нажатию на кнопку
-	let flagtexrea = false
 
 	$('.s5__input textarea').click(function(){
-		if( flagtexrea == false){
-			$(this).val('Здравствуйте ');
-			flagtexrea == true
+		if( $(this).val() == ""){
+			$(this).val('Здравствуйте, ');
+			
 		}
 		
 	})
+	
 	$('.auto__wrap div').click(function(){
 		let autotext = $(this).attr('data-text')
 		let valtext = $(this).parents('.auto-text').find('textarea').val()

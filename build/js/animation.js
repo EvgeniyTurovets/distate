@@ -7,8 +7,8 @@ $(function() {
             top: "69.2%"
         }, 1000, function() {
             $('.p-animmono__round-red').animate({
-                left: "45%",
-                top: "75.5%"
+                left: "48%",
+                top: "77.5%"
             }, 1000);
         }, false);
 
@@ -63,8 +63,8 @@ $(function() {
     function thir_anim() {
         setTimeout(function(){
             $('.p-animmono__round-blue').animate({
-                left: "27%",
-                top: "71%"
+                left: "24%",
+                top: "73%"
             }, 1000);
         }, 1000);
 

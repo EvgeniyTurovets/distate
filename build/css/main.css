@@ -787,15 +787,24 @@
 
 .s4__slider .slick-slide.slick-active {
     opacity: 1;
-    -webkit-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    transform: scale(1, 1);
+    -webkit-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.slick-slide.slick-cloned {
     -webkit-transition: 0.3s all;
     -o-transition: 0.3s all;
     transition: 0.3s all;
 }
 
-.slick-slide.slick-cloned {
+.slick-active.slick-my-class {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
     -webkit-transition: 0.3s all;
     -o-transition: 0.3s all;
     transition: 0.3s all;
@@ -1446,5 +1455,88 @@
 
     .section1 .s1__text p {
         max-width: 463px;
+    }
+}
+
+.owl-stage {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@media (min-width: 1024px) {
+    .owl-item {
+        -webkit-transition: 0.3s all;
+        -o-transition: 0.3s all;
+        transition: 0.3s all;
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    .owl-item.center {
+        -webkit-transition: 0.3s all;
+        -o-transition: 0.3s all;
+        transition: 0.3s all;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.owl-prev i, .owl-next i {
+    color: #0B1E73;
+    font-size: 19px;
+}
+
+.owl-prev, .owl-next {
+    background-color: transparent;
+    border: 0;
+    padding: 7px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.owl-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 34px;
+    padding-right: 68px;
+}
+
+.s4__slider {
+    margin-bottom: -69px;
+}
+
+@media (max-width: 1023px) {
+    .s4__slider__item {
+        width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .s4__slider__item {
+        width: 500px;
+    }
+
+    .owl-nav {
+        padding: 0;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 559px) {
+    .s4__slider__item {
+        width: 290px;
     }
 }

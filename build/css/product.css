@@ -66,14 +66,6 @@
     z-index: -1;
 }
 
-.p-documents1.s1 img {
-    background-image: url("../img/fon/fon1.png");
-    background-repeat: no-repeat;
-    -webkit-background-size: 85% 85%;
-    background-size: 85%;
-    background-position: 15px;
-}
-
 .oper.s1 img {
     background-image: url("../img/fon/fon3.png");
     background-repeat: no-repeat;
@@ -84,6 +76,7 @@
 .s1 button {
     margin-top: 47px;
     margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 
 .s1 span {
@@ -266,7 +259,7 @@
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 114px;
+    margin-top: 120px;
 }
 
 .forho__wrap a {
@@ -477,13 +470,14 @@
 
 .tab_img {
     width: 50%;
+    height: auto;
 }
 
 @media (min-width: 1200px) {
-    .tab_img {
+    .p-doc-stabs .tab_img {
         width: 53%;
         position: relative;
-        top: -21px;
+        top: -20px;
         left: 18px;
     }
 }
@@ -917,7 +911,8 @@
     -webkit-background-size: contain;
     background-size: contain;
     background-repeat: no-repeat;
-    -webkit-mask-image: url(../img/yes.svg);
+    -webkit-mask-image: url("../img/yes.svg");
+    mask-image: url("../img/yes.svg");
 }
 
 .feadno:before {
@@ -1293,12 +1288,12 @@
 
 .cadrs1.s1 img {
     right: -20px;
-    top: 45%;
-    width: 714px;
+    top: 44%;
+    width: 711px;
     background-position: 50%;
     -webkit-background-size: 85% 85%;
     background-size: 85%;
-    background-image: url("../img/fon/fon2.png");
+    background-image: none;
 }
 
 /*мультипровайдер*/
@@ -1360,7 +1355,7 @@
     width: calc(100% / 3);
     text-align: center;
     margin: 0 -10px;
-    margin-bottom: 133px;
+    margin-bottom: 149px;
 }
 
 .cloud__item img {
@@ -1368,16 +1363,16 @@
 }
 
 .cloud__item.down {
-    -webkit-transform: translateY(73%);
-    -ms-transform: translateY(73%);
-    transform: translateY(73%);
+    -webkit-transform: translateY(76%);
+    -ms-transform: translateY(76%);
+    transform: translateY(76%);
 }
 
 .cloud__title {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 17px;
 }
 
 .multi__cloud {
@@ -1573,7 +1568,7 @@
 }
 
 .multi .s1__text .title {
-    max-width: 628px;
+    max-width: 631px;
 }
 
 /*оператор*/
@@ -1623,7 +1618,7 @@
 
 .opertable {
     margin-top: 135px;
-    margin-bottom: 151px;
+    margin-bottom: 149px;
 }
 
 span.plus {
@@ -1673,7 +1668,6 @@ span.minus {
     display: block;
     font-size: 22px;
     line-height: 30px;
-    letter-spacing: 0.015em;
 }
 
 .opertable table tbody td:first-child {
@@ -1683,8 +1677,7 @@ span.minus {
 .opertable table tbody td {
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: 0.015em;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .opertable table tbody tr {
@@ -1703,11 +1696,16 @@ span.minus {
 .opertable td {
     border: 0;
     margin: 0;
-    padding: 25px 25px;
+    padding: 0px 25px;
+    height: 80px;
+}
+
+.opertable thead td {
+    height: 116px;
 }
 
 .opertable__text {
-    width: 37%;
+    width: 38%;
 }
 
 .opertable td.opertable__border {
@@ -1717,7 +1715,6 @@ span.minus {
 .ordertable__bot {
     font-size: 15px;
     line-height: 20px;
-    letter-spacing: 0.015em;
     padding: 20px 25px;
 }
 
@@ -1781,9 +1778,8 @@ span.minus {
     font-weight: bold;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: 0.015em;
     color: #f7f8fc;
-    max-width: 700px;
+    max-width: 730px;
     padding: 0 50px;
 }
 
@@ -1818,7 +1814,7 @@ span.minus {
 
 .reshat {
     position: relative;
-    margin-top: 14px;
+    margin-top: 88px;
     margin-bottom: 212px;
 }
 
@@ -1875,8 +1871,8 @@ span.minus {
 .etab::after {
     content: "";
     display: block;
-    height: 1px;
-    margin-top: 10px;
+    height: 2px;
+    margin-top: 1px;
     -webkit-transition: 0.3s all;
     -o-transition: 0.3s all;
     transition: 0.3s all;
@@ -1888,10 +1884,10 @@ span.minus {
 
 .etab.active::after {
     content: "";
-    margin-top: 10px;
+    margin-top: 1px;
     display: block;
-    height: 1px;
-    width: 30%;
+    height: 2px;
+    width: 65px;
     -webkit-transition: 0.3s all;
     -o-transition: 0.3s all;
     transition: 0.3s all;
@@ -3406,7 +3402,7 @@ span.minus {
 .s1 .p-animmono__wrapmonitor {
     position: absolute;
     display: block;
-    max-width: 67%;
+    max-width: 42%;
     height: auto;
     width: 100%;
     top: 5.4%;
@@ -3465,10 +3461,6 @@ span.minus {
     z-index: -1;
 }
 
-.s1 .p-animmono__wrappatern img {
-    display: none;
-}
-
 .s1 .p-animmono__paternimg {
     width: 100%;
     height: auto;
@@ -3515,6 +3507,13 @@ span.minus {
 .s1 .p-animmono__monitem {
     height: 60px;
     display: none;
+}
+
+@media (max-width: 767px) {
+    .s1 .p-animmono__monitem {
+        height: 3px;
+        display: none;
+    }
 }
 
 .s1 .p-animmono__monitem.first {
@@ -3571,7 +3570,7 @@ span.minus {
     }
 
     .cadr__item:nth-child(3) img {
-        margin-left: 0;
+        margin-left: 8px;
     }
 
     .cadr__item:nth-child(2) {
@@ -3590,6 +3589,20 @@ span.minus {
         bottom: 7px;
     }
 
+    .cadrtabs .tab_item:nth-child(2) .tab_item_wrap img {
+        width: 465px;
+        right: 21px;
+        height: 337px;
+        bottom: 1px;
+    }
+
+    .cadrtabs .tab_item:nth-child(3) .tab_item_wrap img {
+        width: 620px;
+        right: -88px;
+        height: 369px;
+        bottom: 42px;
+    }
+
     .cadrtabs .tab_content {
         height: 249px;
     }
@@ -3603,8 +3616,8 @@ span.minus {
     }
 
     .p-doc-stabs .tab {
-        min-width: 120px;
-        margin-right: 56px;
+        min-width: 180px;
+        margin-right: 0px;
     }
 
     .cardperevagi.perevagi {
@@ -3626,10 +3639,116 @@ span.minus {
     }
 
     .cadrtabs .tab {
-        min-width: 160px;
+        min-width: 200px;
+        margin-right: 0;
+    }
+
+    .cadrtabs .tab:first-child {
+        min-width: 306px;
     }
 
     .multi__cloud {
         padding-bottom: 198px;
+    }
+
+    .oper.s1 img {
+        width: 52%;
+        top: 45%;
+    }
+
+    .oper.stabs .title {
+        margin-bottom: 62px;
+    }
+
+    .oper.forho .forho__fon {
+        height: 639px;
+        top: -12px;
+    }
+
+    .oper.forho {
+        margin-bottom: 173px;
+    }
+
+    .etab {
+        margin-right: 0px;
+        width: 356px;
+    }
+
+    .etabs__head {
+        margin-bottom: 44px;
+    }
+
+    .opertabs {
+        margin-bottom: 95px;
+    }
+
+    .operdop.dopv .title {
+        margin-bottom: 87px;
+    }
+
+    .operdop.dopv {
+        padding-bottom: 47px;
+    }
+
+    .cloud__wrap p {
+        margin: 0 -30px;
+    }
+
+    .multi .forho__wrap {
+        margin-top: 138px;
+    }
+
+    .multi.forho {
+        margin-bottom: 72px;
+    }
+
+    .hed1 {
+        width: 30%;
+        padding-bottom: 15px !important;
+        padding-right: 89px !important;
+    }
+
+    .hed2 {
+        padding-bottom: 16px !important;
+    }
+
+    .opertable td.opertable__border {
+        padding-right: 91px !important;
+        border-right: 0;
+    }
+
+    .opertable table {
+        position: relative;
+    }
+
+    .opertable table:before {
+        content: "";
+        width: 1px;
+        top: 78px;
+        left: 67%;
+        height: 87%;
+        background-color: #E2E9FF;
+        display: block;
+        position: absolute;
+    }
+
+    .oper.stabs .tab {
+        margin-right: 0;
+        min-width: 146px;
+    }
+
+    .oper.stabs .tab:first-child {
+        margin-right: 0;
+        min-width: 181px;
+    }
+
+    .oper.stabs .tab_img {
+        margin-top: -196px;
+        position: relative;
+        right: -10px;
+    }
+
+    .oper.stabs .tab_content {
+        margin: 62px 0;
     }
 }
