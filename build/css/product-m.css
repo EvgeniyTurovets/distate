@@ -2964,9 +2964,8 @@ span.minus {
     }
 
     .perevagi__item__img img {
-        max-width: 40px;
-        max-height: 35px;
-        margin-top: -10px;
+        width: 74px;
+        margin-top: -15px;
     }
 
     .perevagi__item__img {
@@ -2980,7 +2979,7 @@ span.minus {
         margin-top: 5px;
         font-size: 16px;
         line-height: 22px;
-        padding-left: 70px;
+        padding-left: 60px;
     }
 
     .perevagi__i__text {
@@ -3235,6 +3234,15 @@ span.minus {
 
     span.plus {
         margin-right: 30px;
+    }
+
+    .s1__text ul li:before {
+        top: 10px;
+        height: 1px;
+    }
+
+    .s1__text ul li {
+        padding-left: 0;
     }
 }
 

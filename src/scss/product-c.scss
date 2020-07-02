@@ -1783,7 +1783,7 @@ span.minus {
   }
   .s1__text ul li {
     font-size: 16px;
-    padding-left: 5px;
+    padding-left: 15px;
   }
   
   .s2__item {
@@ -2105,6 +2105,9 @@ span.minus {
 }
 
 @media (max-width: 559px) {
+  .funtional__item li{
+    font-size: 14px;
+  }
   .s1 {
     padding-bottom: 0;
     padding-top: 30px;
@@ -2176,8 +2179,7 @@ span.minus {
   }
 
   .perevagi__item__img img {
-    max-width: 40px;
-    max-height: 35px;
+    width: 70px;
     margin-top: -10px;
   }
   .perevagi__item__img {
@@ -2190,7 +2192,7 @@ span.minus {
     margin-top: 5px;
     font-size: 16px;
     line-height: 22px;
-    padding-left: 70px;
+    padding-left: 60px;
   }
   .perevagi__i__text {
     margin-top: 25px;
@@ -2256,9 +2258,11 @@ span.minus {
     font-size: 18px;
   }
   .s1__text ul {
-    padding-left: 20px;
+    padding-left: 15px;
   }
- 
+  .s1__text ul li{
+    padding-left: 0;
+  }
   .s1__text ul li:before {
     position: absolute;
     left: -20px;

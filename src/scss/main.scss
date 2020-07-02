@@ -695,6 +695,9 @@
   .section1 p{
     display: none;
   }
+  .section1 .s1__text__wraper  p{
+    display: block;
+  }
   .s1__text__wraper p {
     font-size: 16px;
     line-height: 22px;

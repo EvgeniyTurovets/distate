@@ -2083,6 +2083,7 @@ span.minus {
 }
 
 @media (max-width: 559px) {
+  
   .s1 {
     padding-bottom: 0;
     padding-top: 30px;
@@ -2154,8 +2155,7 @@ span.minus {
   }
 
   .perevagi__item__img img {
-    max-width: 40px;
-    max-height: 35px;
+    width: 70px;
     margin-top: -10px;
   }
   .perevagi__item__img {
@@ -2168,7 +2168,7 @@ span.minus {
     margin-top: 5px;
     font-size: 16px;
     line-height: 22px;
-    padding-left: 70px;
+    padding-left: 60px;
   }
   .perevagi__i__text {
     margin-top: 25px;
@@ -2365,6 +2365,13 @@ span.minus {
   }
   span.plus {
     margin-right: 30px;
+  }
+  .s1__text ul li:before{
+    top: 10px;
+    height: 1px;
+  }
+  .s1__text ul li{
+    padding-left: 0;
   }
 }
 
