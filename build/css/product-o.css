@@ -334,8 +334,8 @@
 
 @media (min-width: 1200px) {
     .forho__fon {
-        right: 0;
-        width: 610px;
+        right: 12px;
+        width: 597px;
         height: 626px;
         position: absolute;
         top: 15px;
@@ -3670,7 +3670,7 @@ span.minus {
     }
 
     .oper.forho .forho__fon {
-        height: 639px;
+        height: 643px;
         top: -12px;
     }
 
