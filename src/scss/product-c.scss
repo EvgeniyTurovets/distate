@@ -193,7 +193,7 @@
   display: flex;
   height: max-content;
   flex-wrap: wrap;
-  margin-top: 118px;
+  margin-top: 120px;
 }
 .forho__wrap a {
   display: flex;
@@ -369,7 +369,7 @@
 }
 
 .perevagi {
-  margin-top: 29px;
+  margin-top: 0px;
 }
 
 .perevagi .title {
@@ -535,7 +535,7 @@
 
 .suport {
   padding: 85px;
-  padding-bottom: 33px;
+  padding-bottom: 44px;
 }
 .suport p {
   font-size: 22px;
@@ -553,7 +553,7 @@
 .suport__wrap {
   display: flex;
   flex-wrap: wrap;
-  padding: 16px 0;
+  padding: 11px 0;
 }
 .suport__title {
   font-size: 22px;
@@ -562,7 +562,7 @@
 }
 @media(min-width: 1200px){
   .revers   .suport__title{
-    margin-top: 50px;
+    margin-top: 63px;
   }
   .revers  .suport__btn{
     padding: 19px 60px;
@@ -681,10 +681,11 @@
 .feadyes.active:before {
   background-color: #fc8131;
 }
-.feadyes.active{
+.feadno.active{
   color: #fc8131;
 }
-.feadno.active{
+
+.feadyes.active{
   color: #fc8131;
 }
 .feedback__content {
@@ -728,7 +729,7 @@
   background: linear-gradient(275.62deg, #FC8131 1.16%, #FE9544 98.84%);;
 }
 .p-document.section5 {
-  margin-bottom: 85px;
+  margin-bottom: 93px;
   margin-top: 144px;
 }
 
@@ -839,7 +840,7 @@
   line-height: 30px;
 }
 .ul {
-  padding-left: 30px;
+  padding-left: 24px;
 }
 .ul li {
   position: relative;
@@ -905,6 +906,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  font-size: 18px;
 }
 .cardrdopva a i {
   margin-left: 5px;
@@ -2705,12 +2707,12 @@ span.minus {
     margin-top: -4px;
   }
   .funtional{
-    padding-top: 64px;
+    padding-top: 61px;
     padding-bottom: 70px;
   }
   .cardrdopv.dopv{
     padding: 120px;
-    padding-bottom: 45px;
+    padding-bottom: 41px;
   }
   .cardrdopv.dopv .title{
     margin-bottom: 90px;
@@ -2812,8 +2814,9 @@ span.minus {
     margin: 62px 0;
   }
 
-  .dopv{
-    padding-top: 90px;
+  .funtional__item.revers .funtional__text{
+    padding-left: 40px;
+    padding-top: 18px;
   }
 }
 

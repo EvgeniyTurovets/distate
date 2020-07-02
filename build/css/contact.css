@@ -7,7 +7,7 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding-top: 76px;
-    padding-bottom: 84px;
+    padding-bottom: 101px;
 }
 
 .contact .title {
@@ -78,6 +78,9 @@
     padding-left: 58px;
     margin-bottom: 5px;
     position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
 }
 
 .contact__tel i {
@@ -154,7 +157,7 @@
 }
 
 .contact__right input {
-    padding: 10px 16px;
+    padding: 12px 16px;
     width: 100%;
     font-size: 18px;
     line-height: 24px;
@@ -256,7 +259,7 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 form .contact__right__btn button {
@@ -283,7 +286,7 @@ form.active-check .contact__right__btn button {
 }
 
 .map__container {
-    height: 300px;
+    height: 304px;
 }
 
 .map__container div {

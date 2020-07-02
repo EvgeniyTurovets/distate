@@ -54,7 +54,7 @@
   background-size: 85%;
 }
 .s1 button {
-  margin-top: 47px;
+  margin-top: 35px;
   margin-bottom: 10px;
   letter-spacing: 1px;
 }
@@ -182,7 +182,7 @@
 
 .forho {
   padding: 100px 0;
-  padding-top: 32px;
+  padding-top: 39px;
 }
 .forho .title {
   width: 100%;
@@ -193,7 +193,7 @@
   display: flex;
   height: max-content;
   flex-wrap: wrap;
-  margin-top: 118px;
+  margin-top: 120px;
 }
 .forho__wrap a {
   display: flex;
@@ -376,7 +376,7 @@
   margin-bottom: 113px;
 }
 .perevagi__item {
-  margin-bottom: 121px;
+  margin-bottom: 99px;
   display: flex;
   width: 50%;
   padding-right: 20px;
@@ -427,19 +427,20 @@
   }
 }
 .shema {
-  padding: 39px 0;
+  padding: 43px 0;
 }
 .shema .title {
-  margin-bottom: 85px;
+  margin-bottom: 99px;
 }
 .shema img {
   width: 100%;
 }
 
 .dopv {
-  padding: 95px 0;
+  padding: 125px 0;
   position: relative;
   overflow-y: visible;
+  padding-bottom: 14px;
 }
 .dropv__fon {
   position: absolute;
@@ -451,7 +452,7 @@
   min-width: 2100px;
 }
 .dopv .title {
-  margin-bottom: 102px;
+  margin-bottom: 89px;
 }
 .dopv__wrap {
   margin: 0 -10px;
@@ -905,6 +906,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  font-size: 18px;
 }
 .cardrdopva a i {
   margin-left: 5px;
@@ -929,7 +931,7 @@
   position: relative;
 }
 .multi__citata {
-  padding: 99px 0;
+  padding: 106px 0;
   padding-bottom: 37px;
 }
 .citata {
@@ -2810,10 +2812,6 @@ span.minus {
   }
   .oper.stabs .tab_content{
     margin: 62px 0;
-  }
-
-  .dopv{
-    padding-top: 90px;
   }
 }
 

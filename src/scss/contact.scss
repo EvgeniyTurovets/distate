@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   padding-top: 76px;
-  padding-bottom: 84px;
+  padding-bottom: 101px;
 }
 .contact .title {
   margin-bottom: 33px;
@@ -45,6 +45,7 @@
   padding-left: 58px;
   margin-bottom: 5px;
   position: relative;
+  width: max-content;
 }
 .contact__tel i {
   position: absolute;
@@ -105,7 +106,7 @@
   padding-right: 31px;
 }
 .contact__right input {
-  padding: 10px 16px;
+  padding: 12px 16px;
   width: 100%;
   font-size: 18px;
   line-height: 24px;
@@ -150,7 +151,7 @@
 .contact__right__btn {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 form .contact__right__btn button {
   background: #b7c0ce;
@@ -173,7 +174,7 @@ form.active-check .contact__right__btn button {
 }
 
 .map__container {
-  height: 300px;
+  height: 304px;
 }
 .map__container div {
   height: 100%;

@@ -259,7 +259,7 @@
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 118px;
+    margin-top: 120px;
 }
 
 .forho__wrap a {
@@ -920,7 +920,7 @@
     display: block;
     background-color: #0b1e73;
     width: 29.5px;
-    height: 28.06px;
+    height: 29.06px;
     margin-right: 10px;
     -webkit-background-size: contain;
     background-size: contain;
@@ -934,14 +934,6 @@
 
 .feadyes.active:before {
     background-color: #fc8131;
-}
-
-.feadyes.active {
-    color: #fc8131;
-}
-
-.feadno.active {
-    color: #fc8131;
 }
 
 .feedback__content {
@@ -3758,9 +3750,5 @@ span.minus {
 
     .oper.stabs .tab_content {
         margin: 62px 0;
-    }
-
-    .dopv {
-        padding-top: 90px;
     }
 }

@@ -259,7 +259,7 @@
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 118px;
+    margin-top: 120px;
 }
 
 .forho__wrap a {
@@ -494,7 +494,7 @@
 }
 
 .perevagi {
-    margin-top: 29px;
+    margin-top: 80px;
 }
 
 .perevagi .title {
@@ -1030,8 +1030,8 @@
 }
 
 .p-document.section5 {
-    margin-bottom: 85px;
-    margin-top: 144px;
+    margin-bottom: 98px;
+    margin-top: 139px;
 }
 
 /*кадр*/
@@ -1278,6 +1278,7 @@
     -ms-flex-align: center;
     align-items: center;
     cursor: pointer;
+    font-size: 18px;
 }
 
 .cardrdopva a i {
@@ -3674,7 +3675,7 @@ span.minus {
     }
 
     .oper.forho {
-        margin-bottom: 173px;
+        margin-bottom: 165px;
     }
 
     .etab {
@@ -3758,9 +3759,5 @@ span.minus {
 
     .oper.stabs .tab_content {
         margin: 62px 0;
-    }
-
-    .dopv {
-        padding-top: 90px;
     }
 }

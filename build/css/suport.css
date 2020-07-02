@@ -1,3 +1,10 @@
+@media (max-width: 1440px) {
+    .supbot {
+        -webkit-background-size: 1440px 100%;
+        background-size: 1440px 100%;
+    }
+}
+
 .sup {
     min-height: 90vh;
 }
@@ -19,14 +26,12 @@
 .suptop__left .sup-p {
     font-size: 22px;
     line-height: 142.7%;
-    letter-spacing: 0.2px;
 }
 
 .suptop__left p:last-child {
-    max-width: 504px;
+    max-width: 493px;
     font-size: 18px;
     line-height: 142.7%;
-    letter-spacing: 0.2px;
 }
 
 .suptop__left p a {
@@ -41,8 +46,8 @@
 .suptopimg {
     position: absolute;
     right: 0;
-    top: 0;
-    width: 658px;
+    top: 13px;
+    width: 645px;
     right: -26px;
 }
 
@@ -83,14 +88,14 @@
 }
 
 .supqa__item {
-    margin-bottom: 19px;
+    margin-bottom: 16px;
     background: #ffffff;
     border: 0.5px solid #0b1e73;
     -webkit-box-shadow: 0px 5px 10px rgba(56, 106, 216, 0.05);
     box-shadow: 0px 5px 10px rgba(56, 106, 216, 0.05);
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    padding: 24px 16px;
+    padding: 26px 16px;
     cursor: pointer;
 }
 
@@ -98,7 +103,7 @@
     display: none;
     font-size: 16px;
     line-height: 142.7%;
-    margin-top: 10px;
+    margin-top: 22px;
 }
 
 .supqa__item span {
@@ -115,7 +120,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     width: 100%;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
     line-height: 126.7%;
 }
@@ -156,7 +161,7 @@
     -webkit-border-radius: 10px;
     border-radius: 10px;
     padding: 25px 45px;
-    margin-top: 183px;
+    margin-top: 200px;
 }
 
 .qabot .title {
@@ -195,18 +200,16 @@
 }
 
 .qabot__r span {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 22px;
     line-height: 142.7%;
     text-align: center;
-    letter-spacing: 0.015em;
     color: #fc8131;
 }
 
 .qabot__r a {
     font-size: 22px;
     line-height: 142.7%;
-    letter-spacing: 0.015em;
     text-align: center;
     text-decoration: underline;
 }
@@ -219,8 +222,8 @@
     margin-bottom: -25px;
     padding-top: 382px;
     padding-bottom: 170px;
-    -webkit-background-size: 2100px 100%;
-    background-size: 2100px 100%;
+    -webkit-background-size: 1920px 100%;
+    background-size: 1920px 100%;
     background-repeat: no-repeat;
     background-image: url("../img/subbfon.png");
     background-position: center;
@@ -882,5 +885,9 @@ table {
         width: 244px;
         height: 61px;
         font-size: 23px;
+    }
+
+    .supqa__item span {
+        height: 23px;
     }
 }

@@ -1,10 +1,14 @@
 .cripto .title {
-    margin-bottom: 48px;
+    margin-bottom: 43px;
 }
 
 .cripto__left {
     width: 34%;
-    padding-top: 30px;
+    padding-top: 25px;
+}
+
+.ctab__item {
+    margin-bottom: 6px;
 }
 
 .ctab__wrap {
@@ -18,10 +22,9 @@
 
 .ctab__item > span {
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 22px;
     line-height: 30px;
-    letter-spacing: 0.015em;
     color: #0b1e73;
 }
 
@@ -30,7 +33,6 @@
     margin-bottom: 15px;
     font-size: 18px;
     line-height: 1;
-    letter-spacing: 0.015em;
     color: #0b1e73;
     -webkit-transition: 0.3s all;
     -o-transition: 0.3s all;
@@ -66,7 +68,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 44px;
+    padding-top: 48px;
     padding-bottom: 100px;
 }
 
@@ -87,7 +89,7 @@
     justify-content: space-between;
     color: #ffffff;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 25px;
     letter-spacing: -0.015em;
     text-align: center;
