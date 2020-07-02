@@ -2,7 +2,7 @@
   padding: 90px 0;
   position: relative;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .s1{
     padding-top: 92px;
   }
@@ -94,7 +94,7 @@
 .s2__item {
   width: calc(100% / 2);
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .s2__item:last-child{
     padding-left: 10px;
   }
@@ -142,13 +142,13 @@
   margin-bottom: 114px;
   position: relative;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .voz__item {
     margin-right: 7px;
     width: calc(100% / 3 - 7px);
   }
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .voz__wrap{
     margin-right: -21px;
   }
@@ -240,7 +240,7 @@
   width: 45%;
   margin-left: 5%;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .forho__fon {
     right: 0;
     width: 610px;
@@ -254,7 +254,7 @@
 .stabs {
   position: relative;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .p-doc-stabs {
     margin-top: 101px;
     margin-bottom: 107px;
@@ -351,7 +351,7 @@
   width: 50%;
   height: auto;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .p-doc-stabs .tab_img {
     width: 53%;
     position: relative;
@@ -421,7 +421,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .perevagi_wrap {
     margin-right: -12px;
   }
@@ -482,7 +482,7 @@
   margin-bottom: 20px;
   border-left: 0;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .dopv__item {
     padding-right: 26px;
   }
@@ -534,7 +534,7 @@
 }
 
 .suport {
-  padding: 85px;
+  padding: 85px 0;
   padding-bottom: 44px;
 }
 .suport p {
@@ -560,7 +560,7 @@
   font-weight: bold;
   margin-bottom: 30px;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .revers   .suport__title{
     margin-top: 63px;
   }
@@ -803,7 +803,7 @@
   bottom: 20px;
   width: 35%;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .cadrtabs .tab_item_wrap img{
     right: 0;
     left: auto;
@@ -1056,7 +1056,7 @@
 .multifunc .tab_item_wrap p {
   margin-bottom: 20px;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .multifunc .tab_item_wrap p{
     max-width: 90%;
   }
@@ -1399,7 +1399,15 @@ span.minus {
   .cadrtabs .tab_item_wrap .tab-img-unic {
     height: 280px;
   }
-
+  .cadr2__top p {
+      width: 490px;
+  }
+  .cadrs1.s1 img{
+    width: 500px;
+  }
+  .tab_content{
+    height: 300px;
+  }
   /*опрератор*/
   .reshat__left {
     font-size: 25px;
@@ -1550,6 +1558,12 @@ span.minus {
   }
 
   /*кадры*/
+  .funtional .title{
+    margin-bottom: 50px;
+  }
+  .cadr__item{
+    padding-right: 10px;
+  }
   .tab_content {
     height: auto;
   }
@@ -1563,6 +1577,7 @@ span.minus {
     top: 30%;
     width: 50%;
   }
+  
   .cadr2__top {
     flex-direction: column;
   }
@@ -1643,7 +1658,7 @@ span.minus {
     line-height: 30px;
     font-weight: bold;
   }
-
+  
   /*мультипровайдер*/
   .cloud__wrap {
     padding: 0;
@@ -1768,7 +1783,9 @@ span.minus {
   }
   .s1__text ul li {
     font-size: 16px;
+    padding-left: 5px;
   }
+  
   .s2__item {
     padding: 0 23px;
   }
@@ -1911,6 +1928,9 @@ span.minus {
     z-index: 0;
   }
   /*кадры*/
+  .cardperevagi{
+    margin-top: 50px;
+  }
   .cadrs1.s1 img {
     right: 0%;
     top: auto;
@@ -2228,6 +2248,7 @@ span.minus {
   }
 
   /*кадры*/
+  
   .funtional .title {
     margin-bottom: 50px;
   }
@@ -2237,10 +2258,12 @@ span.minus {
   .s1__text ul {
     padding-left: 20px;
   }
+ 
   .s1__text ul li:before {
     position: absolute;
     left: -20px;
-    top: 3px;
+    top: 10px;
+    height: 1px;
   }
   .s1__text ul li {
     position: relative;
@@ -2644,7 +2667,7 @@ span.minus {
 
 
 //пиксельперфт
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .cadr2__top p{
     margin-left: 207px;
   }
@@ -2711,7 +2734,7 @@ span.minus {
     padding-bottom: 70px;
   }
   .cardrdopv.dopv{
-    padding: 120px;
+    padding: 120px 0;
     padding-bottom: 41px;
   }
   .cardrdopv.dopv .title{

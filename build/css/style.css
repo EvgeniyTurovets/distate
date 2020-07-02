@@ -136,19 +136,7 @@ label.error {
 .forma1 {
     position: fixed;
     height: 0%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     opacity: 0;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
     width: 100%;
     left: 0;
     right: 0;
@@ -161,7 +149,7 @@ label.error {
 .forma1.active {
     z-index: 3;
     opacity: 1;
-    height: 100%;
+    min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -171,6 +159,17 @@ label.error {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: 0 auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
     position: relative;
     background-color: #ffffff;
     padding: 18px 66px 22px 66px;
@@ -191,6 +190,20 @@ label.error {
     -webkit-transition: 0.6s all;
     -o-transition: 0.6s all;
     transition: 0.6s all;
+}
+
+@media (max-height: 768px) {
+    .forma1 form {
+        top: 0;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    .forma1 {
+        overflow-y: auto;
+        padding: 25px 0;
+    }
 }
 
 .forma1.active form {
@@ -1961,6 +1974,18 @@ button:focus {
     .forma1 form {
         padding: 15px 10px;
         margin: 10px 0;
+        width: 400px;
+    }
+
+    .forma1 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 
     .header__right__sroll {
@@ -2027,5 +2052,11 @@ button:focus {
     .s5__title {
         font-size: 22px;
         line-height: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .forma1 form {
+        width: 310px;
     }
 }

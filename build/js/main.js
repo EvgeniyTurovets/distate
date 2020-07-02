@@ -249,12 +249,25 @@ $(function(){
 	//всплывающая форма
 	$('.formshow').click(function(){
 		$('.forma1').addClass('active')
+		if($(widnow).height() < 768){
+			$('body').css('overflow', 'hidden')
+		}
 	})
 	$('.closesform').click(function(){
 		$('.forma1').removeClass('active')
+		if($(widnow).height() < 768){
+			$('body').css('overflow', 'auto')
+		}
 	})
 
-
+	$('.forma1').mouseup(function (e){ // событие клика по веб-документу
+		var div = $('.forma1 form'); // тут указываем ID элемента
+		if (!div.is(e.target) // если клик был не по нашему блоку
+		    && div.has(e.target).length === 0) { // и не по его дочерним элементам
+			$('.forma1').removeClass('active')
+			$('body').css('overflow', 'auto')
+		}
+	});
 	
 	//доп возможности
 	$('.cardrdopva a').click(function(){

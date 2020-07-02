@@ -2,7 +2,7 @@
   padding: 90px 0;
   position: relative;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .s1{
     padding-top: 92px;
   }
@@ -94,7 +94,7 @@
 .s2__item {
   width: calc(100% / 2);
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .s2__item:last-child{
     padding-left: 10px;
   }
@@ -142,13 +142,13 @@
   margin-bottom: 114px;
   position: relative;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .voz__item {
     margin-right: 7px;
     width: calc(100% / 3 - 7px);
   }
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .voz__wrap{
     margin-right: -21px;
   }
@@ -240,7 +240,7 @@
   width: 45%;
   margin-left: 5%;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .forho__fon {
     right: 11px;
     width: 600px;
@@ -254,7 +254,7 @@
 .stabs {
   position: relative;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .p-doc-stabs {
     margin-top: 101px;
     margin-bottom: 107px;
@@ -351,7 +351,7 @@
   width: 50%;
   height: auto;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .p-doc-stabs .tab_img {
     width: 53%;
     position: relative;
@@ -421,7 +421,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .perevagi_wrap {
     margin-right: -12px;
   }
@@ -482,7 +482,7 @@
   margin-bottom: 20px;
   border-left: 0;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .dopv__item {
     padding-right: 26px;
   }
@@ -534,7 +534,7 @@
 }
 
 .suport {
-  padding: 85px;
+  padding: 85px 0;
   padding-bottom: 33px;
 }
 .suport p {
@@ -560,7 +560,7 @@
   font-weight: bold;
   margin-bottom: 30px;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .revers   .suport__title{
     margin-top: 50px;
   }
@@ -802,7 +802,7 @@
   bottom: 20px;
   width: 35%;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .cadrtabs .tab_item_wrap img{
     right: 0;
     left: auto;
@@ -1054,7 +1054,7 @@
 .multifunc .tab_item_wrap p {
   margin-bottom: 20px;
 }
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .multifunc .tab_item_wrap p{
     max-width: 90%;
   }
@@ -2642,7 +2642,7 @@ span.minus {
 
 
 //пиксельперфт
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .cadr2__top p{
     margin-left: 207px;
   }
