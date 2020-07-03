@@ -481,6 +481,8 @@
         top: -20px;
         left: 18px;
         height: auto;
+        -o-object-fit: contain;
+        object-fit: contain;
     }
 }
 
