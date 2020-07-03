@@ -248,13 +248,13 @@ $(function(){
 
 	//всплывающая форма
 	$('.formshow').click(function(){
-		$('.forma1').addClass('active')
+		$('.forma1').fadeIn(300)
 		
 		$('body').addClass('noscroll')
 		
 	})
 	$('.closesform').click(function(){
-		$('.forma1').removeClass('active')
+		$('.forma1').fadeOut(300)
 		
 		$('body').removeClass('noscroll')
 		
@@ -264,7 +264,7 @@ $(function(){
 		var div = $('.forma1 form'); // тут указываем ID элемента
 		if (!div.is(e.target) // если клик был не по нашему блоку
 		    && div.has(e.target).length === 0) { // и не по его дочерним элементам
-			$('.forma1').removeClass('active')
+				$('.forma1').fadeOut(300)
 			$('body').removeClass('noscroll')
 		}
 	});
