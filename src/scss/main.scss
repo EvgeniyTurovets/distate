@@ -33,8 +33,8 @@
   width: auto;
   position: absolute;
   z-index: -2;
-  top: -170px;
-  left: 50%;
+  top: -132px;
+  left: 33%;
 }
 .s1__text__wraper {
   margin-top: 74px;
@@ -603,7 +603,7 @@
 }
 @media (max-width: 1023px) {
   .s1__fon {
-    width: 100%;
+    width: 140%;
   }
   .s1__text2 {
     flex-direction: column;
@@ -822,9 +822,7 @@
 
   .s1__fon {
     top: 0;
-    left: -50%;
-    right: 0;
-    width: 150%;
+    left: -33%;
   }
   .s2__form {
     padding: 25px;
@@ -854,9 +852,9 @@
 }
 @media(min-width: 1201px){
   .s1__fon{
-    width: 967px;
+    width: auto;
     left: 33%;
-    height:964px;
+    height:auto;
   }
   .s3__item__img img{
     min-width: 120px;
