@@ -372,7 +372,24 @@
 .perevagi {
   margin-top: 80px;
 }
-
+@media(min-width: 1201px){
+  .perevagi .wrap{
+    position: relative;
+  }
+  .perevagi .wrap:before{
+    display: block;
+    background-image: url('../img/sfon/v.png');
+    background-size: cover;
+    position: absolute;
+    left: 154px;
+   
+    z-index: -2;
+    top:120px;
+    content: "";
+    height: 880px;
+    width: 616px;
+  }
+}
 .perevagi .title {
   margin-bottom: 113px;
 }

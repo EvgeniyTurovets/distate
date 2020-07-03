@@ -753,8 +753,8 @@ button:focus {
   right: 79px;
 }
 .s5__form input::placeholder {
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 18px;
   letter-spacing: -0.015em;
   color: rgba(165, 176, 194, 0.8);
 }
@@ -1385,4 +1385,26 @@ button:focus {
     width: 310px;
   }
   
+}
+
+.feedback .feadback__wrap.active label{
+    color: #A5B0C2;
+}
+.feadback__wrap.active .feadyes:before{
+  background-color: #A5B0C2;
+}
+.feadback__wrap.active .feadno:before{
+  background-color: #A5B0C2;
+}
+.feadback__wrap.active .feadyes.active{
+  color: #fc8131;
+}
+.feadback__wrap.active .feadno.active{
+  color: #fc8131;
+}
+.feadback__wrap.active .feadyes.active:before{
+  background-color: #fc8131
+}
+.feadback__wrap.active .feadno.active:before{
+  background-color: #fc8131;
 }

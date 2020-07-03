@@ -225,6 +225,7 @@ $(function(){
 
 	//feadback
 	$('.feedback label').click(function(){
+		$('.feadback__wrap').addClass('active')
 		$('.feedback label').removeClass('active')
 		$(this).addClass('active')
 		$('.feedback__content').fadeIn()

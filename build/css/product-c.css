@@ -1144,6 +1144,26 @@
     position: relative;
 }
 
+@media (min-width: 1200px) {
+    .cardperevagi .wrap {
+        position: relative;
+    }
+
+    .cardperevagi .wrap:before {
+        display: block;
+        background-image: url("../img/sfon/v.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+        position: absolute;
+        left: 154px;
+        top: -100px;
+        z-index: -1;
+        content: "";
+        height: 880px;
+        width: 616px;
+    }
+}
+
 .cardperevagi .tabsfon {
     top: 81px;
     left: 50%;

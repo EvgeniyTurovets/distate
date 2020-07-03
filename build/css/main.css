@@ -1463,6 +1463,23 @@
     .section1 .s1__text p {
         max-width: 463px;
     }
+
+    .section3 .wrap {
+        position: relative;
+    }
+
+    .section3 .wrap:before {
+        display: block;
+        background-image: url("../img/sfon/v.png");
+        -webkit-background-size: cover;
+        background-size: cover;
+        position: absolute;
+        left: 154px;
+        z-index: -1;
+        content: "";
+        height: 880px;
+        width: 616px;
+    }
 }
 
 .owl-stage {
@@ -1477,9 +1494,10 @@
         -webkit-transition: 0.3s all;
         -o-transition: 0.3s all;
         transition: 0.3s all;
-        -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
+        -webkit-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        transform: scale(0.7);
+        opacity: 0.7;
     }
 
     .owl-item.center {
@@ -1489,6 +1507,7 @@
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
+        opacity: 1;
     }
 }
 
