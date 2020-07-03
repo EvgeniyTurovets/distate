@@ -523,6 +523,8 @@ button:focus {
   font-size: 20px;
   line-height: 27px;
   cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(#000000, 0);
+  transition: 0.3s all;
 }
 .btn-o-mini:hover {
   box-shadow: 0px 0px 10px rgba(#000000, 0.1);
