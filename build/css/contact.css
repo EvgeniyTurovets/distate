@@ -287,6 +287,9 @@ form.active-check .contact__right__btn button {
 
 .map__container {
     height: 304px;
+    border: 1px solid;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .map__container div {
@@ -294,7 +297,7 @@ form.active-check .contact__right__btn button {
 }
 
 .map__container iframe {
-    border: 1px solid;
+    border: 0px solid;
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }

@@ -114,7 +114,6 @@
     right: 0;
     top: 203px;
     z-index: -1;
-    width: 66%;
 }
 
 .o-company .title {
@@ -668,10 +667,7 @@
     }
 }
 
-@media (min-width: 1500px) {
-    .o-company__img {
-        right: auto;
-        width: 900px;
-        left: 44%;
-    }
+.o-company__img {
+    right: auto;
+    left: 44%;
 }

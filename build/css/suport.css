@@ -222,10 +222,10 @@
     margin-bottom: -25px;
     padding-top: 382px;
     padding-bottom: 170px;
-    -webkit-background-size: 1920px 100%;
-    background-size: 1920px 100%;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
     background-repeat: no-repeat;
-    background-image: url("../img/subbfon.png");
+    background-image: url("../img/sfon/sup/1.png");
     background-position: center;
 }
 
@@ -279,6 +279,8 @@
     position: relative;
     right: -27px;
     top: 16px;
+    -o-object-fit: contain;
+    object-fit: contain;
 }
 
 .supbot__t {
@@ -286,6 +288,10 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
 }
 
 .stable {

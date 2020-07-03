@@ -490,7 +490,6 @@
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: -1;
-    min-width: 2100px;
 }
 
 .perevagi {
@@ -598,13 +597,11 @@
 .dropv__fon {
     position: absolute;
     z-index: -2;
-    top: 0px;
-    height: 800px;
+    top: 250px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    min-width: 2100px;
 }
 
 .dopv .title {
@@ -1740,8 +1737,7 @@ span.minus {
 }
 
 .oper .tabsfon {
-    top: -250px;
-    height: 1000px;
+    top: -190px;
 }
 
 .reshat__wrap {

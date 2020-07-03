@@ -365,7 +365,6 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: -1;
-  min-width: 2100px;
 }
 
 .perevagi {
@@ -444,11 +443,9 @@
 .dropv__fon {
   position: absolute;
   z-index: -2;
-  top: 0px;
-  height: 800px;
+  top: 250px;
   left: 50%;
   transform: translateX(-50%);
-  min-width: 2100px;
 }
 .dopv .title {
   margin-bottom: 102px;
@@ -1250,8 +1247,7 @@ span.minus {
   width: 50%;
 }
 .oper .tabsfon {
-  top: -250px;
-  height: 1000px;
+  top: -190px;
 }
 .reshat__wrap {
   background: linear-gradient(90deg, #45aaf2 0%, #3868d6 100%);

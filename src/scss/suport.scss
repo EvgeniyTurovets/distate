@@ -153,9 +153,9 @@
   margin-bottom: -25px;
   padding-top: 382px;
   padding-bottom: 170px;
-  background-size: 1920px 100%;
+  background-size: auto 100%;
   background-repeat: no-repeat;
-  background-image: url("../img/subbfon.png");
+  background-image: url("../img/sfon/sup/1.png");
   background-position: center;
 }
 .supbot__t__l {
@@ -191,9 +191,11 @@
   position: relative;
   right: -27px;
   top: 16px;
+  object-fit: contain;
 }
 .supbot__t {
   display: flex;
+  align-items: flex-start;
 }
 
 .stable {

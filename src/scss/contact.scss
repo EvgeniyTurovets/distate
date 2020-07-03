@@ -175,12 +175,14 @@ form.active-check .contact__right__btn button {
 
 .map__container {
   height: 304px;
+  border: 1px solid;
+  border-radius: 10px;
 }
 .map__container div {
   height: 100%;
 }
 .map__container iframe {
-  border: 1px solid;
+  border: 0px solid;
   border-radius: 10px;
 }
 .map {

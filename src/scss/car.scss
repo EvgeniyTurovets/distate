@@ -10,9 +10,8 @@
   position: absolute;
   z-index: -2;
   left: 50%;
-  top: 80px;
+  top: 140px;
   transform: translateX(-50%);
-  min-width: 2100px;
 }
 .car__top {
   padding: 0 48px;
@@ -561,10 +560,8 @@ i.cari {
 .cardfon {
   position: absolute;
   z-index: -2;
-  min-width: 2100px;
   left: 50%;
-  height: 456px;
-  top: 0;
+  top: -35px;
   transform: translateX(-50%);
 }
 .header {
