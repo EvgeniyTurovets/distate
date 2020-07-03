@@ -105,8 +105,6 @@
     right: 0;
     z-index: -2;
     top: -13%;
-    height: 1000px;
-    min-width: 1920px;
 }
 
 .s2 .title {
@@ -440,6 +438,9 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
 }
 
 .tab_item ul {
@@ -479,18 +480,18 @@
         position: relative;
         top: -20px;
         left: 18px;
+        height: auto;
     }
 }
 
 .tabsfon {
     position: absolute;
-    top: 0px;
+    top: 50px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: -1;
-    min-width: 2100px;
 }
 
 .perevagi {
@@ -598,13 +599,11 @@
 .dropv__fon {
     position: absolute;
     z-index: -2;
-    top: 0px;
-    height: 800px;
+    top: 250px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    min-width: 2100px;
 }
 
 .dopv .title {
@@ -1252,8 +1251,6 @@
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: -1;
-    height: 900px;
-    min-width: 2100px;
 }
 
 .cardrdopva {
