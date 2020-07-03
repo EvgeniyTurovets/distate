@@ -108,9 +108,9 @@ label.error {
   right: 0;
   bottom: 0;
   top: 0;
+  height: 100%;
   min-height: 100vh;
   z-index: 3;
-  
   background-color: rgba(0, 0, 0, 0.2);
   
 }
@@ -297,9 +297,8 @@ body {
   font-weight: 400;
   letter-spacing: -0.015em !important;
 }
-body.noscroll{
-  overflow: hidden;
-}
+
+
 .wrap {
   max-width: 1204px;
   margin: 0 auto;

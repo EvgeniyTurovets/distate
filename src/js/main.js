@@ -250,13 +250,13 @@ $(function(){
 	$('.formshow').click(function(){
 		$('.forma1').fadeIn(300)
 		
-		$('body').addClass('noscroll')
+		// $('body').addClass('noscroll')
 		
 	})
 	$('.closesform').click(function(){
 		$('.forma1').fadeOut(300)
 		
-		$('body').removeClass('noscroll')
+		// $('body').removeClass('noscroll')
 		
 	})
 
@@ -265,7 +265,7 @@ $(function(){
 		if (!div.is(e.target) // если клик был не по нашему блоку
 		    && div.has(e.target).length === 0) { // и не по его дочерним элементам
 				$('.forma1').fadeOut(300)
-			$('body').removeClass('noscroll')
+			// $('body').removeClass('noscroll')
 		}
 	});
 	
