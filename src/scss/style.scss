@@ -296,6 +296,9 @@ body {
   font-weight: 400;
   letter-spacing: -0.015em !important;
 }
+body.noscroll{
+  overflow: hidden;
+}
 .wrap {
   max-width: 1204px;
   margin: 0 auto;

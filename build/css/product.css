@@ -441,6 +441,10 @@
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
 }
 
 .tab_item ul {
