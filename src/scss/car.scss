@@ -527,6 +527,9 @@ i.cari {
   align-items: center;
   margin-right: 20px;
 }
+.car-d__h__bot span:last-child{
+  margin-right: 0;
+}
 .car-d__h__bot i {
   margin-right: 5px;
   font-size: 22px;
@@ -679,6 +682,7 @@ i.cari {
 
   .car-d__h__bot span {
     margin-bottom: 15px;
+    margin-right: 0;
   }
   .car-d__top .title {
     margin-top: 10px;
