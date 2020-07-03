@@ -1977,19 +1977,8 @@ button:focus {
 @media (max-width: 559px) {
     .forma1 form {
         padding: 15px 10px;
-        margin: 10px 0;
         width: 400px;
-    }
-
-    .forma1 {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+        margin: 0 auto;
     }
 
     .header__right__sroll {
