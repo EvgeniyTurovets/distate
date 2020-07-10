@@ -81,6 +81,14 @@
     margin: 0 auto;
 }
 
+.dimg a {
+    display: none;
+}
+
+.dimg a:first-child {
+    display: initial;
+}
+
 .dimg img {
     width: 100%;
     border: 1px solid #0B1E73;
@@ -166,6 +174,14 @@
         display: block;
         width: 180px;
         margin: 0 auto;
+    }
+
+    .dmob-img a {
+        display: none;
+    }
+
+    .dmob-img a:first-child {
+        display: block;
     }
 
     .dtabs__level1 {
