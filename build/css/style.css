@@ -1978,7 +1978,7 @@ button:focus {
 
 @media (max-width: 559px) {
     .forma1 form {
-        padding: 15px 10px;
+        padding: 15px 15px;
         width: 400px;
         margin: 0 auto;
     }
@@ -2052,7 +2052,15 @@ button:focus {
 
 @media (max-width: 425px) {
     .forma1 form {
-        width: 310px;
+        width: 350px;
+    }
+
+    .burger {
+        width: 25px;
+    }
+
+    .logo__wraper span {
+        line-height: 17px;
     }
 }
 
@@ -2082,4 +2090,10 @@ button:focus {
 
 .feadback__wrap.active .feadno.active:before {
     background-color: #fc8131;
+}
+
+@media (max-width: 374px) {
+    .forma1 form {
+        width: 310px;
+    }
 }

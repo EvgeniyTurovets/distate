@@ -3785,3 +3785,71 @@ span.minus {
         margin: 62px 0;
     }
 }
+
+@media (max-width: 559px) {
+    .oper__block:first-child .oper__title {
+        max-width: 261px;
+    }
+
+    .s1__text ul li {
+        padding-left: 5px;
+    }
+
+    .s1__text ul li:before {
+        top: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .perevagi__item__img img {
+        width: 80px;
+        margin-left: -15px;
+    }
+
+    .perevagi__i__title {
+        height: 40px;
+        padding-left: 65px;
+    }
+
+    .perevagi__i__text ul {
+        padding-left: 30px;
+    }
+
+    .reshat {
+        margin-top: 50px;
+    }
+
+    .dopv__title {
+        padding-right: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .dopv__title:after {
+        position: relative;
+        min-width: 15px;
+        min-height: 15px;
+        width: 15px;
+        height: 15px;
+        right: 5px;
+        margin-left: 15px;
+    }
+
+    .dopv__item:before {
+        top: 0;
+    }
+
+    .suport {
+        padding-bottom: 0;
+    }
+}

@@ -698,3 +698,17 @@ i.cari {
     margin-bottom: 20px;
   }
 }
+@media(max-width: 559px){
+  .car__top__content img{
+    margin: 35px 0;
+  }
+
+/* хром, сафари */
+.cartabs::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+.cartabs { -ms-overflow-style: none; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.cartabs{ overflow: -moz-scrollbars-none; }
+}

@@ -2837,3 +2837,56 @@ span.minus {
   }
 }
 
+@media(max-width: 425px){
+  .s1 img{
+    width: 112%;
+  }
+  .s2__item img{
+    max-height: 69px;
+  }
+  .voz__title{
+    padding-left: 15px;
+  }
+  .voz__item:after{
+    left: 7px;
+    top: -3px;
+  }
+  .voz__item:before{
+    left: 0;
+  }
+  .perevagi__i__text ul li:before{
+    left: -32px;
+  }
+  .perevagi__i__text ul{
+    padding-left: 25px;
+  }
+  .perevagi__item__img img{
+    width: 80px;
+    margin-left: -15px;
+  }
+  .perevagi__i__title{
+    height: 40px;
+    padding-left: 65px;
+  }
+  .dopv__title{
+    padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dopv__title:after{
+    position: relative;
+    min-width: 15px;
+    min-height: 15px;
+    width: 15px;
+    height: 15px;
+    right: 10px;
+    margin-left: 25px;
+  }
+  .dopv__item:before{
+    top: 0;
+  }
+  .suport{
+    padding-bottom: 0;
+  }
+}

@@ -406,3 +406,14 @@ form.active-check .contact__right__btn button {
 .carform__sub__t {
     font-size: 35px;
 }
+
+@media (max-width: 425px) {
+    .contact__tel i {
+        font-size: 18px;
+    }
+
+    .contact__map i {
+        left: 2px;
+        font-size: 21px;
+    }
+}

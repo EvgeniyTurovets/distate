@@ -221,7 +221,11 @@ $(function () {
 		$(this).toggleClass('active')
 		$(this).next('.tab_item_wrap').slideToggle()
 	})
-
+	if ($('.tab_mobtitle').length) {
+		if ($(window).width() < 768) {
+			$('.tab_mobtitle').eq(0).click()
+		}
+	}
 
 	//feadback
 	$('.feedback label').click(function () {
@@ -510,7 +514,11 @@ $(function () {
 		$(this).toggleClass('active')
 		$(this).find('p').slideToggle(250)
 	})
-
+	if ($('.supqa__item').length) {
+		if ($(window).width() < 560) {
+			$('.supqa__item').eq(0).click()
+		}
+	}
 	if ($('.supbot__t__r').length) {
 		if ($(window).width() < 768) {
 			$('.supbot__t__l').append($('.supbot__t__r'))

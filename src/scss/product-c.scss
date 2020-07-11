@@ -2863,4 +2863,63 @@ span.minus {
     padding-top: 18px;
   }
 }
+@media(max-width: 425px){
+  .cadrs1.s1 img {
+    right: 5%;
+    top: auto;
+    width: 115%;
+  }
+  .cadr__item:last-child img{
+    height: 50px;
+    margin-left: 10px;
+  } 
+  .cadrtabs .tab_item_wrap .tab-img-unic{
+    width: 118%;
+  }
+  .perevagi__item__img img{
+    width: 80px;
+    margin-left: -15px;
+    margin-top: -7px;
+  }
+  .perevagi__i__title{
+    height: 40px;
+  }
+  .perevagi__i__text ul {
+    padding-left: 25px;
+  }
+  .perevagi__i__text ul li:before{
+    left: -35px;
+  }
+  .funtional__title{
+    padding-left: 15px;
+  }
+  .funtional__item:before {
+    left: 0;
+  }
+  .funtional__item:after {
+    left: 7px;
+    top: -3px;
+  }
+  .ul li:before{
+    left: -23px;
+  }
 
+  .dopv__title{
+    padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dopv__title:after{
+    position: relative;
+    min-width: 15px;
+    min-height: 15px;
+    width: 15px;
+    height: 15px;
+    right: 10px;
+    margin-left: 25px;
+  }
+  .dopv__item:before{
+    top: 0;
+  }
+}

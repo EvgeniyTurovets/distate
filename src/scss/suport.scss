@@ -659,3 +659,35 @@ table {
   }
 }
 
+@media(max-width: 559px){
+  .supqa__item{
+    border: 0;
+    border-top: 1px solid #515154;
+    padding: 15px 0;
+    margin-bottom: 0;
+  }
+  .supqa__wrap .supqa__item:last-child{
+    border-bottom: 1px solid #515154;
+  }
+  .supqa__item span:after {
+    content: "";
+    display: block;
+    width: 15px;
+    min-width: 15px;
+    transition: 0.3s all;
+    margin-left: 10px;
+    height: 15px;
+    min-height: 15px;
+    border-right: 1px solid #0b1e73;
+    border-bottom: 1px solid #0b1e73;
+    margin: 0 15px;
+    margin-left: 20px;
+    transform: rotate(45deg);
+  }
+  .supqa__item.active span:after{
+    transform: rotate(-135deg);
+  }
+  .supqa__item span i{
+    display: none
+  }
+}
