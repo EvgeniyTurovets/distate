@@ -1603,6 +1603,10 @@ button:focus {
         font-weight: 400;
     }
 
+    .level2__links a:last-child {
+        margin-bottom: 0;
+    }
+
     .level2__links {
         display: -webkit-box;
         display: -webkit-flex;
