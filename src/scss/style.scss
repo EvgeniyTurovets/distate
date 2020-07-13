@@ -1035,7 +1035,7 @@ button:focus {
   .header__right {
     position: relative;
     top: 0px;
-    height: max-content;
+    min-height: 100%;
     justify-content: flex-end;
     width: 100%;
     padding: 15px;
@@ -1067,7 +1067,7 @@ button:focus {
     font-size: 16px;
     line-height: 22px;
     display: block;
-    margin-bottom: 12px;
+    margin-bottom: 25px;
     font-weight: 400;
   }
   .level2__links {
@@ -1091,7 +1091,7 @@ button:focus {
   .header nav ul li {
     font-weight: bold;
     margin-left: 0;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
   .burger {
     display: block;

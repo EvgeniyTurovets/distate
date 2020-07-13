@@ -1548,9 +1548,7 @@ button:focus {
     .header__right {
         position: relative;
         top: 0px;
-        height: -webkit-max-content;
-        height: -moz-max-content;
-        height: max-content;
+        min-height: 100%;
         -webkit-box-pack: end;
         -webkit-justify-content: flex-end;
         -ms-flex-pack: end;
@@ -1601,7 +1599,7 @@ button:focus {
         font-size: 16px;
         line-height: 22px;
         display: block;
-        margin-bottom: 12px;
+        margin-bottom: 25px;
         font-weight: 400;
     }
 
@@ -1644,7 +1642,7 @@ button:focus {
     .header nav ul li {
         font-weight: bold;
         margin-left: 0;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 
     .burger {
