@@ -855,7 +855,7 @@ button:focus {
     -webkit-transition: 0.2s all;
     -o-transition: 0.2s all;
     transition: 0.2s all;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .footer__soc a {
@@ -999,6 +999,14 @@ button:focus {
 
 .footer__soc i.fa-facebook-f:hover {
     color: #1919a7;
+}
+
+.footer__soc svg {
+    margin-top: 1px;
+}
+
+.footer__soc i.fa-instagram {
+    font-size: 23px;
 }
 
 .footer__soc i.fa-instagram:hover {
