@@ -625,11 +625,18 @@ body {
     width: 275px;
 }
 
+.level2__links a:not([href]) {
+    color: #4B6684;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
 .level2__title {
     font-size: 40px;
     line-height: 1;
     color: #4b6684;
     opacity: 0.2;
+    font-weight: 700;
 }
 
 .header__level2 {
